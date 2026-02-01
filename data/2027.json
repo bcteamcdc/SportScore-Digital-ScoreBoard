@@ -1,0 +1,798 @@
+{
+  "year": 2026,
+  "athletics": {
+    "categories": [
+      {
+        "name": "Under 14",
+        "events": [
+          {
+            "name": "60m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 5 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "100m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "80m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "High jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Shot Put",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Long Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "100x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Under 16",
+        "events": [
+          {
+            "name": "100m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "200m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "800m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "100m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "300m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "High Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Long Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Shot Put",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Discus throw",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Javelin throw",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "100x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Under 18",
+        "events": [
+          {
+            "name": "100m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "200m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "800m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "1500m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "3000m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "110m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "High Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Long Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Tripple Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Shot Put",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Discus throw",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Javelin throw",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "100x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Under 20",
+        "events": [
+          {
+            "name": "100m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "200m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "800m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "1500m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "5000m Running",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "110m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400m Hurdles",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "High Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Long Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Tripple Jump",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Shot Put",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Discus throw",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "Javelin throw",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "400x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          },
+          {
+            "name": "100x4",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mix",
+        "events": [
+          {
+            "name": "Mixed relay race",
+            "date": "",
+            "scores": [
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "sports": [
+    {
+      "id": "Best house design",
+      "name": "Best house design",
+      "date": "2026.01.09",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Karate",
+      "name": "Karate",
+      "date": "",
+      "venue": "Indoor Stadium",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Table Tennis",
+      "name": "Table Tennis",
+      "date": "",
+      "venue": "Main Hall",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "HardBall",
+      "name": "HardBall",
+      "date": "",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Wrestling",
+      "name": "Wrestling",
+      "date": "",
+      "venue": "Indoor Stadium",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Boxing",
+      "name": "Boxing",
+      "date": "",
+      "venue": "Indoor Stadium",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Football",
+      "name": "Football",
+      "date": "",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Athletics",
+      "name": "Athletics",
+      "date": "",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Swimming",
+      "name": "Swimming",
+      "date": "",
+      "venue": "Swimming Pool",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Tag Rugby",
+      "name": "Tag Rugby",
+      "date": "",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Road Race",
+      "name": "Road Race",
+      "date": "",
+      "venue": "Gampaha Road",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Badminton",
+      "name": "Badminton",
+      "date": "",
+      "venue": "Indoor Stadium",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Chess",
+      "name": "Chess",
+      "date": "",
+      "venue": "Main Hall",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Volleyball",
+      "name": "Volleyball",
+      "date": "",
+      "venue": "Volleyball Court",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Elle",
+      "name": "Elle",
+      "date": "",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Hockey",
+      "name": "Hockey",
+      "date": "",
+      "venue": "Hockey Field",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Softball",
+      "name": "Softball",
+      "date": "",
+      "venue": "Main Ground",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    },
+    {
+      "id": "Basketball",
+      "name": "Basketball",
+      "date": "",
+      "venue": "Basketball Court",
+      "isLive": false,
+      "scores": [
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
+      ]
+    }
+  ]
+}

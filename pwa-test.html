@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>PWA Test - SportMeet 2026</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        background: linear-gradient(135deg, #0f0f0f 0%, #080808 100%);
+        color: #fff;
+        padding: 2rem;
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        background: linear-gradient(135deg, #fff 0%, #ff1f1f 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .test-section {
+        background: rgba(255, 255, 255, 0.05);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-bottom: 1.5rem;
+      }
+
+      .test-section h2 {
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        color: #ff1f1f;
+      }
+
+      .status {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .status.success {
+        background: rgba(16, 185, 129, 0.2);
+        color: #10b981;
+        border: 1px solid rgba(16, 185, 129, 0.3);
+      }
+
+      .status.error {
+        background: rgba(239, 68, 68, 0.2);
+        color: #ef4444;
+        border: 1px solid rgba(239, 68, 68, 0.3);
+      }
+
+      .status.warning {
+        background: rgba(251, 191, 36, 0.2);
+        color: #fbbf24;
+        border: 1px solid rgba(251, 191, 36, 0.3);
+      }
+
+      button {
+        background: linear-gradient(135deg, #ff1f1f 0%, #9e0d0d 100%);
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 0.5rem 0.5rem 0.5rem 0;
+        transition: transform 0.2s;
+      }
+
+      button:hover {
+        transform: translateY(-2px);
+      }
+
+      button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .info {
+        background: rgba(59, 130, 246, 0.1);
+        border-left: 3px solid #3b82f6;
+        padding: 1rem;
+        margin: 1rem 0;
+        border-radius: 4px;
+      }
+
+      code {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 0.25rem 0.5rem;
+        border-radius: 4px;
+        font-family: "Courier New", monospace;
+        font-size: 0.9rem;
+      }
+
+      .file-list {
+        list-style: none;
+        padding: 0;
+      }
+
+      .file-list li {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .file-list li:last-child {
+        border-bottom: none;
+      }
+
+      .check-icon {
+        color: #10b981;
+      }
+
+      .cross-icon {
+        color: #ef4444;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>🚀 PWA Test Suite</h1>
+      <p style="margin-bottom: 2rem; color: #cbd5e1">
+        Testing SportMeet 2026 PWA functionality and performance optimizations
+      </p>
+
+      <!-- Service Worker Test -->
+      <div class="test-section">
+        <h2>1. Service Worker</h2>
+        <div id="sw-status"></div>
+        <div id="sw-details" style="margin-top: 1rem"></div>
+        <button onclick="registerSW()">Register Service Worker</button>
+        <button onclick="unregisterSW()">Unregister</button>
+      </div>
+
+      <!-- Manifest Test -->
+      <div class="test-section">
+        <h2>2. PWA Manifest</h2>
+        <div id="manifest-status"></div>
+        <div id="manifest-details" style="margin-top: 1rem"></div>
+      </div>
+
+      <!-- File Availability Test -->
+      <div class="test-section">
+        <h2>3. Required Files</h2>
+        <div id="files-status"></div>
+        <div id="files-list" style="margin-top: 1rem"></div>
+      </div>
+
+      <!-- Performance Test -->
+      <div class="test-section">
+        <h2>4. Performance Metrics</h2>
+        <div id="performance-status"></div>
+        <div id="performance-details" style="margin-top: 1rem"></div>
+      </div>
+
+      <!-- Install Test -->
+      <div class="test-section">
+        <h2>5. Installation</h2>
+        <div id="install-status"></div>
+        <div style="margin-top: 1rem">
+          <button id="install-btn" onclick="triggerInstall()" disabled>
+            Install App
+          </button>
+        </div>
+      </div>
+
+      <!-- Cache Test -->
+      <div class="test-section">
+        <h2>6. Cache Storage</h2>
+        <div id="cache-status"></div>
+        <div id="cache-details" style="margin-top: 1rem"></div>
+        <button onclick="checkCache()">Check Cache</button>
+        <button onclick="clearCache()">Clear Cache</button>
+      </div>
+
+      <!-- Backend & Data Performance Test -->
+      <div class="test-section">
+        <h2>7. Backend & Data Performance</h2>
+        <div id="backend-status"></div>
+        <div id="backend-details" style="margin-top: 1rem"></div>
+        <button onclick="testBackendPerformance()">
+          Run Data Latency Test
+        </button>
+      </div>
+
+      <!-- System & Storage Environment Test -->
+      <div class="test-section">
+        <h2>8. System & Storage Environment</h2>
+        <div id="env-status"></div>
+        <div id="env-details" style="margin-top: 1rem"></div>
+        <button onclick="testEnvironment()">Analyze Environment</button>
+      </div>
+
+      <div class="info">
+        <strong>💡 Tip:</strong> Open DevTools (F12) → Application tab to see
+        detailed PWA information
+      </div>
+    </div>
+
+    <script>
+      let deferredPrompt;
+
+      // Test Service Worker
+      async function registerSW() {
+        const statusEl = document.getElementById("sw-status");
+        const detailsEl = document.getElementById("sw-details");
+
+        if ("serviceWorker" in navigator) {
+          try {
+            const registration =
+              await navigator.serviceWorker.register("/sw.js");
+            statusEl.innerHTML =
+              '<span class="status success">✅ Service Worker Registered</span>';
+            detailsEl.innerHTML = `<code>Scope: ${registration.scope}</code>`;
+          } catch (error) {
+            statusEl.innerHTML =
+              '<span class="status error">❌ Registration Failed</span>';
+            detailsEl.innerHTML = `<code>${error.message}</code>`;
+          }
+        } else {
+          statusEl.innerHTML =
+            '<span class="status error">❌ Service Workers Not Supported</span>';
+        }
+      }
+
+      async function unregisterSW() {
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        for (let registration of registrations) {
+          await registration.unregister();
+        }
+        document.getElementById("sw-status").innerHTML =
+          '<span class="status warning">⚠️ Service Worker Unregistered</span>';
+      }
+
+      // Test Manifest
+      async function testManifest() {
+        const statusEl = document.getElementById("manifest-status");
+        const detailsEl = document.getElementById("manifest-details");
+
+        try {
+          const response = await fetch("/manifest.json");
+          if (response.ok) {
+            const manifest = await response.json();
+            statusEl.innerHTML =
+              '<span class="status success">✅ Manifest Found</span>';
+            detailsEl.innerHTML = `
+            <code>Name: ${manifest.name}</code><br>
+            <code>Short Name: ${manifest.short_name}</code><br>
+            <code>Theme: ${manifest.theme_color}</code><br>
+            <code>Icons: ${manifest.icons.length} defined</code>
+          `;
+          } else {
+            statusEl.innerHTML =
+              '<span class="status error">❌ Manifest Not Found</span>';
+          }
+        } catch (error) {
+          statusEl.innerHTML =
+            '<span class="status error">❌ Manifest Error</span>';
+          detailsEl.innerHTML = `<code>${error.message}</code>`;
+        }
+      }
+
+      // Test Files
+      async function testFiles() {
+        const statusEl = document.getElementById("files-status");
+        const listEl = document.getElementById("files-list");
+
+        const files = [
+          "/manifest.json",
+          "/sw.js",
+          "/pwa-install.js",
+          "/offline.html",
+          "/style.css",
+          "/index.html",
+        ];
+
+        const results = await Promise.all(
+          files.map(async (file) => {
+            try {
+              const response = await fetch(file, { method: "HEAD" });
+              return { file, exists: response.ok };
+            } catch {
+              return { file, exists: false };
+            }
+          }),
+        );
+
+        const allExist = results.every((r) => r.exists);
+        statusEl.innerHTML = allExist
+          ? '<span class="status success">✅ All Files Present</span>'
+          : '<span class="status warning">⚠️ Some Files Missing</span>';
+
+        listEl.innerHTML =
+          '<ul class="file-list">' +
+          results
+            .map(
+              (r) => `
+          <li>
+            <span class="${r.exists ? "check-icon" : "cross-icon"}">
+              ${r.exists ? "✓" : "✗"}
+            </span>
+            ${r.file}
+          </li>
+        `,
+            )
+            .join("") +
+          "</ul>";
+      }
+
+      // Test Performance
+      function testPerformance() {
+        const statusEl = document.getElementById("performance-status");
+        const detailsEl = document.getElementById("performance-details");
+
+        if ("performance" in window) {
+          const navigation = performance.getEntriesByType("navigation")[0];
+          statusEl.innerHTML =
+            '<span class="status success">✅ Performance API Available</span>';
+
+          if (navigation) {
+            detailsEl.innerHTML = `
+            <code>Load Time: ${
+              navigation.loadEventEnd - navigation.fetchStart
+            }ms</code><br>
+            <code>DOM Content Loaded: ${
+              navigation.domContentLoadedEventEnd - navigation.fetchStart
+            }ms</code><br>
+            <code>First Paint: ${
+              performance.getEntriesByType("paint")[0]?.startTime || "N/A"
+            }ms</code>
+          `;
+          }
+        } else {
+          statusEl.innerHTML =
+            '<span class="status error">❌ Performance API Not Available</span>';
+        }
+      }
+
+      // Test Install
+      window.addEventListener("beforeinstallprompt", (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        document.getElementById("install-btn").disabled = false;
+        document.getElementById("install-status").innerHTML =
+          '<span class="status success">✅ App Can Be Installed</span>';
+      });
+
+      async function triggerInstall() {
+        if (deferredPrompt) {
+          deferredPrompt.prompt();
+          const { outcome } = await deferredPrompt.userChoice;
+          document.getElementById("install-status").innerHTML =
+            outcome === "accepted"
+              ? '<span class="status success">✅ App Installed</span>'
+              : '<span class="status warning">⚠️ Installation Declined</span>';
+          deferredPrompt = null;
+        }
+      }
+
+      // Test Cache
+      async function checkCache() {
+        const statusEl = document.getElementById("cache-status");
+        const detailsEl = document.getElementById("cache-details");
+
+        if ("caches" in window) {
+          const cacheNames = await caches.keys();
+          statusEl.innerHTML =
+            '<span class="status success">✅ Cache API Available</span>';
+
+          if (cacheNames.length > 0) {
+            const cacheDetails = await Promise.all(
+              cacheNames.map(async (name) => {
+                const cache = await caches.open(name);
+                const keys = await cache.keys();
+                return { name, count: keys.length };
+              }),
+            );
+
+            detailsEl.innerHTML =
+              '<ul class="file-list">' +
+              cacheDetails
+                .map(
+                  (c) => `
+              <li>${c.name}: ${c.count} items cached</li>
+            `,
+                )
+                .join("") +
+              "</ul>";
+          } else {
+            detailsEl.innerHTML =
+              "<code>No caches found. Load the app first.</code>";
+          }
+        } else {
+          statusEl.innerHTML =
+            '<span class="status error">❌ Cache API Not Available</span>';
+        }
+      }
+
+      async function clearCache() {
+        const cacheNames = await caches.keys();
+        await Promise.all(cacheNames.map((name) => caches.delete(name)));
+        document.getElementById("cache-status").innerHTML =
+          '<span class="status warning">⚠️ All Caches Cleared</span>';
+        document.getElementById("cache-details").innerHTML = "";
+      }
+
+      // Test Backend/Data Performance
+      async function testBackendPerformance() {
+        const statusEl = document.getElementById("backend-status");
+        const detailsEl = document.getElementById("backend-details");
+
+        statusEl.innerHTML =
+          '<span class="status warning">⏳ Running Tests...</span>';
+        detailsEl.innerHTML = "";
+
+        const endpoints = [
+          { name: "2026 Data", url: "/data/2026.json" },
+          { name: "2027 Data", url: "/data/2027.json" },
+          { name: "2028 Data", url: "/2028.json" }, // Should be in root based on file list
+          { name: "Manifest", url: "/manifest.json" },
+        ];
+
+        let resultsHtml = '<ul class="file-list">';
+        let totalTime = 0;
+        let successCount = 0;
+
+        for (const endpoint of endpoints) {
+          const start = performance.now();
+          try {
+            const response = await fetch(endpoint.url + "?t=" + Date.now()); // Bypass cache for true network test
+            const end = performance.now();
+            const duration = (end - start).toFixed(2);
+
+            if (response.ok) {
+              const size = response.headers.get("content-length");
+              const sizeText = size ? `(${(size / 1024).toFixed(2)} KB)` : "";
+
+              // Validate JSON
+              await response.json();
+
+              resultsHtml += `
+                <li>
+                  <span class="check-icon">✓</span> 
+                  <strong>${endpoint.name}</strong>: ${duration}ms ${sizeText} 
+                  <span style="color: #10b981; font-size: 0.8rem; margin-left: 0.5rem">[JSON Valid]</span>
+                </li>`;
+              successCount++;
+              totalTime += end - start;
+            } else {
+              resultsHtml += `
+                <li>
+                  <span class="cross-icon">✗</span> 
+                  <strong>${endpoint.name}</strong>: Failed (${response.status})
+                </li>`;
+            }
+          } catch (e) {
+            resultsHtml += `
+                <li>
+                  <span class="cross-icon">✗</span> 
+                  <strong>${endpoint.name}</strong>: Error (${e.message})
+                </li>`;
+          }
+        }
+
+        resultsHtml += "</ul>";
+
+        const avgTime =
+          successCount > 0 ? (totalTime / successCount).toFixed(2) : 0;
+
+        detailsEl.innerHTML = resultsHtml;
+
+        if (successCount === endpoints.length) {
+          statusEl.innerHTML = `<span class="status success">✅ All Endpoints Reachable (Avg: ${avgTime}ms)</span>`;
+        } else if (successCount > 0) {
+          statusEl.innerHTML = `<span class="status warning">⚠️ Partial Data Availability</span>`;
+        } else {
+          statusEl.innerHTML = `<span class="status error">❌ Backend Unreachable</span>`;
+        }
+      }
+
+      // Test System & Environment
+      async function testEnvironment() {
+        const statusEl = document.getElementById("env-status");
+        const detailsEl = document.getElementById("env-details");
+
+        statusEl.innerHTML =
+          '<span class="status warning">⏳ Analyzing Environment...</span>';
+
+        let resultsHtml = '<ul class="file-list">';
+
+        // 1. Network Info
+        if (navigator.connection) {
+          const conn = navigator.connection;
+          resultsHtml += `
+            <li>
+              <strong>Connection</strong>: ${
+                conn.effectiveType || "N/A"
+              } (Downlink: ${conn.downlink || "N/A"} Mbps)
+            </li>`;
+        }
+
+        // 2. Storage Quota
+        if (navigator.storage && navigator.storage.estimate) {
+          try {
+            const estimate = await navigator.storage.estimate();
+            const quotaGB = (estimate.quota / (1024 * 1024 * 1024)).toFixed(2);
+            const usageMB = (estimate.usage / (1024 * 1024)).toFixed(2);
+            resultsHtml += `
+              <li>
+                <strong>Storage Quota</strong>: ${quotaGB} GB available (${usageMB} MB used)
+              </li>`;
+          } catch (e) {
+            resultsHtml += `<li><strong>Storage Info</strong>: Error getting estimate</li>`;
+          }
+        }
+
+        // 3. Hardware Info
+        resultsHtml += `
+          <li>
+            <strong>Hardware</strong>: ${
+              navigator.hardwareConcurrency || "N/A"
+            } CPU Cores, 
+            ${
+              navigator.deviceMemory
+                ? navigator.deviceMemory + " GB RAM"
+                : "Memory Info N/A"
+            }
+          </li>`;
+
+        // 4. Persistence Check
+        if (navigator.storage && navigator.storage.persisted) {
+          const isPersisted = await navigator.storage.persisted();
+          resultsHtml += `
+            <li>
+              <strong>Durable Storage</strong>: ${
+                isPersisted ? "✅ Enabled" : "❌ Not Enabled"
+              }
+            </li>`;
+        }
+
+        resultsHtml += "</ul>";
+        detailsEl.innerHTML = resultsHtml;
+        statusEl.innerHTML =
+          '<span class="status success">✅ Environment Analysis Complete</span>';
+      }
+
+      // Run tests on load
+      window.addEventListener("load", () => {
+        registerSW();
+        testManifest();
+        testFiles();
+        testPerformance();
+        testBackendPerformance();
+        testEnvironment();
+
+        // Check if already installed
+        if (window.matchMedia("(display-mode: standalone)").matches) {
+          document.getElementById("install-status").innerHTML =
+            '<span class="status success">✅ Running as Installed PWA</span>';
+        } else {
+          document.getElementById("install-status").innerHTML =
+            '<span class="status warning">⚠️ Not Installed Yet</span>';
+        }
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,44 @@
+{
+  "moments": [
+    {
+      "id": 1,
+      "title": "HardBall Championship",
+      "description": "Vijaya house dominates HardBall with outstanding performance",
+      "house": "Vijaya",
+      "album": "https://web.facebook.com/share/p/18KQuX9rEy/",
+      "image": "https://i.ibb.co/B5R1dtCq/image.png",
+      "year": 2026,
+      "category": "bcmu"
+    },
+    {
+      "id": 2,
+      "title": "Hockey Championship",
+      "description": "Vijaya house claims victory in Hockey championship",
+      "house": "Vijaya",
+      "album": "https://web.facebook.com/share/p/1D7AAvBe8e/",
+      "image": "https://i.ibb.co/0Rfd7xKh/image.png",
+      "year": 2026,
+      "category": "bcmu"
+    },
+    {
+      "id": 3,
+      "title": "VolleyBall Championship",
+      "description": "Vijaya house secures VolleyBall championship with stellar teamwork",
+      "house": "Vijaya",
+      "album": "https://web.facebook.com/share/p/1BtwkUg3yv/",
+      "image": "https://i.ibb.co/hx6YpVyV/image.png",
+      "year": 2026,
+      "category": "bcmu"
+    },
+    {
+      "id": 4,
+      "title": "Elle Championship",
+      "description": "Vijaya house triumphs in Elle competition",
+      "house": "Vijaya",
+      "album": "https://web.facebook.com/share/p/1A4Qs4sV2v/",
+      "image": "https://i.ibb.co/0jgYbDrf/image.png",
+      "year": 2026,
+      "category": "bcmu"
+    }
+  ]
+}
