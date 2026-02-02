@@ -703,82 +703,154 @@
         { "house": "Vijaya", "score": 0 }
       ]
     },
-    {
+   {
       "id": "Badminton",
       "name": "Badminton",
-      "date": "",
+      "date": "2026/01/28",
       "venue": "Indoor Stadium",
-      "isLive": false,
+      "isHeld": false,
       "scores": [
-        { "house": "Gemunu", "score": 0 },
-        { "house": "Tissa", "score": 0 },
-        { "house": "Parakrama", "score": 0 },
-        { "house": "Vijaya", "score": 0 }
+        {
+          "house": "Gemunu",
+          "score": 5
+        },
+        {
+          "house": "Tissa",
+          "score": 5
+        },
+        {
+          "house": "Parakrama",
+          "score": 0
+        },
+        {
+          "house": "Vijaya",
+          "score": 15
+        }
       ]
     },
     {
       "id": "Chess",
       "name": "Chess",
-      "date": "",
-      "venue": "Main Hall",
-      "isLive": false,
+      "date": "2026/01/30",
+      "venue": "Auditorium",
+      "isHeld": true,
       "scores": [
-        { "house": "Gemunu", "score": 0 },
-        { "house": "Tissa", "score": 0 },
-        { "house": "Parakrama", "score": 0 },
-        { "house": "Vijaya", "score": 0 }
+        {
+          "house": "Gemunu",
+          "score": 5
+        },
+        {
+          "house": "Tissa",
+          "score": 0
+        },
+        {
+          "house": "Parakrama",
+          "score": 15
+        },
+        {
+          "house": "Vijaya",
+          "score": 10
+        }
       ]
     },
     {
       "id": "Volleyball",
       "name": "Volleyball",
-      "date": "",
+      "date": "2026/01/26",
       "venue": "Volleyball Court",
-      "isLive": false,
+      "isHeld": false,
       "scores": [
-        { "house": "Gemunu", "score": 0 },
-        { "house": "Tissa", "score": 0 },
-        { "house": "Parakrama", "score": 0 },
-        { "house": "Vijaya", "score": 0 }
+        {
+          "house": "Gemunu",
+          "score": 0
+        },
+        {
+          "house": "Tissa",
+          "score": 5
+        },
+        {
+          "house": "Parakrama",
+          "score": 10
+        },
+        {
+          "house": "Vijaya",
+          "score": 15
+        }
       ]
     },
     {
       "id": "Elle",
       "name": "Elle",
-      "date": "",
+      "date": "2026/01/22",
       "venue": "Main Ground",
-      "isLive": false,
+      "isHeld": false,
       "scores": [
-        { "house": "Gemunu", "score": 0 },
-        { "house": "Tissa", "score": 0 },
-        { "house": "Parakrama", "score": 0 },
-        { "house": "Vijaya", "score": 0 }
+        {
+          "house": "Gemunu",
+          "score": 0
+        },
+        {
+          "house": "Tissa",
+          "score": 5
+        },
+        {
+          "house": "Parakrama",
+          "score": 10
+        },
+        {
+          "house": "Vijaya",
+          "score": 15
+        }
       ]
     },
     {
       "id": "Hockey",
       "name": "Hockey",
-      "date": "",
-      "venue": "Hockey Field",
-      "isLive": false,
+      "date": "2026/01/28",
+      "venue": "Main Ground",
+      "isHeld": false,
       "scores": [
-        { "house": "Gemunu", "score": 0 },
-        { "house": "Tissa", "score": 0 },
-        { "house": "Parakrama", "score": 0 },
-        { "house": "Vijaya", "score": 0 }
+        {
+          "house": "Gemunu",
+          "score": 10
+        },
+        {
+          "house": "Tissa",
+          "score": 0
+        },
+        {
+          "house": "Parakrama",
+          "score": 5
+        },
+        {
+          "house": "Vijaya",
+          "score": 15
+        }
       ]
     },
     {
       "id": "Softball",
       "name": "Softball",
-      "date": "",
+      "date": "2026/01/30",
       "venue": "Main Ground",
-      "isLive": false,
+      "isHeld": true,
       "scores": [
-        { "house": "Gemunu", "score": 0 },
-        { "house": "Tissa", "score": 0 },
-        { "house": "Parakrama", "score": 0 },
-        { "house": "Vijaya", "score": 0 }
+        {
+          "house": "Gemunu",
+          "score": 10
+        },
+        {
+          "house": "Tissa",
+          "score": 15
+        },
+        {
+          "house": "Parakrama",
+          "score": 5
+        },
+        {
+          "house": "Vijaya",
+          "score": 0
+        }
       ]
     },
     {
