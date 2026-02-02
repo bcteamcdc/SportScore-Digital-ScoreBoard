@@ -3,287 +3,76 @@
   "athletics": {
     "categories": [
       {
-        "name": "Under 12",
-        "events": [
-          {
-            "name": "60m Running",
-            "date": "2026/02/06",
-            "isHeld": false,
-            "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
-            ]
-          },
-          {
-            "name": "100m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
-            "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
-            ]
-          },
-          {
-            "name": "Long Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
-            "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
-            ]
-          },
-          {
-            "name": "High Jump",
-            "date": "2026/02/09",
-            "isHeld": false,
-            "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
-            ]
-          },
-          {
-            "name": "50x4 Relay",
-            "date": "2026/02/10",
-            "isHeld": false,
-            "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
-            ]  
-          }
-        ] 
-      },
-      {
         "name": "Under 14",
         "events": [
           {
             "name": "60m Running",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "100m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "80m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "High jump",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Shot Put",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Long Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "100x4",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           }
         ]
@@ -293,301 +82,132 @@
         "events": [
           {
             "name": "100m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "200m Running",
             "date": "",
-            "isHeld": false,
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400m Running",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "800m Running",
-            "date": "2026/02/10",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "100m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "300m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "High Jump",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Long Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Shot Put",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Discus throw",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Javelin throw",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400x4",
-            "date": "2026/02/10",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "100x4",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           }
         ]
@@ -597,370 +217,162 @@
         "events": [
           {
             "name": "100m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "200m Running",
             "date": "",
-            "isHeld": false,
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400m Running",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "800m Running",
-            "date": "2026/02/10",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "1500m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "3000m Running",
-            "date": "2026/02/05",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "110m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "High Jump",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Long Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Tripple Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Shot Put",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Discus throw",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Javelin throw",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400x4",
-            "date": "2026/02/10",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "100x4",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           }
         ]
@@ -970,370 +382,162 @@
         "events": [
           {
             "name": "100m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "200m Running",
             "date": "",
-            "isHeld": false,
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400m Running",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "800m Running",
-            "date": "2026/02/10",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "1500m Running",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "5000m Running",
-            "date": "2026/02/05",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "110m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400m Hurdles",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "High Jump",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Long Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Tripple Jump",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Shot Put",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Discus throw",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "Javelin throw",
-            "date": "2026/02/09",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "400x4",
-            "date": "2026/02/10",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           },
           {
             "name": "100x4",
-            "date": "2026/02/06",
-            "isHeld": false,
+            "date": "",
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           }
         ]
@@ -1344,24 +548,11 @@
           {
             "name": "Mixed relay race",
             "date": "",
-            "isHeld": false,
             "scores": [
-              {
-                "house": "Gemunu",
-                "score": 0
-              },
-              {
-                "house": "Vijaya",
-                "score": 0
-              },
-              {
-                "house": "Parakrama",
-                "score": 0
-              },
-              {
-                "house": "Tissa",
-                "score": 0
-              }
+              { "house": "Gemunu", "score": 0 },
+              { "house": "Vijaya", "score": 0 },
+              { "house": "Parakrama", "score": 0 },
+              { "house": "Tissa", "score": 0 }
             ]
           }
         ]
@@ -1372,26 +563,14 @@
     {
       "id": "Best house design",
       "name": "Best house design",
-      "date": "",
+      "date": "2026.01.09",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
@@ -1399,99 +578,51 @@
       "name": "Karate",
       "date": "",
       "venue": "Indoor Stadium",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Table Tennis",
       "name": "Table Tennis",
-      "date": "2026/01/29",
-      "venue": "Auditorium",
-      "isHeld": false,
+      "date": "",
+      "venue": "Main Hall",
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 5
-        },
-        {
-          "house": "Tissa",
-          "score": 10
-        },
-        {
-          "house": "Parakrama",
-          "score": 15
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "HardBall",
       "name": "HardBall",
-      "date": "2026/01/29",
+      "date": "",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 5
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 5
-        },
-        {
-          "house": "Vijaya",
-          "score": 15
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Wrestling",
       "name": "Wrestling",
-      "date": "2026/02/02",
+      "date": "",
       "venue": "Indoor Stadium",
-      "isHeld": true,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
@@ -1499,124 +630,64 @@
       "name": "Boxing",
       "date": "",
       "venue": "Indoor Stadium",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Football",
       "name": "Football",
-      "date": "2026/01/27",
+      "date": "",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 5
-        },
-        {
-          "house": "Tissa",
-          "score": 5
-        },
-        {
-          "house": "Parakrama",
-          "score": 15
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Athletics",
       "name": "Athletics",
-      "date": "2026/02/05",
+      "date": "",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Swimming",
       "name": "Swimming",
-      "date": "2026/02/03",
+      "date": "",
       "venue": "Swimming Pool",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Tag Rugby",
       "name": "Tag Rugby",
-      "date": "2026/02/03",
+      "date": "",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
@@ -1624,227 +695,104 @@
       "name": "Road Race",
       "date": "",
       "venue": "Gampaha Road",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Badminton",
       "name": "Badminton",
-      "date": "2026/01/28",
+      "date": "",
       "venue": "Indoor Stadium",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 5
-        },
-        {
-          "house": "Tissa",
-          "score": 5
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 15
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Chess",
       "name": "Chess",
-      "date": "2026/01/30",
-      "venue": "Auditorium",
-      "isHeld": true,
+      "date": "",
+      "venue": "Main Hall",
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 5
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 15
-        },
-        {
-          "house": "Vijaya",
-          "score": 10
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Volleyball",
       "name": "Volleyball",
-      "date": "2026/01/26",
+      "date": "",
       "venue": "Volleyball Court",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 5
-        },
-        {
-          "house": "Parakrama",
-          "score": 10
-        },
-        {
-          "house": "Vijaya",
-          "score": 15
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Elle",
       "name": "Elle",
-      "date": "2026/01/22",
+      "date": "",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 5
-        },
-        {
-          "house": "Parakrama",
-          "score": 10
-        },
-        {
-          "house": "Vijaya",
-          "score": 15
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Hockey",
       "name": "Hockey",
-      "date": "2026/01/28",
-      "venue": "Main Ground",
-      "isHeld": false,
+      "date": "",
+      "venue": "Hockey Field",
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 10
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 5
-        },
-        {
-          "house": "Vijaya",
-          "score": 15
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Softball",
       "name": "Softball",
-      "date": "2026/01/30",
+      "date": "",
       "venue": "Main Ground",
-      "isHeld": true,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 10
-        },
-        {
-          "house": "Tissa",
-          "score": 15
-        },
-        {
-          "house": "Parakrama",
-          "score": 5
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     },
     {
       "id": "Basketball",
       "name": "Basketball",
-      "date": "2026/02/02",
+      "date": "",
       "venue": "Basketball Court",
-      "isHeld": true,
+      "isLive": false,
       "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
-      ]
-    },
-    {
-      "id": "Baseball",
-      "name": "Baseball",
-      "date": "2026/02/02",
-      "venue": "Main Ground",
-      "isHeld": true,
-      "scores": [
-        {
-          "house": "Gemunu",
-          "score": 0
-        },
-        {
-          "house": "Tissa",
-          "score": 0
-        },
-        {
-          "house": "Parakrama",
-          "score": 0
-        },
-        {
-          "house": "Vijaya",
-          "score": 0
-        }
+        { "house": "Gemunu", "score": 0 },
+        { "house": "Tissa", "score": 0 },
+        { "house": "Parakrama", "score": 0 },
+        { "house": "Vijaya", "score": 0 }
       ]
     }
-  ],
-  {
-  "bestAthletes": []
+  ]
 }
