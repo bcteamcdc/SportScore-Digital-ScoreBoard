@@ -1782,7 +1782,7 @@
         },
         {
           "house": "Tissa",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Parakrama",
@@ -1790,7 +1790,7 @@
         },
         {
           "house": "Vijaya",
-          "score": 15
+          "score": 0
         }
       ]
     },
@@ -1843,7 +1843,8 @@
           "score": 0
         }
       ]
-    }
+    },
+    
   ],
   "bestAthletes": []
 }
