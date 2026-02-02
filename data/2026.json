@@ -1472,9 +1472,9 @@
     {
       "id": "Wrestling",
       "name": "Wrestling",
-      "date": "",
+      "date": "2026/02/02",
       "venue": "Indoor Stadium",
-      "isHeld": false,
+      "isHeld": true,
       "scores": [
         {
           "house": "Gemunu",
@@ -1678,7 +1678,7 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Tissa",
@@ -1686,11 +1686,11 @@
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 10
         }
       ]
     },
@@ -1778,7 +1778,7 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 10
         },
         {
           "house": "Tissa",
@@ -1786,11 +1786,11 @@
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 15
         }
       ]
     },
@@ -1799,7 +1799,7 @@
       "name": "Basketball",
       "date": "2026/02/02",
       "venue": "Basketball Court",
-      "isHeld": false,
+      "isHeld": true,
       "scores": [
         {
           "house": "Gemunu",
@@ -1824,7 +1824,7 @@
       "name": "Baseball",
       "date": "2026/02/02",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isHeld": true,
       "scores": [
         {
           "house": "Gemunu",
