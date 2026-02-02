@@ -1474,7 +1474,7 @@
       "name": "Wrestling",
       "date": "2026/02/02",
       "venue": "Indoor Stadium",
-      "isHeld": true,
+      "isHeld": false,
       "scores": [
         {
           "house": "Gemunu",
