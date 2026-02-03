@@ -1472,7 +1472,7 @@
     {
       "id": "Wrestling",
       "name": "Wrestling",
-      "date": "2026/02/02",
+      "date": "",
       "venue": "Indoor Stadium",
       "isHeld": false,
       "scores": [
@@ -1574,7 +1574,7 @@
       "name": "Swimming",
       "date": "2026/02/03",
       "venue": "Swimming Pool",
-      "isHeld": false,
+      "isHeld": true,
       "scores": [
         {
           "house": "Gemunu",
@@ -1599,7 +1599,7 @@
       "name": "Tag Rugby",
       "date": "2026/02/03",
       "venue": "Main Ground",
-      "isHeld": false,
+      "isHeld": true,
       "scores": [
         {
           "house": "Gemunu",
@@ -1803,15 +1803,15 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Tissa",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 10
         },
         {
           "house": "Vijaya",
@@ -1832,15 +1832,15 @@
         },
         {
           "house": "Tissa",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 10
         }
       ]
     }
