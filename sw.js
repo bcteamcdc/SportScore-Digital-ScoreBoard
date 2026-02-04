@@ -7,10 +7,10 @@ const OFFLINE_URL = '/offline.html';
 
 // Assets to cache immediately on install - Critical path only0
 const PRECACHE_ASSETS = [
-  '/',
-  OFFLINE_URL,
-  '/style.css',
-  '/pwa-install.js'
+  './',
+  'offline.html',
+  'style.css',
+  'pwa-install.js'
 ];
 
 // Install event - Fast minimal precache

@@ -1,9 +1,9 @@
 {
-  "id": "/index3.html?source=pwa",
+  "id": "/index.html",
   "name": "Bandaranayake College Sportmeet 2026",
   "short_name": "SportMeet 2026",
   "description": "The official real-time marks board for Bandaranayake College Sportmeet. View live house rankings, athletics results, and sports updates.",
-  "start_url": "index3.html",
+  "start_url": "index.html",
   "display": "standalone",
   "display_override": ["window-controls-overlay", "minimal-ui", "standalone"],
   "background_color": "#080808",
