@@ -1,0 +1,3982 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Bandaranayake College Sportmeet 2026 | Live Scores & Results</title>
+    <meta
+      name="title"
+      content="Bandaranayake College Sportmeet 2026 | Live Scores & Results"
+    />
+    <meta
+      name="description"
+      content="The official real-time marks board for Bandaranayake College Sportmeet 2026. View live house rankings, athletics results, and sports updates from Bandaranayake College Gampaha."
+    />
+    <meta
+      name="keywords"
+      content="Bandaranayake College Sportmeet, bcsports, bc sports site, bc sports, Bandaranayake College Sports, SportMeet 2026, BCG Sportmeet, Inter House Sports Meet Gampaha, Bandaranayake College, Sports Scores, Live Leaderboard"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.bcsports.site/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.bcsports.site/" />
+    <meta
+      property="og:title"
+      content="Bandaranayake College Sportmeet 2026 - Live Daily Updates"
+    />
+    <meta
+      property="og:description"
+      content="Stay updated with the latest house rankings and athletics results from Bandaranayake College Sportmeet 2026. Live on bcsports.site."
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/4gJYpW6p/New-Project-5.png"
+    />
+    <meta property="og:site_name" content="BC Sports Site" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.bcsports.site/" />
+    <meta
+      property="twitter:title"
+      content="Bandaranayake College Sportmeet 2026 Live"
+    />
+    <meta
+      property="twitter:description"
+      content="Official live updates for Bandaranayake College Sportmeet 2026. View house rankings and moments instantly."
+    />
+    <meta
+      property="twitter:image"
+      content="https://i.ibb.co/4gJYpW6p/New-Project-5.png"
+    />
+
+    <!-- Schema.org for Google -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SportsEvent",
+        "name": "Bandaranayake College Sportmeet 2026",
+        "description": "The official real-time marks board for Bandaranayake College Sportmeet 2026. View live house rankings, athletics results, and sports updates from Bandaranayake College Gampaha.",
+        "startDate": "2026-01-20T08:00:00+05:30",
+        "endDate": "2026-02-28T17:00:00+05:30",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "location": {
+          "@type": "Place",
+          "name": "Bandaranayake College Grounds",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Bandaranayake College",
+            "addressLocality": "Gampaha",
+            "addressRegion": "Western Province",
+            "postalCode": "11000",
+            "addressCountry": "LK"
+          }
+        },
+        "organizer": {
+          "@type": "Organization",
+          "name": "Bandaranayake College Coding Club",
+          "url": "https://www.bcsports.site",
+          "logo": "https://i.ibb.co/4gJYpW6p/New-Project-5.png"
+        },
+        "image": ["https://i.ibb.co/4gJYpW6p/New-Project-5.png"]
+      }
+    </script>
+    <meta name="author" content="Bandaranayake College Coding Club" />
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#080808" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="SportMeet" />
+    <meta name="application-name" content="SportMeet 2026" />
+    <meta name="msapplication-TileColor" content="#080808" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Icons -->
+    <link
+      rel="icon"
+      type="image/jpeg"
+      sizes="32x32"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      sizes="16x16"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+
+    <!-- Performance Optimization: DNS Prefetch & Preconnect -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com" />
+    <link rel="dns-prefetch" href="https://i.ibb.co" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="style.css" as="style" />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+      as="style"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      media="print"
+      onload="this.media = 'all'"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Outfit:wght@400;600;700;800&family=Noto+Sans+Sinhala:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prefetch Data for Instant Loading -->
+    <link rel="prefetch" href="data/basic.json" as="fetch" crossorigin />
+
+    <!-- Chart.js Library - Async Load -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"
+      async
+    ></script>
+
+    <!-- PWA Advanced Features - Deferred -->
+    <script src="pwa-features.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Animated Background Effects -->
+    <div class="background">
+      <div class="grid-overlay"></div>
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+      <div class="glow-orb orb-3"></div>
+    </div>
+
+    <div class="container">
+      <header>
+        <div class="header-brand">
+          <div class="brand-logos">
+            <div class="profile-icon"></div>
+            <div class="club-icon"></div>
+          </div>
+          <div class="brand-info">
+            <h1 class="header-title">InterHouse Sports 2026</h1>
+            <div class="header-subtitle">Live Scores & Rankings</div>
+          </div>
+        </div>
+        <nav class="header-nav" role="navigation" aria-label="Main navigation">
+          <a
+            class="nav-tab active"
+            id="leaderboard-tab"
+            title="Leaderboard"
+            aria-label="Leaderboard"
+          >
+            <i class="fas fa-trophy" aria-hidden="true"></i>
+            <span>Leaderboard</span>
+          </a>
+          <a class="nav-tab" id="scores-tab" title="Scores" aria-label="Scores">
+            <i class="fas fa-chart-bar" aria-hidden="true"></i>
+            <span>Scores</span>
+          </a>
+          <a
+            class="nav-tab"
+            id="moments-tab"
+            title="Moments"
+            aria-label="Moments"
+          >
+            <i class="fas fa-camera" aria-hidden="true"></i>
+            <span>Moments</span>
+          </a>
+          <a
+            class="nav-tab"
+            id="leaders-tab"
+            title="Leaders"
+            aria-label="Leaders"
+          >
+            <i class="fas fa-users" aria-hidden="true"></i>
+            <span>Leaders</span>
+          </a>
+          <a
+            class="nav-tab"
+            id="analytics-tab"
+            title="Analytics"
+            aria-label="Analytics"
+          >
+            <i class="fas fa-chart-line" aria-hidden="true"></i>
+            <span>Analytics</span>
+          </a>
+        </nav>
+      </header>
+
+      <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+          <div class="loader-rings">
+            <div class="ring ring-1"></div>
+            <div class="ring ring-2"></div>
+            <div class="ring ring-3"></div>
+            <div class="ring-core"></div>
+          </div>
+
+          <div class="loader-progress-container">
+            <div class="loader-progress-bar">
+              <div class="loader-progress-fill" id="progressFill"></div>
+            </div>
+            <div class="loader-percentage" id="progressText">0%</div>
+          </div>
+
+          <div class="loading-status" id="loadingStatus">LOADING...</div>
+        </div>
+      </div>
+
+      <!-- Leaderboard Page -->
+      <div id="leaderboard-page" class="page">
+        <!-- Leaderboard Hero Header -->
+        <div class="page-hero">
+          <div class="page-hero-content">
+            <span class="page-title-icon"><i class="fas fa-trophy"></i></span>
+            <div class="page-hero-text">
+              <div class="page-title">Overall House Rankings 2026</div>
+              <p class="page-subtitle">
+                Live standings and competitive rankings across all sports events
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+        <div class="rankings-grid" id="rankings-container"></div>
+
+        <!-- Quick Navigation Cards -->
+        <div class="quick-nav-section">
+          <div class="analytics-section-divider">
+            <div class="divider-line"></div>
+            <div class="divider-content">
+              <i class="fas fa-university"></i>
+              <span>Explore Section</span>
+            </div>
+            <div class="divider-line"></div>
+          </div>
+
+          <div class="quick-nav-grid">
+            <div class="nav-card" id="quick-nav-scores">
+              <div class="nav-card-icon scores">
+                <i class="fas fa-chart-bar"></i>
+              </div>
+              <div class="nav-card-info">
+                <h3>Live Scores</h3>
+                <p>View real-time event results</p>
+              </div>
+              <div class="nav-card-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="nav-card" id="quick-nav-moments">
+              <div class="nav-card-icon moments">
+                <i class="fas fa-camera"></i>
+              </div>
+              <div class="nav-card-info">
+                <h3>Winning Moments</h3>
+                <p>Captured memories & highlights</p>
+              </div>
+              <div class="nav-card-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="nav-card" id="quick-nav-analytics">
+              <div class="nav-card-icon analytics">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <div class="nav-card-info">
+                <h3>Analytics Hub</h3>
+                <p>Deep dive into performance</p>
+              </div>
+              <div class="nav-card-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="nav-card" id="quick-nav-leaders">
+              <div class="nav-card-icon leaders">
+                <i class="fas fa-users"></i>
+              </div>
+              <div class="nav-card-info">
+                <h3>Meet Leaders</h3>
+                <p>Teachers & Captains</p>
+              </div>
+              <div class="nav-card-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="nav-card" id="quick-nav-historical">
+              <div class="nav-card-icon historical">
+                <i class="fas fa-history"></i>
+              </div>
+              <div class="nav-card-info">
+                <h3>Historical Comparison</h3>
+                <p>Multi-year performance trends</p>
+              </div>
+              <div class="nav-card-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+
+            <div class="nav-card" id="quick-nav-summary">
+              <div class="nav-card-icon summary">
+                <i class="fas fa-medal"></i>
+              </div>
+              <div class="nav-card-info">
+                <h3>Full Results Summary</h3>
+                <p>Past year champion lists</p>
+              </div>
+              <div class="nav-card-arrow">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Sports Vision & Mission Section -->
+        <div class="mission-vision-section">
+          <div class="mv-container">
+            <div class="mv-header">
+              <div class="mv-title-main">
+                Sports Vision <span>&</span> Mission
+              </div>
+            </div>
+            <div class="mv-grid">
+              <div class="mv-card vision">
+                <div class="mv-card-icon"><i class="fas fa-trophy"></i></div>
+                <h3 class="mv-label">SPORTS VISION</h3>
+                <p class="mv-text type-animate">
+                  To cultivate excellence in sports and athletics, fostering a
+                  culture of teamwork, discipline, and competitive spirit that
+                  develops well-rounded individuals who excel both on and off
+                  the field.
+                </p>
+              </div>
+              <div class="mv-card mission">
+                <div class="mv-card-icon"><i class="fas fa-medal"></i></div>
+                <h3 class="mv-label">SPORTS MISSION</h3>
+                <p class="mv-text type-animate">
+                  To provide comprehensive sports programs that promote physical
+                  fitness, mental resilience, and fair play. Through inter-house
+                  competitions and athletic events, we develop champions who
+                  embody integrity, perseverance, and sportsmanship.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sports Oath Section -->
+        <div class="sports-oath-section">
+          <div class="oath-container">
+            <div class="oath-header">
+              <div class="oath-icon-wrapper">
+                <i class="fas fa-file-signature"></i>
+              </div>
+              <h2 class="oath-title">Sports Oath</h2>
+            </div>
+
+            <div class="oath-content-wrapper">
+              <div class="oath-english">
+                <p class="type-animate">
+                  "We, the students of Bandaranayake College Gampaha, take the
+                  oath with great pride and honour, in front of the National
+                  Flag and the College Flag that we will compete in co-operation
+                  and brotherhood in accordance with the accepted rules and
+                  regulations of sports, by dividing into four houses as Gemunu,
+                  Parakrama, Vijaya and Thissa to uplift the mobility and the
+                  greatness of the Sports."
+                </p>
+              </div>
+
+              <div class="oath-divider">
+                <div class="divider-line"></div>
+                <div class="oath-sub-icon">
+                  <i class="fas fa-feather-alt"></i>
+                </div>
+                <div class="divider-line"></div>
+              </div>
+
+              <div class="oath-sinhala">
+                <p class="type-animate">
+                  "ගම්පහ බණ්ඩාරනායක විද්‍යාලයේ සිසු දරුවන් වන අපි; ගැමුණු,
+                  පරාක්‍රම, විජය හා තිස්ස යන නිවාස හතරට බෙදී ක්‍රීඩාවේ
+                  ශ්‍රේෂ්ඨත්වය හා උත්තරීතර බව සනාථ කරමින්, එහි කීර්ති නාමය
+                  ආරක්ෂා වන පරිදි, සහෝදරත්වයෙන් හා සහයෝගයෙන් යුතුව සම්මත ක්‍රීඩා
+                  නීති රීතිවලට අවනතව තරග වදින බවටත්, ජය පරාජය සම සිතින් භුක්ති
+                  විඳින බවටත් ජාතික ධජය ඉදිරිපිට ගෞරව බහුමානයෙන් යුතුව ප්‍රතිඥා
+                  දෙමු."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- PWA Install Section -->
+        <div
+          class="install-section"
+          id="pwa-install-section"
+          style="display: none"
+        >
+          <div class="install-card">
+            <div class="install-content">
+              <div class="install-icon-wrapper">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="install-info">
+                <h2 class="install-title">Live Updates on Your Phone</h2>
+                <p class="install-text">
+                  Install the SportMeet app for the best experience.
+                </p>
+              </div>
+            </div>
+            <button
+              id="pwa-install-btn-trigger"
+              class="premium-install-btn"
+              aria-label="Install the SportMeet App"
+            >
+              <i class="fas fa-download" aria-hidden="true"></i>
+              <span>Install Now</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="coding-club-section">
+          <div class="section-header">
+            <h2 class="section-title">
+              <i class="fas fa-code title-icon"></i>
+              Coding Club of Bandanarayake College Gampaha
+            </h2>
+            <p class="section-subtitle">
+              Connecting Innovation, Code, and Community
+            </p>
+            <p class="section-description">
+              Explore our digital ecosystem where coding excellence meets
+              creative innovation. Connect with us across multiple platforms and
+              discover the latest in technology, programming tutorials, and
+              collaborative projects.
+            </p>
+          </div>
+
+          <div class="club-content-grid">
+            <div class="website-card">
+              <div class="coming-soon-overlay">
+                <div class="overlay-text">COMING SOON</div>
+              </div>
+              <div class="card-header">
+                <div class="card-icon">
+                  <i class="fas fa-globe"></i>
+                </div>
+                <div>
+                  <h3 class="card-title">Official Website</h3>
+                  <p class="card-subtitle">
+                    Your gateway to digital excellence
+                  </p>
+                </div>
+              </div>
+
+              <a
+                href="#"
+                class="website-link"
+                aria-label="Visit Official Website"
+              >
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+                Visit Now
+              </a>
+
+              <ul class="website-features">
+                <li class="feature-item">
+                  <i class="fas fa-globe feature-icon"></i>
+                  Bandaranayake College Gampaha Coding Club
+                </li>
+                <li class="feature-item">
+                  <i class="fas fa-rocket feature-icon"></i>
+                  Latest project showcases
+                </li>
+                <li class="feature-item">
+                  <i class="fas fa-calendar-alt feature-icon"></i>
+                  Event schedules and workshop announcements
+                </li>
+                <li class="feature-item">
+                  <i class="fas fa-file-alt feature-icon"></i>
+                  Blog posts & articles (Blog section)
+                </li>
+              </ul>
+            </div>
+
+            <div class="social-card">
+              <div class="card-header">
+                <div class="card-icon">
+                  <i class="fas fa-share-alt"></i>
+                </div>
+                <div>
+                  <h3 class="card-title">Social Networks</h3>
+                  <p class="card-subtitle">Connect with our community</p>
+                </div>
+              </div>
+
+              <div class="social-platforms">
+                <a
+                  href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J"
+                  target="_blank"
+                  class="social-platform whatsapp"
+                  aria-label="Join our WhatsApp Channel"
+                >
+                  <div class="social-icon">
+                    <i class="fab fa-whatsapp" aria-hidden="true"></i>
+                  </div>
+                  <div class="social-name">WhatsApp</div>
+                  <div class="social-handle">Channel Updates</div>
+                </a>
+
+                <a
+                  href="https://web.facebook.com/teambccdc?_rdc=1&_rdr#"
+                  target="_blank"
+                  class="social-platform facebook"
+                  aria-label="Follow us on Facebook"
+                >
+                  <div class="social-icon">
+                    <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                  </div>
+                  <div class="social-name">Facebook</div>
+                  <div class="social-handle">@bandaranayakecollege</div>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk"
+                  target="_blank"
+                  class="social-platform instagram"
+                  aria-label="Follow us on Instagram"
+                >
+                  <div class="social-icon">
+                    <i class="fab fa-instagram" aria-hidden="true"></i>
+                  </div>
+                  <div class="social-name">Instagram</div>
+                  <div class="social-handle">@teamcdcbc</div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scores Page -->
+      <div id="scores-page" class="page" style="display: none">
+        <!-- Scores Hero Header -->
+        <div class="page-hero">
+          <div class="page-hero-content">
+            <span class="page-title-icon"
+              ><i class="fas fa-chart-bar"></i
+            ></span>
+            <div class="page-hero-text">
+              <div class="page-title">Sports Scores 2026</div>
+              <p class="page-subtitle">
+                Complete scores and results from all sporting events and
+                competitions
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+        <div class="sports-grid" id="sports-container"></div>
+      </div>
+
+      <!-- Winning Moments Page -->
+      <div id="moments-page" class="page" style="display: none">
+        <!-- Moments Hero Header -->
+        <div class="page-hero">
+          <div class="page-hero-content">
+            <span class="page-title-icon"><i class="fas fa-camera"></i></span>
+            <div class="page-hero-text">
+              <div class="page-title">Winning Moments</div>
+              <p class="page-subtitle">
+                Captured memories and highlights from InterHouse Sports Meet
+                2026
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+        <!-- Year Filter -->
+        <div class="filter-section">
+          <div class="filter-options" id="moments-year-options">
+            <div class="filter-option active" data-year="2026">2026</div>
+            <div class="filter-option" data-year="2025">2025</div>
+          </div>
+        </div>
+        <!-- Image Slideshow -->
+        <div class="slideshow-container" id="slideshow-container"></div>
+        <div class="slideshow-controls" id="slideshow-controls"></div>
+
+        <!-- Moments Grid -->
+        <div class="moments-grid" id="moments-container"></div>
+
+        <!-- Photo Credits -->
+        <a
+          href="https://web.facebook.com/teambcpas"
+          target="_blank"
+          class="photo-credits"
+        >
+          <i class="fas fa-camera"></i>
+          <span
+            >All photos copyrights goes to Bandaranayake College Photographic
+            Art Society</span
+          >
+        </a>
+      </div>
+
+      <!-- House Details Page -->
+      <div id="house-details-page" class="page" style="display: none">
+        <!-- House Details Hero Header -->
+        <div class="page-hero">
+          <div class="back-btn-container">
+            <a href="#" class="back-to-sports-btn" id="back-to-leaderboard">
+              <i class="fas fa-arrow-left"></i>
+              <span>Back to Leaderboard</span>
+            </a>
+          </div>
+          <div class="page-hero-content">
+            <span class="page-title-icon"><i class="fas fa-home"></i></span>
+            <div class="page-hero-text">
+              <div class="page-title" id="house-details-title">
+                House Details
+              </div>
+              <p class="page-subtitle">
+                Detailed breakdown of house performance and event results
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+        <div class="sports-grid" id="house-sports-container"></div>
+      </div>
+
+      <!-- Athletics Details Page -->
+      <div id="athletics-details-page" class="page" style="display: none">
+        <!-- Athletics Hero Header -->
+        <div class="page-hero">
+          <div class="back-btn-container">
+            <a href="#" class="back-to-sports-btn" id="back-to-scores">
+              <i class="fas fa-arrow-left"></i>
+              <span>Back to Sports</span>
+            </a>
+          </div>
+          <div class="page-hero-content">
+            <span class="page-title-icon"
+              ><i class="fas fa-running pulse"></i
+            ></span>
+            <div class="page-hero-text">
+              <div class="page-title">Athletics Details</div>
+              <p class="page-subtitle">
+                Live standings and event breakdowns for all track and field
+                competitions
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+      </div>
+
+      <!-- Leaders Page -->
+      <div id="leaders-page" class="page" style="display: none">
+        <!-- Leaders Hero Header -->
+        <div class="page-hero">
+          <div class="page-hero-content">
+            <span class="page-title-icon"><i class="fas fa-users"></i></span>
+            <div class="page-hero-text">
+              <div class="page-title">Players & Sports Leaders</div>
+              <p class="page-subtitle">
+                Meet the champions and leaders driving excellence in InterHouse
+                Sports <span class="dynamic-year">2026</span>
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+
+        <!-- Year Filter -->
+        <div class="filter-section">
+          <div class="filter-options" id="leaders-year-options">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Sports Captain Section -->
+        <div
+          id="sports-captain-showcase"
+          class="sports-captain-showcase-wrapper"
+        >
+          <div id="sports-captain-title-container"></div>
+          <div id="sports-captain-card-container"></div>
+        </div>
+
+        <!-- Sports Committee Section -->
+        <div class="sports-committee-section">
+          <div class="section-header-title">
+            <h2 class="section-main-title">Sports Committee</h2>
+            <p class="section-subtitle">
+              Teachers and administrators managing sports excellence
+            </p>
+          </div>
+          <div class="sports-committee-grid" id="sports-committee-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- House Masters & Mistresses Section -->
+        <div class="house-masters-section">
+          <div class="section-header-title">
+            <h2 class="section-main-title">House Masters & Mistresses</h2>
+            <p class="section-subtitle">Faculty leaders guiding each house</p>
+          </div>
+          <div class="house-masters-grid" id="house-masters-grid">
+            <!-- Dynamically populated -->
+          </div>
+        </div>
+
+        <!-- Student Leaders Section -->
+        <div class="student-leaders-section">
+          <div class="section-header-title">
+            <h2 class="section-main-title">Student Leaders 2026</h2>
+            <p class="section-subtitle">House Captains & Sports Captains</p>
+          </div>
+
+          <!-- House Captains -->
+          <div class="student-leaders-category">
+            <div class="student-leaders-grid" id="house-captains-student-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+
+          <!-- Sports Captains -->
+          <div class="student-leaders-category">
+            <div class="student-leaders-grid" id="sports-captains-student-grid">
+              <!-- Dynamically populated -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Analytics Dashboard Page -->
+      <div id="analytics-page" class="page" style="display: none">
+        <!-- Analytics Hero Header -->
+        <!-- Analytics Hero Header -->
+        <div class="page-hero">
+          <div class="page-hero-content">
+            <span class="page-title-icon"
+              ><i class="fas fa-chart-line"></i
+            ></span>
+            <div class="page-hero-text">
+              <div class="page-title">Performance Analytics</div>
+              <p class="page-subtitle">
+                Real-time insights and historical performance tracking for
+                InterHouse Sports 2026
+              </p>
+            </div>
+          </div>
+          <div class="page-hero-bg"></div>
+        </div>
+
+        <!-- Key Metrics Cards -->
+        <div class="analytics-metrics-section">
+          <div class="analytics-stat-card metric-leader">
+            <div class="stat-card-inner">
+              <div class="stat-icon-wrapper">
+                <i class="fas fa-crown"></i>
+              </div>
+              <div class="stat-details">
+                <div class="stat-label">Current Leader</div>
+                <div class="stat-value" id="stat-leader">--</div>
+                <div class="stat-trend">
+                  <i class="fas fa-arrow-up"></i>
+                  <span>Leading</span>
+                </div>
+              </div>
+            </div>
+            <div class="stat-card-glow"></div>
+          </div>
+
+          <div class="analytics-stat-card metric-points">
+            <div class="stat-card-inner">
+              <div class="stat-icon-wrapper">
+                <i class="fas fa-fire"></i>
+              </div>
+              <div class="stat-details">
+                <div class="stat-label">Total Points</div>
+                <div class="stat-value" id="stat-total-points">--</div>
+                <div class="stat-trend">
+                  <i class="fas fa-chart-line"></i>
+                  <span>Cumulative</span>
+                </div>
+              </div>
+            </div>
+            <div class="stat-card-glow"></div>
+          </div>
+
+          <div class="analytics-stat-card metric-sports">
+            <div class="stat-card-inner">
+              <div class="stat-icon-wrapper">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="stat-details">
+                <div class="stat-label">Sports Completed</div>
+                <div class="stat-value" id="stat-sports-count">--</div>
+                <div class="stat-trend">
+                  <i class="fas fa-check-circle"></i>
+                  <span>Events</span>
+                </div>
+              </div>
+            </div>
+            <div class="stat-card-glow"></div>
+          </div>
+
+          <div class="analytics-stat-card metric-year">
+            <div class="stat-card-inner">
+              <div class="stat-icon-wrapper">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+              <div class="stat-details">
+                <div class="stat-label">Current Season</div>
+                <div class="stat-value">2026</div>
+                <div class="stat-trend">
+                  <i class="fas fa-star"></i>
+                  <span>Active</span>
+                </div>
+              </div>
+            </div>
+            <div class="stat-card-glow"></div>
+          </div>
+        </div>
+
+        <!-- Main Analytics Grid -->
+        <div class="analytics-grid">
+          <!-- House Performance Chart -->
+          <div class="analytics-card card-large">
+            <div class="analytics-card-header">
+              <div class="card-header-left">
+                <i class="fas fa-chart-bar"></i>
+                <h3>House Performance Overview</h3>
+              </div>
+              <div class="card-header-badge">2026</div>
+            </div>
+            <div class="analytics-card-body">
+              <canvas id="current-year-chart"></canvas>
+            </div>
+          </div>
+
+          <!-- Sport Breakdown -->
+          <div class="analytics-card card-medium">
+            <div class="analytics-card-header">
+              <div class="card-header-left">
+                <i class="fas fa-futbol"></i>
+                <h3>Sport by Sport Analysis</h3>
+              </div>
+            </div>
+            <div class="analytics-card-body">
+              <div class="sport-filter-buttons" id="sport-filter-buttons">
+                <!-- Buttons will be populated by JavaScript -->
+              </div>
+              <div class="sport-chart-wrapper">
+                <canvas id="sport-breakdown-chart"></canvas>
+              </div>
+            </div>
+          </div>
+
+          <!-- House Rankings Table -->
+          <div class="analytics-card card-table">
+            <div class="analytics-card-header">
+              <div class="card-header-left">
+                <i class="fas fa-ranking-star"></i>
+                <h3>Live House Rankings</h3>
+              </div>
+              <div class="card-header-badge pulse">LIVE</div>
+            </div>
+            <div class="analytics-card-body">
+              <div class="rankings-table-wrapper">
+                <table class="modern-rankings-table">
+                  <thead>
+                    <tr>
+                      <th><i class="fas fa-hashtag"></i> Rank</th>
+                      <th><i class="fas fa-home"></i> House</th>
+                      <th><i class="fas fa-star"></i> Points</th>
+                      <th><i class="fas fa-medal"></i> Top Sport</th>
+                    </tr>
+                  </thead>
+                  <tbody id="rankings-table-body"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Past Year Summary Section -->
+        <div class="analytics-section-divider">
+          <div class="divider-line"></div>
+          <div class="divider-content">
+            <i class="fas fa-medal"></i>
+            <span> Results Summary</span>
+          </div>
+          <div class="divider-line"></div>
+        </div>
+
+        <div class="summary-year-filter-wrapper">
+          <div class="summary-year-filter" id="summary-year-options">
+            <!-- Populate dynamically -->
+          </div>
+        </div>
+
+        <div class="analytics-card card-summary">
+          <div class="analytics-card-header">
+            <div class="card-header-left">
+              <i class="fas fa-list-alt"></i>
+              <h3 id="summary-section-title">Results Summary</h3>
+            </div>
+          </div>
+
+          <div class="analytics-card-body" id="summary-content-body">
+            <!-- Populate dynamically -->
+          </div>
+        </div>
+        <!-- Historical Performance Section -->
+        <div class="analytics-section-divider">
+          <div class="divider-line"></div>
+          <div class="divider-content">
+            <i class="fas fa-history"></i>
+            <span>Historical Analysis</span>
+          </div>
+          <div class="divider-line"></div>
+        </div>
+
+        <div class="analytics-card card-historical">
+          <div class="analytics-card-header">
+            <div class="card-header-left">
+              <i class="fas fa-chart-area"></i>
+              <h3>Multi-Year Performance Comparison</h3>
+            </div>
+            <p class="card-subtitle">
+              Track house dominance and trends across multiple seasons
+            </p>
+          </div>
+
+          <!-- Advanced Filters -->
+          <div class="analytics-filters">
+            <div class="filter-group">
+              <label class="filter-label">
+                <i class="fas fa-home"></i> House
+              </label>
+              <div class="filter-pills" id="house-options">
+                <button class="filter-pill active" data-value="All Houses">
+                  <span>All Houses</span>
+                </button>
+                <button class="filter-pill gemunu-pill" data-value="Gemunu">
+                  <span>Gemunu</span>
+                </button>
+                <button class="filter-pill vijaya-pill" data-value="Vijaya">
+                  <span>Vijaya</span>
+                </button>
+                <button
+                  class="filter-pill parakrama-pill"
+                  data-value="Parakrama"
+                >
+                  <span>Parakrama</span>
+                </button>
+                <button class="filter-pill tissa-pill" data-value="Tissa">
+                  <span>Tissa</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">
+                <i class="fas fa-running"></i> Sport Category
+              </label>
+              <div class="filter-pills scrollable" id="sport-options">
+                <button class="filter-pill active" data-value="All Sports">
+                  Overall
+                </button>
+                <button class="filter-pill" data-value="bestHouseDesign">
+                  Best House Design
+                </button>
+                <button class="filter-pill" data-value="karate">Karate</button>
+                <button class="filter-pill" data-value="tableTennis">
+                  Table Tennis
+                </button>
+                <button class="filter-pill" data-value="hardball">
+                  HardBall
+                </button>
+                <button class="filter-pill" data-value="wrestling">
+                  Wrestling
+                </button>
+                <button class="filter-pill" data-value="boxing">Boxing</button>
+                <button class="filter-pill" data-value="football">
+                  Football
+                </button>
+                <button class="filter-pill" data-value="athletics">
+                  Athletics
+                </button>
+                <button class="filter-pill" data-value="swimming">
+                  Swimming
+                </button>
+                <button class="filter-pill" data-value="tagRugby">
+                  Tag Rugby
+                </button>
+                <button class="filter-pill" data-value="roadRace">
+                  Road Race
+                </button>
+                <button class="filter-pill" data-value="badminton">
+                  Badminton
+                </button>
+                <button class="filter-pill" data-value="chess">Chess</button>
+                <button class="filter-pill" data-value="volleyball">
+                  Volleyball
+                </button>
+                <button class="filter-pill" data-value="elle">Elle</button>
+                <button class="filter-pill" data-value="hockey">Hockey</button>
+                <button class="filter-pill" data-value="softball">
+                  Softball
+                </button>
+                <button class="filter-pill" data-value="basketball">
+                  Basketball
+                </button>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <label class="filter-label">
+                <i class="fas fa-chart-pie"></i> Visualization
+              </label>
+              <div class="chart-toggle-group">
+                <button id="line-chart-btn" class="chart-toggle-btn">
+                  <i class="fas fa-chart-line"></i>
+                  <span>Line</span>
+                </button>
+                <button id="bar-chart-btn" class="chart-toggle-btn active">
+                  <i class="fas fa-chart-bar"></i>
+                  <span>Bar</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Historical Chart -->
+          <div class="analytics-card-body">
+            <div class="historical-chart-container">
+              <canvas id="performance-chart"></canvas>
+            </div>
+            <div class="chart-insights" id="chart-description">
+              <i class="fas fa-info-circle"></i>
+              <span id="chart-description-text"
+                >Loading performance data...</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <div class="footer-section about">
+            <h3 class="footer-branding">SPORTMEET 2026</h3>
+            <p>
+              The official digital marks board for the annual inter-house sports
+              meet of Bandaranayake College, Gampaha. Follow real-time house
+              rankings, athletics results, and performance analytics for Gemunu,
+              Vijaya, Parakrama, and Tissa houses.
+            </p>
+          </div>
+
+          <div class="footer-section links">
+            <h3>Quick Links</h3>
+            <ul class="footer-links-list">
+              <li>
+                <a
+                  href="#"
+                  class="footer-nav-link"
+                  data-target="leaderboard-tab"
+                  aria-label="Navigate to Leaderboard"
+                >
+                  <i class="fas fa-chevron-right" aria-hidden="true"></i> Home
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#scoreboard"
+                  class="footer-nav-link"
+                  data-target="scores-tab"
+                  aria-label="View Live Scores"
+                >
+                  <i class="fas fa-chevron-right" aria-hidden="true"></i> Live
+                  Score
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#houses"
+                  class="footer-nav-link"
+                  data-target="leaderboard-tab"
+                  aria-label="View House Rankings"
+                >
+                  <i class="fas fa-chevron-right" aria-hidden="true"></i> Houses
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#moments"
+                  class="footer-nav-link"
+                  data-target="moments-tab"
+                  aria-label="View Winning Moments"
+                >
+                  <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                  Moments
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section contact">
+            <h3>Contact Us</h3>
+            <p>
+              <i class="fas fa-map-marker-alt"></i> Bandaranayake College,<br />
+              Gampaha, 11000, Sri Lanka.
+            </p>
+          </div>
+        </div>
+
+        <div class="footer-socials">
+          <a
+            href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J"
+            target="_blank"
+            class="social-icon whatsapp"
+            aria-label="WhatsApp Channel"
+          >
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://facebook.com/bandaranayakecollege"
+            target="_blank"
+            class="social-icon facebook"
+            aria-label="Facebook Page"
+          >
+            <i class="fab fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk"
+            target="_blank"
+            class="social-icon instagram"
+            aria-label="Instagram Profile"
+          >
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          <span>
+            © 2026 Bandaranayake College
+            <a class="officialweblink" href="https://teamcdc.netlify.app"
+              >Coding Club</a
+            >. All rights reserved.
+          </span>
+          <span class="last-updated">
+            Last Updated: <span id="last-update-date">Jan 23, 2026</span>
+          </span>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Import Moments Data -->
+    <!-- Data is now loaded dynamically from moments.json -->
+
+    <script>
+      // Loading Screen Progress Logic
+      (function startLoading() {
+        const progressFill = document.getElementById("progressFill");
+        const progressText = document.getElementById("progressText");
+        const loadingStatus = document.getElementById("loadingStatus");
+        if (!progressFill || !progressText) return;
+
+        let start = null;
+        const duration = 3000;
+        const statusMessages = [
+          "LOADING...",
+          "PREPARING DATA...",
+          "ALMOST READY...",
+        ];
+
+        function animate(timestamp) {
+          if (!start) start = timestamp;
+          const elapsed = timestamp - start;
+          const progress = Math.min(1 + (elapsed / duration) * 99, 100);
+
+          progressFill.style.width = progress + "%";
+          progressText.textContent = Math.floor(progress) + "%";
+
+          const msgIndex = Math.min(
+            Math.floor((progress / 100) * statusMessages.length),
+            statusMessages.length - 1,
+          );
+          if (
+            loadingStatus &&
+            loadingStatus.textContent !== statusMessages[msgIndex]
+          ) {
+            loadingStatus.textContent = statusMessages[msgIndex];
+          }
+
+          if (progress < 100) {
+            requestAnimationFrame(animate);
+          } else {
+            setTimeout(() => {
+              const loadingScreen = document.getElementById("loadingScreen");
+              if (loadingScreen) {
+                loadingScreen.classList.add("hidden");
+                document.body.style.overflow = "auto";
+              }
+            }, 1000);
+          }
+        }
+        requestAnimationFrame(animate);
+      })();
+
+      // DOM Elements - Navigation and Pages
+      const scoresTab = document.getElementById("scores-tab");
+      const leaderboardTab = document.getElementById("leaderboard-tab");
+      const momentsTab = document.getElementById("moments-tab");
+      const leadersTab = document.getElementById("leaders-tab");
+      const analyticsTab = document.getElementById("analytics-tab");
+
+      const scoresPage = document.getElementById("scores-page");
+      const leaderboardPage = document.getElementById("leaderboard-page");
+      const momentsPage = document.getElementById("moments-page");
+      const leadersPage = document.getElementById("leaders-page");
+      const analyticsPage = document.getElementById("analytics-page");
+      const houseDetailsPage = document.getElementById("house-details-page");
+      const athleticsDetailsPage = document.getElementById(
+        "athletics-details-page",
+      );
+
+      // DOM Elements - Containers
+      const sportsContainer = document.getElementById("sports-container");
+      const rankingsContainer = document.getElementById("rankings-container");
+      const momentsContainer = document.getElementById("moments-container");
+      const houseSportsContainer = document.getElementById(
+        "house-sports-container",
+      );
+      const athleticsContainer = document.getElementById("athletics-container");
+      const slideshowContainer = document.getElementById("slideshow-container");
+      const slideshowControls = document.getElementById("slideshow-controls");
+
+      // DOM Elements - Buttons and Titles
+      const houseDetailsTitle = document.getElementById("house-details-title");
+      const backButton = document.getElementById("back-to-leaderboard");
+      const backToScoresButton = document.getElementById("back-to-scores");
+
+      // Slideshow Variables
+      let currentSlide = 0;
+      let slideshowInterval;
+      const slideshowDelay = 2000;
+
+      // Moments Data
+      let momentsData = null;
+
+      // Navigation State
+      let athleticsSourceHouse = null;
+
+      // Page Navigation Functions
+      function showPage(pageElement) {
+        // Hide all pages
+        const allPages = [
+          scoresPage,
+          leaderboardPage,
+          momentsPage,
+          leadersPage,
+          analyticsPage,
+          houseDetailsPage,
+          athleticsDetailsPage,
+        ];
+        allPages.forEach((page) => (page.style.display = "none"));
+
+        // Show selected page
+        pageElement.style.display = "block";
+
+        // Scroll to top of the page
+        window.scrollTo(0, 0);
+
+        // Handle slideshow for moments page
+        if (pageElement === momentsPage) {
+          startSlideshow();
+        } else {
+          stopSlideshow();
+        }
+
+        // Initialize chart for analytics page
+        if (pageElement === analyticsPage) {
+          initChart();
+        }
+      }
+
+      function setActiveTab(tab) {
+        // Remove active class from all tabs
+        const allTabs = [
+          scoresTab,
+          leaderboardTab,
+          momentsTab,
+          leadersTab,
+          analyticsTab,
+        ];
+        allTabs.forEach((t) => t.classList.remove("active"));
+
+        // Set active tab
+        tab.classList.add("active");
+      }
+
+      // Navigation Event Listeners
+      scoresTab.addEventListener("click", () => {
+        showPage(scoresPage);
+        setActiveTab(scoresTab);
+      });
+
+      leaderboardTab.addEventListener("click", () => {
+        showPage(leaderboardPage);
+        setActiveTab(leaderboardTab);
+        renderRankings();
+      });
+
+      momentsTab.addEventListener("click", () => {
+        showPage(momentsPage);
+        setActiveTab(momentsTab);
+      });
+
+      leadersTab.addEventListener("click", () => {
+        showPage(leadersPage);
+        setActiveTab(leadersTab);
+        renderLeaders();
+      });
+
+      analyticsTab.addEventListener("click", () => {
+        showPage(analyticsPage);
+        setActiveTab(analyticsTab);
+      });
+
+      // Back Button Event Listeners
+      backButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        showPage(leaderboardPage);
+        setActiveTab(leaderboardTab);
+      });
+
+      backToScoresButton.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        if (athleticsSourceHouse) {
+          // Go back to house details
+          showHouseDetails(athleticsSourceHouse);
+          // Clear the source so subsequent navigations reset unless set again
+          athleticsSourceHouse = null;
+        } else {
+          // Default back to scores
+          showPage(scoresPage);
+          setActiveTab(scoresTab);
+        }
+      });
+
+      // Moments Data Loading
+      async function loadMomentsData() {
+        try {
+          const response = await fetch("data/moments.json");
+          if (response.ok) {
+            momentsData = await response.json();
+          }
+        } catch (error) {
+          console.error("Error loading moments data:", error);
+          momentsData = { moments: [] };
+        }
+      }
+
+      // Leaders Data Loading
+      let leadersData = null;
+      let selectedLeaderYear = null;
+      let selectedLeaderHouse = "gemunu";
+
+      async function loadLeadersData() {
+        try {
+          const response = await fetch("data/leaders.json");
+          if (response.ok) {
+            leadersData = await response.json();
+          }
+        } catch (error) {
+          console.error("Error loading leaders data:", error);
+          leadersData = null;
+        }
+      }
+
+      function renderLeaders() {
+        if (!leadersData) {
+          loadLeadersData().then(() => {
+            if (leadersData) {
+              renderLeaders();
+            }
+          });
+          return;
+        }
+
+        // Render year filter
+        renderLeadersYearFilter();
+
+        const years = getLeadersAvailableYears();
+        if (years.length > 0 && !selectedLeaderYear) {
+          // Always default to currentYear from basic.json
+          // If currentYear exists in the years array, use it. Otherwise use the first year.
+          let defaultYear = years.includes(currentYear)
+            ? currentYear
+            : years[0];
+          selectedLeaderYear = defaultYear;
+
+          // Update the active button in year filter
+          document
+            .querySelectorAll("#leaders-year-options .filter-option")
+            .forEach((btn) => {
+              btn.classList.remove("active");
+              if (parseInt(btn.dataset.year) === selectedLeaderYear) {
+                btn.classList.add("active");
+              }
+            });
+        }
+        if (selectedLeaderYear) {
+          renderLeadersContent(selectedLeaderYear);
+        }
+      }
+
+      // Helper function to get year data
+      function getLeadersYearData(year) {
+        if (!leadersData || !leadersData.years) return null;
+        return leadersData.years.find((y) => y.year === year);
+      }
+
+      function getLeadersAvailableYears() {
+        if (!leadersData || !leadersData.years) return [];
+        return leadersData.years.map((y) => y.year).sort((a, b) => b - a);
+      }
+
+      function renderLeadersYearFilter() {
+        const container = document.getElementById("leaders-year-options");
+        if (!container) return;
+
+        const years = getLeadersAvailableYears();
+        container.innerHTML = "";
+
+        years.forEach((year, index) => {
+          const btn = document.createElement("div");
+          btn.className = `filter-option ${index === 0 ? "active" : ""}`;
+          btn.dataset.year = year;
+          btn.textContent = year;
+
+          btn.addEventListener("click", () => {
+            document
+              .querySelectorAll("#leaders-year-options .filter-option")
+              .forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            selectedLeaderYear = parseInt(year);
+            renderLeadersContent(selectedLeaderYear);
+          });
+
+          container.appendChild(btn);
+        });
+      }
+
+      function setupLeadersHouseFilter() {
+        const houseOptions = document.querySelectorAll(
+          "#leaders-house-options .filter-option",
+        );
+        houseOptions.forEach((option) => {
+          option.addEventListener("click", () => {
+            houseOptions.forEach((o) => o.classList.remove("active"));
+            option.classList.add("active");
+            selectedLeaderHouse = option.dataset.house;
+            if (selectedLeaderYear) {
+              renderLeadersContent(selectedLeaderYear);
+            }
+          });
+        });
+      }
+
+      function renderLeadersContent(year) {
+        // Get year data
+        const yearData = getLeadersYearData(year);
+
+        if (!yearData) return;
+
+        // Render Sports Captain
+        renderSportsCaptain(yearData);
+
+        // Render Sports Committee
+        renderSportsCommittee(yearData);
+
+        // Render House Masters & Mistresses
+        renderHouseMasters(yearData);
+
+        // Render Student Leaders
+        renderStudentLeaders(yearData);
+
+        // Render House Captains
+        renderHouseCaptains(yearData);
+
+        // Render Awards
+        renderAwards(yearData);
+
+        // Setup house filter
+        setupLeadersHouseFilter();
+      }
+
+      function renderSportsCaptain(yearData) {
+        const titleContainer = document.getElementById(
+          "sports-captain-title-container",
+        );
+        const cardContainer = document.getElementById(
+          "sports-captain-card-container",
+        );
+
+        if (!titleContainer || !cardContainer) return;
+
+        if (!yearData.sportsCaptain || !yearData.sportsCaptain.name) {
+          titleContainer.innerHTML = `<h2 class="section-main-title">Sport Captain ${yearData.year}</h2>`;
+          cardContainer.innerHTML = `
+            <div class="no-data" style="text-align: center; padding: 4rem 2rem; font-size: 1.8rem; letter-spacing: 3px; opacity: 0.5; font-weight: 700; color: white; width: 100%;">
+              COMING SOON
+            </div>
+          `;
+          return;
+        }
+
+        const captain = yearData.sportsCaptain;
+        const yearRange = `${yearData.year}-${yearData.year + 1}`;
+        const description =
+          captain.description ||
+          `As the Sports Captain for ${yearData.year}, he exemplifies the spirit of Bandaranayake College. Leading with integrity, discipline, and an unwavering commitment to sports excellence across all internal houses.`;
+
+        titleContainer.innerHTML = `<h2 class="section-main-title">Sport Captain ${yearData.year}</h2>`;
+
+        cardContainer.innerHTML = `
+          <div class="sports-captain-horizontal-card">
+            <div class="captain-image-box">
+              <img src="${captain.photo}" alt="${captain.name}" onerror="this.src='https://i.ibb.co/xS1WJrFC/New-Project-2-min.png'">
+              <div class="captain-image-overlay"></div>
+            </div>
+            <div class="captain-info-content">
+              <h3 class="captain-name-large">${captain.name}</h3>
+              <div class="captain-year-badge">ACADEMIC YEAR ${yearRange}</div>
+              <p class="captain-description">${description}</p>
+            </div>
+          </div>
+        `;
+      }
+
+      function renderHouseCaptains(yearData) {
+        const grid = document.getElementById("house-captains-grid");
+        if (
+          !grid ||
+          !yearData.houses ||
+          Object.keys(yearData.houses).length === 0
+        ) {
+          if (grid) {
+            grid.innerHTML = `
+              <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 3rem; opacity: 0.5; letter-spacing: 2px;">
+                COMING SOON
+              </div>
+            `;
+          }
+          return;
+        }
+
+        grid.innerHTML = "";
+
+        const houseMap = {
+          gemunu: "Gemunu",
+          vijaya: "Vijaya",
+          parakrama: "Parakrama",
+          tissa: "Tissa",
+        };
+
+        const houseColors = {
+          Gemunu: "#3b82f6",
+          Vijaya: "#ef4444",
+          Parakrama: "#fbbf24",
+          Tissa: "#10b981",
+        };
+
+        const housesToShow =
+          selectedLeaderHouse === "all"
+            ? Object.keys(yearData.houses)
+            : [
+                houseMap[selectedLeaderHouse.toLowerCase()] ||
+                  selectedLeaderHouse,
+              ];
+
+        housesToShow.forEach((houseName) => {
+          const houseData = yearData.houses[houseName];
+          if (!houseData) return;
+
+          const houseColor = houseColors[houseName] || "#FFC107";
+
+          // Render all roles for this house
+          const roles = [
+            { key: "captain", label: "HOUSE CAPTAIN" },
+            { key: "assistantCaptain", label: "ASST. CAPTAIN" },
+            { key: "secretary", label: "SECRETARY" },
+            { key: "assistantSecretary", label: "ASST. SECRETARY" },
+            { key: "treasurer", label: "TREASURER" },
+          ];
+
+          roles.forEach((role) => {
+            if (
+              houseData[role.key] &&
+              houseData[role.key].name &&
+              houseData[role.key].photo
+            ) {
+              const person = houseData[role.key];
+              const card = createLeaderCard(
+                person.name,
+                role.label,
+                houseName,
+                person.photo,
+                yearData.year,
+                houseColor,
+              );
+              grid.appendChild(card);
+            }
+          });
+        });
+      }
+
+      function renderAwards(yearData) {
+        const grid = document.getElementById("awards-grid");
+        if (
+          !grid ||
+          !leadersData.awards ||
+          !leadersData.awards.some((a) => a.year === yearData.year)
+        ) {
+          if (grid) {
+            grid.innerHTML = `
+              <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 3rem; opacity: 0.5; letter-spacing: 2px;">
+                COMING SOON
+              </div>
+            `;
+          }
+          return;
+        }
+
+        grid.innerHTML = "";
+
+        const yearAwards = leadersData.awards.filter(
+          (a) => a.year === yearData.year,
+        );
+        const houseMap = {
+          gemunu: "Gemunu",
+          vijaya: "Vijaya",
+          parakrama: "Parakrama",
+          tissa: "Tissa",
+        };
+
+        const houseColors = {
+          Gemunu: "#3b82f6",
+          Vijaya: "#ef4444",
+          Parakrama: "#fbbf24",
+          Tissa: "#10b981",
+        };
+
+        const filteredAwards =
+          selectedLeaderHouse === "all"
+            ? yearAwards
+            : yearAwards.filter(
+                (a) =>
+                  a.house &&
+                  a.house.toLowerCase() ===
+                    houseMap[selectedLeaderHouse.toLowerCase()]?.toLowerCase(),
+              );
+
+        if (filteredAwards.length > 0) {
+          const header = document.createElement("div");
+          header.className = "awards-section-header";
+          header.innerHTML = `<h2>AWARDS & RECOGNITION</h2>`;
+          grid.appendChild(header);
+
+          filteredAwards.forEach((award) => {
+            if (
+              award &&
+              award.player &&
+              award.title &&
+              award.house &&
+              award.photo
+            ) {
+              const houseColor = houseColors[award.house] || "#FFC107";
+              const card = createLeaderCard(
+                award.player,
+                award.title.toUpperCase(),
+                award.house,
+                award.photo,
+                yearData.year,
+                houseColor,
+                true,
+                award.description,
+              );
+              grid.appendChild(card);
+            }
+          });
+        }
+      }
+
+      function createLeaderCard(
+        name,
+        role,
+        house,
+        photo,
+        year,
+        houseColor,
+        isAward = false,
+        description = "",
+      ) {
+        const card = document.createElement("div");
+        card.className = isAward ? "leader-card award-card" : "leader-card";
+
+        const yearRange = `${year}-${year + 1}`;
+
+        if (isAward) {
+          card.innerHTML = `
+            <div class="award-icon-badge"><i class="fas fa-trophy"></i></div>
+            <div class="leader-photo-circle" style="border-color: ${houseColor};">
+              <img src="${photo}" alt="${name}" onerror="this.src='https://i.ibb.co/xS1WJrFC/New-Project-2-min.png'">
+            </div>
+            <div class="leader-role-badge award-title-badge" style="background: ${houseColor};">
+              ${role}
+            </div>
+            <h3 class="leader-name award-recipient-name">${name}</h3>
+            <p class="award-description-text">${description}</p>
+            <div class="leader-year-info">
+              <i class="fas fa-university"></i> ${house} House
+            </div>
+          `;
+        } else {
+          card.innerHTML = `
+            <div class="leader-photo-circle" style="border-color: ${houseColor};">
+              <img src="${photo}" alt="${name}" onerror="this.src='https://i.ibb.co/xS1WJrFC/New-Project-2-min.png'">
+            </div>
+            <div class="leader-role-badge" style="background: ${houseColor};">
+              ${role}
+            </div>
+            <h3 class="leader-name">${name}</h3>
+            <div class="leader-year-info">
+              <i class="far fa-calendar-alt"></i> ${yearRange} | ${house}
+            </div>
+          `;
+        }
+
+        return card;
+      }
+
+      // Sports Committee Rendering
+      function renderSportsCommittee(yearData) {
+        const grid = document.getElementById("sports-committee-grid");
+        if (!grid) return;
+
+        grid.innerHTML = "";
+
+        if (
+          !yearData.sportsCommittee ||
+          yearData.sportsCommittee.length === 0
+        ) {
+          grid.innerHTML = `
+            <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; font-size: 1.8rem; letter-spacing: 3px; opacity: 0.5; font-weight: 700;">
+              COMING SOON
+            </div>
+          `;
+          return;
+        }
+
+        yearData.sportsCommittee.forEach((member) => {
+          const card = document.createElement("div");
+          card.className = "committee-card";
+          card.innerHTML = `
+            <div class="committee-photo">
+              <img src="${member.photo}" alt="${member.name}" onerror="this.src='https://via.placeholder.com/150'">
+            </div>
+            <h4 class="committee-name">${member.name}</h4>
+            <p class="committee-role">${member.role}</p>
+          `;
+          grid.appendChild(card);
+        });
+      }
+
+      // House Masters & Mistresses Rendering
+      function renderHouseMasters(yearData) {
+        const grid = document.getElementById("house-masters-grid");
+        if (!grid) return;
+
+        grid.innerHTML = "";
+
+        if (
+          !yearData.houseMasters ||
+          Object.keys(yearData.houseMasters).length === 0
+        ) {
+          grid.innerHTML = `
+            <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; font-size: 1.8rem; letter-spacing: 3px; opacity: 0.5; font-weight: 700;">
+              COMING SOON
+            </div>
+          `;
+          return;
+        }
+
+        const houses = ["Vijaya", "Gemunu", "Parakrama", "Tissa"];
+        const houseColors = {
+          Gemunu: "#3b82f6",
+          Vijaya: "#ef4444",
+          Parakrama: "#fbbf24",
+          Tissa: "#10b981",
+        };
+
+        houses.forEach((house) => {
+          if (yearData.houseMasters[house]) {
+            const houseData = yearData.houseMasters[house];
+            const houseColor = houseColors[house];
+
+            const houseCard = document.createElement("div");
+            houseCard.className = "house-master-card";
+            houseCard.style.borderTop = `4px solid ${houseColor}`;
+
+            houseCard.innerHTML = `
+              <div class="house-master-header" style="background: linear-gradient(135deg, ${houseColor}15, transparent);">
+                <h3 class="house-master-house-name" style="color: ${houseColor};">${house} House</h3>
+              </div>
+              <div class="house-master-members">
+                <div class="house-master-member">
+                  <div class="house-master-photo">
+                    <img src="${houseData.master.photo}" alt="${houseData.master.name}" onerror="this.src='https://via.placeholder.com/150'">
+                  </div>
+                  <h4 class="house-master-name">${houseData.master.name}</h4>
+                  <p class="house-master-role">House Master</p>
+                </div>
+                <div class="house-master-member">
+                  <div class="house-master-photo">
+                    <img src="${houseData.mistress.photo}" alt="${houseData.mistress.name}" onerror="this.src='https://via.placeholder.com/150'">
+                  </div>
+                  <h4 class="house-master-name">${houseData.mistress.name}</h4>
+                  <p class="house-master-role">House Mistress</p>
+                </div>
+              </div>
+            `;
+            grid.appendChild(houseCard);
+          }
+        });
+      }
+
+      // Student Leaders Rendering
+      function renderStudentLeaders(yearData) {
+        const houseCaptainsGrid = document.getElementById(
+          "house-captains-student-grid",
+        );
+        const sportsCaptainsGrid = document.getElementById(
+          "sports-captains-student-grid",
+        );
+
+        if (!houseCaptainsGrid || !sportsCaptainsGrid) return;
+
+        houseCaptainsGrid.innerHTML = "";
+        sportsCaptainsGrid.innerHTML = "";
+
+        if (
+          !yearData.studentLeaders ||
+          Object.keys(yearData.studentLeaders).length === 0
+        ) {
+          houseCaptainsGrid.innerHTML = `
+            <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; font-size: 1.8rem; letter-spacing: 3px; opacity: 0.5; font-weight: 700;">
+              COMING SOON
+            </div>
+          `;
+          sportsCaptainsGrid.innerHTML = "";
+          return;
+        }
+
+        const houses = ["Vijaya", "Gemunu", "Parakrama", "Tissa"];
+        const houseColors = {
+          Gemunu: "#3b82f6",
+          Vijaya: "#ef4444",
+          Parakrama: "#fbbf24",
+          Tissa: "#10b981",
+        };
+
+        houses.forEach((house) => {
+          if (yearData.studentLeaders[house]) {
+            const leaders = yearData.studentLeaders[house];
+            const houseColor = houseColors[house];
+
+            // House Captain Card
+            if (leaders.houseCaptain) {
+              const captainCard = document.createElement("div");
+              captainCard.className = "student-leader-card";
+              captainCard.innerHTML = `
+                <div class="student-leader-house-badge" style="background: ${houseColor};">
+                  ${house}
+                </div>
+                <div class="student-leader-photo" style="border-color: ${houseColor};">
+                  <img src="${leaders.houseCaptain.photo}" alt="${leaders.houseCaptain.name}" onerror="this.src='https://via.placeholder.com/150'">
+                </div>
+                <h4 class="student-leader-name">${leaders.houseCaptain.name}</h4>
+                <p class="student-leader-role">${leaders.houseCaptain.role}</p>
+              `;
+              houseCaptainsGrid.appendChild(captainCard);
+            }
+
+            // Sports Captain Card
+            if (leaders.sportsCaptain) {
+              const sportsCaptainCard = document.createElement("div");
+              sportsCaptainCard.className = "student-leader-card";
+              sportsCaptainCard.innerHTML = `
+                <div class="student-leader-house-badge" style="background: ${houseColor};">
+                  ${house}
+                </div>
+                <div class="student-leader-photo" style="border-color: ${houseColor};">
+                  <img src="${leaders.sportsCaptain.photo}" alt="${leaders.sportsCaptain.name}" onerror="this.src='https://via.placeholder.com/150'">
+                </div>
+                <h4 class="student-leader-name">${leaders.sportsCaptain.name}</h4>
+                <p class="student-leader-role">${leaders.sportsCaptain.role}</p>
+              `;
+              sportsCaptainsGrid.appendChild(sportsCaptainCard);
+            }
+          }
+        });
+      }
+
+      // Sports Rendering Functions
+      function parseDate(dateStr) {
+        if (!dateStr) return new Date(0);
+        const [day, month, year] = dateStr.split("/").map(Number);
+        return new Date(year, month - 1, day);
+      }
+
+      function getMaxScore(scores) {
+        return Math.max(...scores.map((item) => item.score));
+      }
+
+      function renderSports() {
+        sportsContainer.innerHTML = "";
+
+        // Filter sports to only show those with at least one score > 0
+        // For Athletics, also check if any individual event has scores
+        const filteredSports = sportsData.sports.filter((sport) => {
+          const hasScores = sport.scores.some((s) => s.score > 0);
+          if (hasScores) return true;
+
+          if (sport.name === "Athletics") {
+            return athleticsData.categories.some((cat) =>
+              cat.events.some((event) => event.scores.some((s) => s.score > 0)),
+            );
+          }
+          return false;
+        });
+
+        if (filteredSports.length === 0) {
+          sportsContainer.innerHTML = '<div class="no-data">COMING SOON</div>';
+          return;
+        }
+
+        // Sort sports by date (latest first)
+        const sortedSports = [...filteredSports].sort((a, b) => {
+          return parseDate(b.date) - parseDate(a.date);
+        });
+
+        sortedSports.forEach((sport) => {
+          let currentScores = sport.scores;
+
+          // If Athletics and main scores are 0, use aggregated scores from events
+          if (
+            sport.name === "Athletics" &&
+            !sport.scores.some((s) => s.score > 0)
+          ) {
+            const aggregated = [
+              { house: "Gemunu", score: 0 },
+              { house: "Vijaya", score: 0 },
+              { house: "Parakrama", score: 0 },
+              { house: "Tissa", score: 0 },
+            ];
+            athleticsData.categories.forEach((cat) => {
+              cat.events.forEach((event) => {
+                event.scores.forEach((s) => {
+                  const h = aggregated.find((as) => as.house === s.house);
+                  if (h) h.score += s.score;
+                });
+              });
+            });
+            currentScores = aggregated;
+          }
+
+          const maxScore = getMaxScore(currentScores) || 1;
+          const sportCard = document.createElement("div");
+          sportCard.className = "sport-card";
+
+          // Add click event for Athletics card
+          if (sport.name === "Athletics") {
+            sportCard.dataset.sport = "Athletics";
+            sportCard.addEventListener("click", () => showAthleticsDetails());
+          }
+
+          let sportContent = `
+          <div class="sport-header">
+            <div class="sport-title-row">
+              <div class="sport-title">${sport.name} <i class="fas ${
+                sport.name === "Athletics" ? "fa-external-link-alt" : ""
+              }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${
+                sport.name === "Athletics" ? "" : "display:none;"
+              }"></i></div>
+              <div class="sport-date">${sport.date}</div>
+            </div>
+            <div class="sport-subtitle">${sport.venue}</div>
+            ${
+              sport.isLive
+                ? '<div class="live-tag"><div class="live-indicator"></div>LIVE</div>'
+                : ""
+            }
+          </div>
+        `;
+
+          // Add scores for each house
+          currentScores.forEach((score) => {
+            const percentage = (score.score / maxScore) * 100;
+            sportContent += `
+          <div class="score-item">
+            <div class="score-row">
+              <div class="house-name ${score.house.toLowerCase()}">${
+                score.house
+              }</div>
+              <div class="house-score">${score.score}</div>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar ${score.house.toLowerCase()}" style="width: ${percentage}%"></div>
+            </div>
+          </div>
+          `;
+          });
+
+          // Add details link for Athletics
+          if (sport.name === "Athletics") {
+            sportContent += `
+            <div class="click-hint" style="font-size: 0.65rem; opacity: 0.6; margin-top: 0.8rem; text-transform: uppercase; letter-spacing: 1px; text-align: right;">
+              <i class="fas fa-hand-pointer" style="margin-right: 4px;"></i> Tap to view details
+            </div>`;
+          }
+
+          sportCard.innerHTML = sportContent;
+          sportsContainer.appendChild(sportCard);
+        });
+      }
+
+      // Rankings Functions
+      function calculateTotalPoints() {
+        const houses = {
+          Vijaya: {
+            total: 0,
+            color: "vijaya",
+          },
+          Tissa: {
+            total: 0,
+            color: "tissa",
+          },
+          Gemunu: {
+            total: 0,
+            color: "gemunu",
+          },
+          Parakrama: {
+            total: 0,
+            color: "parakrama",
+          },
+        };
+
+        sportsData.sports.forEach((sport) => {
+          let currentScores = sport.scores;
+          // If Athletics and main scores are 0, use aggregated scores from events
+          if (
+            sport.name === "Athletics" &&
+            !sport.scores.some((s) => s.score > 0)
+          ) {
+            const aggregated = [
+              { house: "Gemunu", score: 0 },
+              { house: "Vijaya", score: 0 },
+              { house: "Parakrama", score: 0 },
+              { house: "Tissa", score: 0 },
+            ];
+            athleticsData.categories.forEach((cat) => {
+              cat.events.forEach((event) => {
+                event.scores.forEach((s) => {
+                  const h = aggregated.find((as) => as.house === s.house);
+                  if (h) h.score += s.score;
+                });
+              });
+            });
+            currentScores = aggregated;
+          }
+
+          currentScores.forEach((score) => {
+            houses[score.house].total += score.score;
+          });
+        });
+
+        return Object.entries(houses)
+          .map(([name, data]) => ({
+            name,
+            total: data.total,
+            color: data.color,
+          }))
+          .sort((a, b) => b.total - a.total);
+      }
+
+      function renderRankings() {
+        const rankings = calculateTotalPoints();
+        rankingsContainer.innerHTML = "";
+
+        if (rankings.length === 0 || rankings.every((h) => h.total === 0)) {
+          rankingsContainer.innerHTML =
+            '<div class="no-data">COMING SOON</div>';
+          return;
+        }
+
+        rankings.forEach((house, index) => {
+          const rankCard = document.createElement("div");
+          rankCard.className = `ranking-card ${house.color}-card ${
+            index === 0 ? "highlighted" : ""
+          }`;
+          rankCard.dataset.house = house.name;
+          rankCard.addEventListener("click", () =>
+            showHouseDetails(house.name),
+          );
+
+          rankCard.innerHTML = `
+        <div class="rank-number">Rank #${index + 1}</div>
+        <div class="house-ranking ${house.color}">
+          <span class="house-icon"><i class="fas fa-home"></i></span>
+          <span>${house.name}</span>
+        </div>
+        <div class="total-score">${house.total}</div>
+        <div class="click-hint" style="font-size: 0.65rem; opacity: 0.6; margin-top: 0.5rem; text-transform: uppercase; letter-spacing: 1px;"><i class="fas fa-hand-pointer" style="margin-right: 4px;"></i> Tap to view sports</div>
+        `;
+
+          rankingsContainer.appendChild(rankCard);
+        });
+      }
+
+      // House Details Functions
+      function showHouseDetails(houseName) {
+        showPage(houseDetailsPage);
+        houseDetailsTitle.textContent = `${houseName} House Details`;
+        renderHouseSports(houseName);
+      }
+
+      function renderHouseSports(houseName) {
+        houseSportsContainer.innerHTML = "";
+
+        // Filter sports where the selected house has a score > 0
+        // Special handling for Athletics: check aggregated scores if main score is 0
+        const houseSports = sportsData.sports
+          .filter((sport) => {
+            // Find score for this house
+            const houseScoreEntry = sport.scores.find(
+              (s) => s.house === houseName,
+            );
+            let score = houseScoreEntry ? houseScoreEntry.score : 0;
+
+            // Special handling for Athletics aggregation
+            if (sport.name === "Athletics" && score === 0) {
+              let aggregatedScore = 0;
+              athleticsData.categories.forEach((cat) => {
+                cat.events.forEach((event) => {
+                  const eventScore = event.scores.find(
+                    (s) => s.house === houseName,
+                  );
+                  if (eventScore) aggregatedScore += eventScore.score;
+                });
+              });
+              score = aggregatedScore;
+            }
+
+            return score > 0;
+          })
+          .map((sport) => {
+            // Create a copy of the sport with only the selected house's score
+            // We need to potentially update the score for Athletics if it was aggregated
+            const houseScoreEntry = sport.scores.find(
+              (s) => s.house === houseName,
+            );
+            let finalScore = houseScoreEntry ? houseScoreEntry.score : 0;
+
+            if (sport.name === "Athletics" && finalScore === 0) {
+              let aggregatedScore = 0;
+              athleticsData.categories.forEach((cat) => {
+                cat.events.forEach((event) => {
+                  const eventScore = event.scores.find(
+                    (s) => s.house === houseName,
+                  );
+                  if (eventScore) aggregatedScore += eventScore.score;
+                });
+              });
+              finalScore = aggregatedScore;
+            }
+
+            return {
+              ...sport,
+              scores: [{ house: houseName, score: finalScore }],
+            };
+          })
+          .sort((a, b) => parseDate(b.date) - parseDate(a.date));
+
+        if (houseSports.length === 0) {
+          houseSportsContainer.innerHTML =
+            '<div class="no-data">COMING SOON</div>';
+          return;
+        }
+
+        houseSports.forEach((sport) => {
+          const sportCard = document.createElement("div");
+          sportCard.className = "sport-card";
+
+          // Make Athletics card clickable
+          if (sport.name === "Athletics") {
+            sportCard.style.cursor = "pointer";
+            sportCard.addEventListener("click", () =>
+              showAthleticsDetails(houseName),
+            );
+            sportCard.setAttribute(
+              "title",
+              `Click to view Athletics breakdown for ${houseName}`,
+            );
+          }
+
+          let sportContent = `
+        <div class="sport-header">
+          <div class="sport-title-row">
+            <div class="sport-title">${sport.name} <i class="fas ${
+              sport.name === "Athletics" ? "fa-external-link-alt" : ""
+            }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${
+              sport.name === "Athletics" ? "" : "display:none;"
+            }"></i></div>
+            <div class="sport-date">${sport.date}</div>
+          </div>
+          <div class="sport-subtitle">${sport.venue}</div>
+        </div>
+        `;
+
+          sport.scores.forEach((score) => {
+            sportContent += `
+          <div class="score-item ${score.house.toLowerCase()}">
+            <div class="score-row">
+              <div class="house-name ${score.house.toLowerCase()}">${
+                score.house
+              }</div>
+              <div class="house-score">${score.score}</div>
+            </div>
+          </div>
+          `;
+          });
+
+          if (sport.name === "Athletics") {
+            sportContent += `
+            <div class="click-hint" style="font-size: 0.65rem; opacity: 0.6; margin-top: 0.8rem; text-transform: uppercase; letter-spacing: 1px; text-align: right;">
+              <i class="fas fa-hand-pointer" style="margin-right: 4px;"></i> Tap to view details
+            </div>`;
+          }
+
+          sportCard.innerHTML = sportContent;
+          houseSportsContainer.appendChild(sportCard);
+        });
+      }
+
+      // Athletics Details Functions
+      function showAthleticsDetails(houseName = null) {
+        athleticsSourceHouse = houseName;
+        showPage(athleticsDetailsPage);
+        renderAthleticsDetails(houseName);
+      }
+
+      function renderAthleticsDetails(houseName = null) {
+        athleticsContainer.innerHTML = "";
+
+        if (
+          !athleticsData.categories ||
+          athleticsData.categories.length === 0
+        ) {
+          athleticsContainer.innerHTML =
+            '<div class="no-data">COMING SOON</div>';
+          return;
+        }
+
+        athleticsData.categories.forEach((category) => {
+          // Only show category if it has events with scores
+          // If houseName provided, filter events where that house has > 0 score
+          const filteredEvents = category.events.filter((event) => {
+            if (houseName) {
+              const houseScore = event.scores.find(
+                (s) => s.house === houseName,
+              );
+              return houseScore && houseScore.score > 0;
+            }
+            return event.scores.some((s) => s.score > 0);
+          });
+
+          if (filteredEvents.length === 0) return;
+
+          const categoryGroup = document.createElement("div");
+          categoryGroup.className = "category-group";
+
+          // Updated Category Header with Accent
+          const headerWrapper = document.createElement("div");
+          headerWrapper.className = "category-label-wrapper";
+          headerWrapper.innerHTML = `
+            <div class="category-accent"></div>
+            <div class="category-label">${category.name}</div>
+          `;
+          categoryGroup.appendChild(headerWrapper);
+
+          const categoryEvents = document.createElement("div");
+          categoryEvents.className = "category-events";
+
+          filteredEvents.forEach((event) => {
+            const eventCard = document.createElement("div");
+            eventCard.className = "event-card";
+
+            // Get max score for progress bar calculation
+            const eventMaxScore =
+              Math.max(...event.scores.map((s) => s.score)) || 1;
+
+            // Build new event card HTML
+            let eventContent = `
+                <div class="event-header">
+                  <div class="event-name">${event.name}</div>
+                  <div class="event-date-badge">${
+                    event.date || "04/03/2026"
+                  }</div>
+                </div>
+                <div class="event-scores-list">
+              `;
+
+            // Add scores for each house using the progress bar style
+            // If houseName provided, only show that house's score
+            event.scores.forEach((score) => {
+              if (houseName && score.house !== houseName) return;
+
+              const hClass = score.house.toLowerCase();
+              const percentage = (score.score / eventMaxScore) * 100;
+
+              eventContent += `
+                  <div class="score-item ${hClass}">
+                    <div class="score-row">
+                      <div class="house-name ${hClass}">${score.house}</div>
+                      <div class="house-score">${score.score}</div>
+                    </div>
+                    <div class="progress-container">
+                      <div class="progress-bar ${hClass}" style="width: ${percentage}%"></div>
+                    </div>
+                  </div>
+                `;
+            });
+
+            eventContent += `</div>`; // Close event-scores-list
+
+            eventCard.innerHTML = eventContent;
+            categoryEvents.appendChild(eventCard);
+          });
+
+          categoryGroup.appendChild(categoryEvents);
+          athleticsContainer.appendChild(categoryGroup);
+        });
+      }
+
+      // Slideshow Functions
+      function createSlideshow(selectedYear) {
+        if (!selectedYear) selectedYear = currentYear.toString();
+        slideshowContainer.innerHTML = "";
+        slideshowControls.innerHTML = "";
+
+        const filteredMoments = (
+          selectedYear === "All"
+            ? momentsData.moments
+            : momentsData.moments.filter(
+                (m) => m.year.toString() === selectedYear,
+              )
+        ).sort((a, b) => b.id - a.id);
+
+        if (filteredMoments.length === 0) {
+          slideshowContainer.style.display = "none";
+          slideshowControls.style.display = "none";
+          return;
+        }
+
+        slideshowContainer.style.display = "block";
+        slideshowControls.style.display = "flex";
+
+        // Create wrapper for slides
+        const wrapper = document.createElement("div");
+        wrapper.className = "slideshow-wrapper";
+
+        filteredMoments.forEach((moment, index) => {
+          const slide = document.createElement("div");
+          slide.className = `slideshow-slide ${
+            index === 0 ? "active" : ""
+          } skeleton-loading`;
+
+          const imagePath = moment.image || `/api/placeholder/800/400`;
+          const houseColor = moment.house.toLowerCase();
+
+          slide.innerHTML = `
+          <img
+            src="${imagePath}"
+            alt="${moment.title}"
+            class="slideshow-image img-hidden"
+            loading="lazy"
+            onload="this.classList.remove('img-hidden'); this.classList.add('img-visible'); this.parentElement.classList.remove('skeleton-loading');"
+          >
+          <span class="moment-house-badge ${houseColor}">${moment.house}</span>
+          <div class="slideshow-caption">
+            <div class="slideshow-title">${moment.title}</div>
+            <div class="slideshow-description">${moment.description}</div>
+          </div>
+        `;
+
+          wrapper.appendChild(slide);
+
+          const indicator = document.createElement("div");
+          indicator.className = `slideshow-indicator ${
+            index === 0 ? "active" : ""
+          }`;
+          indicator.dataset.slideIndex = index;
+          indicator.addEventListener("click", () => {
+            goToSlide(index);
+          });
+
+          slideshowControls.appendChild(indicator);
+        });
+
+        // Add arrow buttons
+        const prevArrow = document.createElement("button");
+        prevArrow.className = "slideshow-arrow prev";
+        prevArrow.innerHTML = '<i class="fas fa-chevron-left"></i>';
+        prevArrow.addEventListener("click", () => prevSlide());
+
+        const nextArrow = document.createElement("button");
+        nextArrow.className = "slideshow-arrow next";
+        nextArrow.innerHTML = '<i class="fas fa-chevron-right"></i>';
+        nextArrow.addEventListener("click", () => nextSlide());
+
+        slideshowContainer.appendChild(wrapper);
+        slideshowContainer.appendChild(prevArrow);
+        slideshowContainer.appendChild(nextArrow);
+
+        // Reset to first slide
+        currentSlide = 0;
+        resetSlideshowTimer();
+      }
+
+      function goToSlide(index) {
+        const slides = document.querySelectorAll(".slideshow-slide");
+        const indicators = document.querySelectorAll(".slideshow-indicator");
+
+        // Remove all classes
+        slides.forEach((slide, i) => {
+          slide.classList.remove("active", "prev", "next");
+          if (i < index) slide.classList.add("prev");
+          if (i > index) slide.classList.add("next");
+        });
+        indicators.forEach((indicator) => indicator.classList.remove("active"));
+
+        // Add active class
+        slides[index].classList.add("active");
+        indicators[index].classList.add("active");
+
+        currentSlide = index;
+        resetSlideshowTimer();
+      }
+
+      function nextSlide() {
+        const slides = document.querySelectorAll(".slideshow-slide");
+        const nextIndex = (currentSlide + 1) % slides.length;
+        goToSlide(nextIndex);
+      }
+
+      function prevSlide() {
+        const slides = document.querySelectorAll(".slideshow-slide");
+        const prevIndex = (currentSlide - 1 + slides.length) % slides.length;
+        goToSlide(prevIndex);
+      }
+
+      function startSlideshow() {
+        if (!slideshowInterval) {
+          slideshowInterval = setInterval(nextSlide, slideshowDelay);
+        }
+      }
+
+      function stopSlideshow() {
+        if (slideshowInterval) {
+          clearInterval(slideshowInterval);
+          slideshowInterval = null;
+        }
+      }
+
+      function resetSlideshowTimer() {
+        stopSlideshow();
+        startSlideshow();
+      }
+
+      // Moments Functions
+      function renderMoments(selectedYear) {
+        if (!selectedYear) selectedYear = currentYear.toString();
+        momentsContainer.innerHTML = "";
+
+        const filteredMoments = (
+          selectedYear === "All"
+            ? momentsData.moments
+            : momentsData.moments.filter(
+                (m) => m.year.toString() === selectedYear,
+              )
+        ).sort((a, b) => b.id - a.id);
+
+        if (filteredMoments.length === 0) {
+          momentsContainer.innerHTML = '<div class="no-data">COMING SOON</div>';
+          return;
+        }
+
+        filteredMoments.forEach((moment) => {
+          const momentCard = document.createElement("div");
+          momentCard.className = "moment-card";
+
+          const imagePath = moment.image || `/api/placeholder/400/200`;
+          const houseColor = moment.house.toLowerCase();
+
+          const viewAlbumBtn = moment.album
+            ? `<a href="${moment.album}" target="_blank" class="moment-cta-btn">
+            <span>View Album</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>`
+            : "";
+
+          momentCard.innerHTML = `
+          <div class="moment-image-wrapper skeleton-loading">
+            <img
+              src="${imagePath}"
+              alt="${moment.title}"
+              class="moment-image img-hidden"
+              loading="lazy"
+              onload="this.classList.remove('img-hidden'); this.classList.add('img-visible'); this.parentElement.classList.remove('skeleton-loading');"
+            >
+            <div class="moment-image-overlay"></div>
+            <div class="moment-image-shine"></div>
+            <span class="moment-house-badge ${houseColor}">${moment.house}</span>
+          </div>
+          <div class="moment-content">
+            <div class="moment-sport-tag">
+              <i class="fas fa-trophy"></i>
+              <span>Winning Moment</span>
+            </div>
+            <h3 class="moment-title">${moment.title}</h3>
+            <p class="moment-description">${moment.description}</p>
+            <div class="moment-actions">
+              ${viewAlbumBtn}
+            </div>
+          </div>
+        `;
+
+          momentsContainer.appendChild(momentCard);
+        });
+      }
+
+      function setupMomentsFilter() {
+        const yearOptions = document.getElementById("moments-year-options");
+        const options = yearOptions.querySelectorAll(".filter-option");
+
+        options.forEach((option) => {
+          option.addEventListener("click", () => {
+            options.forEach((opt) => opt.classList.remove("active"));
+            option.classList.add("active");
+            const selectedYear = option.dataset.year;
+            renderMoments(selectedYear);
+            createSlideshow(selectedYear);
+          });
+        });
+      }
+
+      function renderMomentsFilters() {
+        const momentsFilter = document.getElementById("moments-year-options");
+        if (!momentsFilter || !momentsData || !momentsData.moments) return;
+
+        // Get unique years from momentsData
+        const years = [
+          ...new Set(momentsData.moments.map((m) => m.year.toString())),
+        ];
+
+        // Add currentYear if not in list
+        if (currentYear && !years.includes(currentYear.toString())) {
+          years.push(currentYear.toString());
+        }
+
+        // Sort years descending
+        years.sort((a, b) => b - a);
+
+        // Clear filters
+        momentsFilter.innerHTML = "";
+
+        // Add year buttons
+        years.forEach((year) => {
+          const activeClass = year == currentYear ? "active" : "";
+          const btn = document.createElement("div");
+          btn.className = `filter-option ${activeClass}`;
+          btn.dataset.year = year;
+          btn.textContent = year;
+          momentsFilter.appendChild(btn);
+        });
+
+        // Re-setup event listeners
+        setupMomentsFilter();
+      }
+
+      // Analytics Chart Functions
+      const houseColors = {
+        Gemunu: "#3b82f6",
+        Vijaya: "#ef4444",
+        Parakrama: "#fbbf24",
+        Tissa: "#10b981",
+      };
+
+      // Chart Variables
+      const houseOptions = document.getElementById("house-options");
+      const sportOptions = document.getElementById("sport-options");
+      const lineChartBtn = document.getElementById("line-chart-btn");
+      const barChartBtn = document.getElementById("bar-chart-btn");
+      const chartDescription = document.getElementById("chart-description");
+      const chartCanvas = document.getElementById("performance-chart");
+
+      let performanceChart = null;
+      let currentState = {
+        selectedHouse: "All Houses",
+        selectedSport: "All Sports",
+        chartType: "bar",
+      };
+
+      // Filter Options Handler
+      function setupFilterOptions(container, stateKey) {
+        if (!container) return;
+        const options = container.querySelectorAll(".filter-pill");
+
+        options.forEach((option) => {
+          option.addEventListener("click", () => {
+            options.forEach((opt) => opt.classList.remove("active"));
+            option.classList.add("active");
+            currentState[stateKey] = option.dataset.value;
+            updateChartData();
+            updateDescription();
+          });
+        });
+      }
+
+      // Initialize Chart
+      function initChart() {
+        setupFilterOptions(houseOptions, "selectedHouse");
+        setupFilterOptions(sportOptions, "selectedSport");
+        updateChartData();
+      }
+
+      // Transform Data for Chart - uses all available years dynamically
+      function transformData() {
+        // Sync 2026 data in historicalData with whatever is in sportsData
+        const data2026Index = historicalData.findIndex(
+          (item) => item.year === 2026,
+        );
+        if (data2026Index !== -1 && sportsData.sports.length > 0) {
+          const calcRankings = calculateTotalPoints();
+          calcRankings.forEach((h) => {
+            if (!historicalData[data2026Index][h.name]) {
+              historicalData[data2026Index][h.name] = { total: 0 };
+            }
+            historicalData[data2026Index][h.name].total = h.total;
+
+            // Sync individual sports
+            sportsData.sports.forEach((s) => {
+              // Map s.name (e.g. "Football") to camelCase key used in historical.json (e.g. "football")
+              let sportKey =
+                s.name.charAt(0).toLowerCase() +
+                s.name.slice(1).replace(/\s+/g, "");
+              // Specific fixes for non-standard mapping if any
+              if (s.name.toLowerCase() === "hardball") sportKey = "hardball";
+              if (s.name.toLowerCase() === "road race") sportKey = "roadRace";
+              if (s.name.toLowerCase() === "tag rugby") sportKey = "tagRugby";
+              if (s.name.toLowerCase() === "table tennis")
+                sportKey = "tableTennis";
+              if (s.name.toLowerCase() === "best house design")
+                sportKey = "bestHouseDesign";
+
+              const score =
+                s.scores.find((sc) => sc.house === h.name)?.score || 0;
+
+              historicalData[data2026Index][h.name][sportKey] = score;
+            });
+          });
+        }
+
+        // Use all available years from historicalData (sorted ascending)
+        const sortedData = [...historicalData].sort((a, b) => a.year - b.year);
+        const labels = sortedData.map((item) => item.year);
+        const datasets = [];
+
+        const houses =
+          currentState.selectedHouse === "All Houses"
+            ? ["Gemunu", "Vijaya", "Parakrama", "Tissa"]
+            : [currentState.selectedHouse];
+
+        houses.forEach((house) => {
+          const data = sortedData.map((yearData) => {
+            if (!yearData[house]) return 0;
+            return currentState.selectedSport === "All Sports"
+              ? yearData[house].total
+              : yearData[house][currentState.selectedSport] || 0;
+          });
+
+          datasets.push({
+            label: house,
+            data: data,
+            backgroundColor: houseColors[house] + "80",
+            borderColor: houseColors[house],
+            borderWidth: 3,
+            pointBackgroundColor: houseColors[house],
+            pointRadius: 4,
+            pointHoverRadius: 6,
+            tension: 0.4,
+            fill: currentState.chartType === "line" ? false : true,
+          });
+        });
+
+        return { labels, datasets };
+      }
+
+      // Update Chart Data
+      function updateChartData() {
+        if (!chartCanvas) return;
+        const chartData = transformData();
+        const hasData = chartData.datasets.some((ds) =>
+          ds.data.some((val) => val > 0),
+        );
+
+        if (performanceChart) {
+          performanceChart.destroy();
+        }
+
+        const ctx = chartCanvas.getContext("2d");
+
+        if (!hasData) {
+          ctx.clearRect(0, 0, chartCanvas.width, chartCanvas.height);
+          updateDescription(true);
+          return;
+        }
+
+        performanceChart = new Chart(ctx, {
+          type: currentState.chartType,
+          data: chartData,
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: "top",
+                labels: {
+                  color: "#ffffff",
+                  font: {
+                    size: 12,
+                  },
+                },
+              },
+              tooltip: {
+                mode: "index",
+                intersect: false,
+                backgroundColor: "rgba(0, 0, 0, 0.8)",
+                titleColor: "#ffffff",
+                bodyColor: "#ffffff",
+                borderColor: "#ffffff",
+                borderWidth: 1,
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "Year",
+                  color: "#ffffff",
+                  font: {
+                    size: 14,
+                    weight: "bold",
+                  },
+                },
+                grid: {
+                  color: "rgba(255, 255, 255, 0.1)",
+                },
+                ticks: {
+                  color: "#ffffff",
+                },
+              },
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Points",
+                  color: "#ffffff",
+                  font: {
+                    size: 14,
+                    weight: "bold",
+                  },
+                },
+                grid: {
+                  color: "rgba(255, 255, 255, 0.1)",
+                },
+                ticks: {
+                  color: "#ffffff",
+                },
+              },
+            },
+            interaction: {
+              intersect: false,
+              mode: "index",
+            },
+          },
+        });
+
+        // Refresh the description text
+        updateDescription();
+      }
+
+      // Update Chart Description
+      function updateDescription(noData = false) {
+        const descriptionText = document.getElementById(
+          "chart-description-text",
+        );
+        if (!descriptionText) return;
+
+        if (noData) {
+          descriptionText.textContent =
+            "Historical performance data is currently unavailable for the selected filters.";
+          return;
+        }
+
+        const houseText =
+          currentState.selectedHouse === "All Houses"
+            ? "performance of all houses"
+            : `${currentState.selectedHouse} house's performance`;
+
+        const sportText =
+          currentState.selectedSport === "All Sports"
+            ? "overall points"
+            : currentState.selectedSport;
+
+        // Calculate years dynamically from historicalData
+        const years = historicalData
+          .map((item) => item.year)
+          .sort((a, b) => a - b);
+        const yearCount = years.length;
+        const timeText =
+          yearCount === 1
+            ? `year ${years[0]}`
+            : `${yearCount} years (${years[0]}-${years[years.length - 1]})`;
+
+        descriptionText.textContent = `This chart shows the ${houseText} in ${sportText} over ${timeText}.`;
+      }
+
+      barChartBtn.addEventListener("click", () => {
+        currentState.chartType = "bar";
+        barChartBtn.classList.add("active");
+        lineChartBtn.classList.remove("active");
+        updateChartData();
+      });
+      // Chart Type Toggle Event Listeners
+      lineChartBtn.addEventListener("click", () => {
+        currentState.chartType = "line";
+        lineChartBtn.classList.add("active");
+        barChartBtn.classList.remove("active");
+        updateChartData();
+      });
+
+      // Update Analytics Stats (uses current data from sportsData)
+      function updateAnalyticsStats() {
+        const rankings = calculateTotalPoints();
+        const leader = rankings[0];
+        const totalPoints = rankings.reduce(
+          (sum, house) => sum + house.total,
+          0,
+        );
+        const sportsCount = sportsData.sports.length;
+
+        const leaderEl = document.getElementById("stat-leader");
+        const totalPointsEl = document.getElementById("stat-total-points");
+        const sportsCountEl = document.getElementById("stat-sports-count");
+
+        if (leaderEl) leaderEl.textContent = leader.name;
+        if (totalPointsEl)
+          totalPointsEl.textContent = totalPoints.toLocaleString();
+        if (sportsCountEl) sportsCountEl.textContent = sportsCount;
+      }
+
+      // Application State & Configuration
+      let currentYear = 2026;
+      let siteConfig = null;
+
+      // Analytics Variables
+      let currentYearChart = null;
+      let sportBreakdownChart = null;
+      let yearDataCache = {};
+      let activeYearData = null;
+      const currentYearChartCanvas =
+        document.getElementById("current-year-chart");
+      const sportBreakdownChartCanvas = document.getElementById(
+        "sport-breakdown-chart",
+      );
+      const rankingsTableBody = document.getElementById("rankings-table-body");
+      const sportFilterButtons = document.getElementById(
+        "sport-filter-buttons",
+      );
+      let selectedSport = "";
+
+      // Load Basic Config
+      async function loadBasicConfig() {
+        try {
+          const response = await fetch("data/basic.json");
+          if (response.ok) {
+            siteConfig = await response.json();
+            applyBasicConfig();
+          }
+        } catch (error) {
+          console.error("Error loading basic config:", error);
+        }
+      }
+
+      function applyBasicConfig() {
+        if (!siteConfig) return;
+
+        // Update Global Variable
+        currentYear = siteConfig.currentYear;
+
+        // Update Title & Meta
+        document.title = `${siteConfig.siteName} ${currentYear} | Live Scores & Results`;
+        const metaTitle = document.querySelector('meta[name="title"]');
+        if (metaTitle)
+          metaTitle.content = `${siteConfig.siteName} ${currentYear} | Live Scores & Results`;
+
+        const metaDescription = document.querySelector(
+          'meta[name="description"]',
+        );
+        if (metaDescription)
+          metaDescription.content = siteConfig.meta.description;
+
+        const metaKeywords = document.querySelector('meta[name="keywords"]');
+        if (metaKeywords) metaKeywords.content = siteConfig.meta.keywords;
+
+        // Update OG & Twitter Titles
+        const ogTitle = document.querySelector('meta[property="og:title"]');
+        if (ogTitle)
+          ogTitle.content = `${siteConfig.siteName} ${currentYear} - Live Daily Updates`;
+        const twTitle = document.querySelector(
+          'meta[property="twitter:title"]',
+        );
+        if (twTitle)
+          twTitle.content = `${siteConfig.siteName} ${currentYear} Live`;
+
+        // Update Favicons & Icons
+        if (siteConfig.assets && siteConfig.assets.favicon) {
+          const favicon32 = document.querySelector(
+            'link[rel="icon"][sizes="32x32"]',
+          );
+          if (favicon32) favicon32.href = siteConfig.assets.favicon;
+          const favicon16 = document.querySelector(
+            'link[rel="icon"][sizes="16x16"]',
+          );
+          if (favicon16) favicon16.href = siteConfig.assets.favicon;
+          const appleTouchIcons = document.querySelectorAll(
+            'link[rel="apple-touch-icon"]',
+          );
+          appleTouchIcons.forEach(
+            (icon) => (icon.href = siteConfig.assets.favicon),
+          );
+        }
+
+        // Update OG & Twitter Meta
+        if (siteConfig.assets && siteConfig.assets.ogImage) {
+          const ogImg = document.querySelector('meta[property="og:image"]');
+          if (ogImg) ogImg.content = siteConfig.assets.ogImage;
+          const twImg = document.querySelector(
+            'meta[property="twitter:image"]',
+          );
+          if (twImg) twImg.content = siteConfig.assets.ogImage;
+        }
+
+        // Update Header
+        const headerTitle = document.querySelector(".header-title");
+        if (headerTitle)
+          headerTitle.textContent = `InterHouse Sports ${currentYear}`;
+
+        const headerSubtitle = document.querySelector(".header-subtitle");
+        if (headerSubtitle && siteConfig.ui.headerSubtitle)
+          headerSubtitle.textContent = siteConfig.ui.headerSubtitle;
+
+        // Update Brand Icons
+        if (siteConfig.assets.profileIcon) {
+          const profileIcon = document.querySelector(".profile-icon");
+          if (profileIcon)
+            profileIcon.style.backgroundImage = `url("${siteConfig.assets.profileIcon}")`;
+        }
+        if (siteConfig.assets.clubIcon) {
+          const clubIcon = document.querySelector(".club-icon");
+          if (clubIcon)
+            clubIcon.style.backgroundImage = `url("${siteConfig.assets.clubIcon}")`;
+        }
+
+        // Update Share Button
+        const shareBtn = document.querySelector(".share-pwa-btn");
+        if (shareBtn) {
+          shareBtn.setAttribute(
+            "onclick",
+            `PWANextLevel.shareContent('${siteConfig.siteName} ${currentYear}', 'Follow ${siteConfig.siteName} ${currentYear} live updates!', window.location.href)`,
+          );
+        }
+
+        // Update Loading Status
+        const loadingStatus = document.getElementById("loadingStatus");
+        if (loadingStatus && siteConfig.ui.loadingText)
+          loadingStatus.textContent = siteConfig.ui.loadingText;
+
+        // Update Footer Branding
+        const footerBranding = document.querySelector(".footer-branding");
+        if (footerBranding)
+          footerBranding.textContent = `SportMeet ${currentYear}`;
+
+        // Update Copyright Year & Link
+        const footerBottom = document.querySelector(".footer-bottom span");
+        if (footerBottom) {
+          footerBottom.innerHTML = `© ${currentYear} ${siteConfig.footer} <a class="officialweblink" href="${siteConfig.social.website}">Coding Club</a>. All rights reserved.`;
+        }
+
+        // Update Social Links
+        if (siteConfig.social) {
+          const footerSocials = document.querySelector(".footer-socials");
+          if (footerSocials) {
+            const wa = footerSocials.querySelector(".whatsapp");
+            if (wa) wa.href = siteConfig.social.whatsapp;
+            const fb = footerSocials.querySelector(".facebook");
+            if (fb) fb.href = siteConfig.social.facebook;
+            const ins = footerSocials.querySelector(".instagram");
+            if (ins) ins.href = siteConfig.social.instagram;
+          }
+
+          // Also update the Coding Club Official Hub section if it exists
+          const socialPlatforms = document.querySelector(".social-platforms");
+          if (socialPlatforms) {
+            const wa = socialPlatforms.querySelector(".whatsapp");
+            if (wa) wa.href = siteConfig.social.whatsapp;
+            const fb = socialPlatforms.querySelector(".facebook");
+            if (fb) fb.href = siteConfig.social.facebook;
+            const ins = socialPlatforms.querySelector(".instagram");
+            if (ins) ins.href = siteConfig.social.instagram;
+          }
+        }
+
+        // Update Page Titles & Subtitles in Heroes
+        document
+          .querySelectorAll(
+            ".page-title, .page-subtitle, .header-title, .footer-branding, .footer-bottom span, .logo-text, .stat-value, .card-header-badge",
+          )
+          .forEach((el) => {
+            if (el.textContent.includes("2026")) {
+              el.textContent = el.textContent.replace(/2026/g, currentYear);
+            }
+            if (el.textContent.includes("2025") && currentYear != 2025) {
+              el.textContent = el.textContent.replace(/2025/g, currentYear);
+            }
+          });
+
+        // Update JSON-LD
+        const jsonLd = document.querySelector(
+          'script[type="application/ld+json"]',
+        );
+        if (jsonLd) {
+          try {
+            const data = JSON.parse(jsonLd.textContent);
+            data.name = `${siteConfig.siteName} ${currentYear}`;
+            data.description = siteConfig.meta.description;
+            data.organizer.name = siteConfig.organizer;
+            data.location.name = siteConfig.location;
+            if (siteConfig.assets.ogImage)
+              data.image = [siteConfig.assets.ogImage];
+            jsonLd.textContent = JSON.stringify(data, null, 2);
+          } catch (e) {
+            console.error("Error updating JSON-LD:", e);
+          }
+        }
+      }
+
+      // Load Year Data from JSON
+      async function loadYearData(year) {
+        if (yearDataCache[year]) {
+          return yearDataCache[year];
+        }
+
+        try {
+          const response = await fetch(`data/${year}.json`);
+          if (!response.ok) {
+            throw new Error(`Failed to load ${year}.json`);
+          }
+          const data = await response.json();
+          yearDataCache[year] = data;
+          return data;
+        } catch (error) {
+          console.error(`Error loading data for year ${year}:`, error);
+          return null;
+        }
+      }
+
+      function populateSportFilterButtons(yearData) {
+        if (!sportFilterButtons || !yearData || !yearData.sports) return;
+
+        // Filter sports to only show those with at least one score > 0
+        const activeSports = yearData.sports.filter((sport) =>
+          sport.scores.some((s) => s.score > 0),
+        );
+
+        if (activeSports.length === 0) {
+          sportFilterButtons.innerHTML =
+            '<div class="no-data-small">No data yet</div>';
+          return;
+        }
+
+        sportFilterButtons.innerHTML = "";
+
+        // Add "All Sports" button first
+        const allBtn = document.createElement("button");
+        allBtn.className = "sport-filter-btn active";
+        allBtn.dataset.sport = "";
+        allBtn.textContent = "All";
+        allBtn.addEventListener("click", () => handleSportFilter("", yearData));
+        sportFilterButtons.appendChild(allBtn);
+
+        activeSports.forEach((sport) => {
+          const btn = document.createElement("button");
+          btn.className = "sport-filter-btn";
+          btn.dataset.sport = sport.id;
+          btn.textContent = sport.name;
+          btn.addEventListener("click", () =>
+            handleSportFilter(sport.id, yearData),
+          );
+          sportFilterButtons.appendChild(btn);
+        });
+      }
+
+      // Handle Sport Filter Button Click
+      function handleSportFilter(sportId, yearData) {
+        selectedSport = sportId;
+
+        // Update active state
+        const buttons =
+          sportFilterButtons.querySelectorAll(".sport-filter-btn");
+        buttons.forEach((btn) => {
+          btn.classList.remove("active");
+          if (btn.dataset.sport === sportId) {
+            btn.classList.add("active");
+          }
+        });
+
+        updateSportBreakdownChart(yearData, sportId);
+      }
+
+      // Update Current Year Analytics (always 2026)
+      async function updateCurrentYearAnalytics() {
+        const yearData = await loadYearData(currentYear);
+
+        if (!yearData) {
+          console.error("No data available for 2026");
+          return;
+        }
+
+        current2026Data = yearData;
+        updateCurrentYearStats(yearData);
+        updateCurrentYearChart(yearData);
+        populateSportFilterButtons(yearData);
+        updateSportBreakdownChart(yearData, "");
+        updateRankingsTable(yearData);
+      }
+
+      // Get current year historical data from global historicalData array
+      function getActiveYearHistoricalData() {
+        const dataHistorical = historicalData.find(
+          (item) => item.year === currentYear,
+        );
+        return dataHistorical || null;
+      }
+
+      // Update Current Year Stats Cards
+      function updateCurrentYearStats(yearData) {
+        const rankings = calculateTotalPoints();
+
+        const totalPoints = rankings.reduce(
+          (sum, house) => sum + house.total,
+          0,
+        );
+        const leader = totalPoints > 0 ? rankings[0] : { name: "--", total: 0 };
+
+        // Only count sports that have at least one score recorded
+        const activeSportsCount = yearData.sports
+          ? yearData.sports.filter((sport) =>
+              sport.scores.some((s) => s.score > 0),
+            ).length
+          : 0;
+
+        const leaderEl = document.getElementById("stat-leader");
+        const totalPointsEl = document.getElementById("stat-total-points");
+        const sportsCountEl = document.getElementById("stat-sports-count");
+
+        if (leaderEl) {
+          leaderEl.textContent = leader.name;
+        }
+        if (totalPointsEl)
+          totalPointsEl.textContent = totalPoints.toLocaleString();
+        if (sportsCountEl) sportsCountEl.textContent = activeSportsCount;
+      }
+
+      // Update Current Year Chart
+      function updateCurrentYearChart(yearData) {
+        if (!currentYearChartCanvas) return;
+
+        const rankings = calculateTotalPoints();
+        const totalPoints = rankings.reduce((sum, r) => sum + r.total, 0);
+
+        if (currentYearChart) {
+          currentYearChart.destroy();
+        }
+
+        const ctx = currentYearChartCanvas.getContext("2d");
+
+        if (totalPoints === 0) {
+          ctx.clearRect(
+            0,
+            0,
+            currentYearChartCanvas.width,
+            currentYearChartCanvas.height,
+          );
+          ctx.fillStyle = "rgba(255, 255, 255, 0.4)";
+          ctx.font = "bold 20px 'Outfit', sans-serif";
+          ctx.textAlign = "center";
+          ctx.fillText(
+            "COMING SOON",
+            currentYearChartCanvas.width / 2,
+            currentYearChartCanvas.height / 2,
+          );
+          return;
+        }
+
+        const houses = rankings.map((r) => r.name);
+        const totals = rankings.map((r) => r.total);
+
+        currentYearChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: houses,
+            datasets: [
+              {
+                label: `Total Points ${currentYear}`,
+                data: totals,
+                backgroundColor: houses.map((h) => houseColors[h] + "80"),
+                borderColor: houses.map((h) => houseColors[h]),
+                borderWidth: 2,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: false,
+              },
+              tooltip: {
+                backgroundColor: "rgba(0, 0, 0, 0.8)",
+                titleColor: "#ffffff",
+                bodyColor: "#ffffff",
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "House",
+                  color: "#ffffff",
+                  font: { size: 14, weight: "bold" },
+                },
+                grid: { color: "rgba(255, 255, 255, 0.1)" },
+                ticks: { color: "#ffffff" },
+              },
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Total Points",
+                  color: "#ffffff",
+                  font: { size: 14, weight: "bold" },
+                },
+                grid: { color: "rgba(255, 255, 255, 0.1)" },
+                ticks: { color: "#ffffff" },
+              },
+            },
+          },
+        });
+      }
+
+      // Update Sport Breakdown Chart - shows individual sport scores when selected
+      function updateSportBreakdownChart(yearData, selectedSportId) {
+        if (!sportBreakdownChartCanvas) return;
+
+        const houses = ["Gemunu", "Vijaya", "Parakrama", "Tissa"];
+
+        if (sportBreakdownChart) {
+          sportBreakdownChart.destroy();
+        }
+
+        // If no sport selected, show message
+        if (!selectedSportId) {
+          const ctx = sportBreakdownChartCanvas.getContext("2d");
+          ctx.clearRect(
+            0,
+            0,
+            sportBreakdownChartCanvas.width,
+            sportBreakdownChartCanvas.height,
+          );
+          ctx.fillStyle = "rgba(255, 255, 255, 0.5)";
+          ctx.font = "bold 18px 'Outfit', sans-serif";
+          ctx.textAlign = "center";
+          ctx.fillText(
+            "Please Select a Sport",
+            sportBreakdownChartCanvas.width / 2,
+            sportBreakdownChartCanvas.height / 2,
+          );
+          return;
+        }
+
+        // Find the selected sport from sports array
+        const selectedSport = yearData.sports.find(
+          (sport) => sport.id === selectedSportId,
+        );
+
+        if (!selectedSport) {
+          console.error("Sport not found:", selectedSportId);
+          return;
+        }
+
+        // Get scores for each house from the sports array
+        const scores = houses.map((house) => {
+          const houseScore = selectedSport.scores.find(
+            (s) => s.house === house,
+          );
+          return houseScore ? houseScore.score : 0;
+        });
+
+        const hasScores = scores.some((s) => s > 0);
+        const ctx = sportBreakdownChartCanvas.getContext("2d");
+
+        if (!hasScores) {
+          ctx.clearRect(
+            0,
+            0,
+            sportBreakdownChartCanvas.width,
+            sportBreakdownChartCanvas.height,
+          );
+          ctx.fillStyle = "rgba(255, 255, 255, 0.4)";
+          ctx.font = "bold 20px 'Outfit', sans-serif";
+          ctx.textAlign = "center";
+          ctx.fillText(
+            "COMING SOON",
+            sportBreakdownChartCanvas.width / 2,
+            sportBreakdownChartCanvas.height / 2,
+          );
+          return;
+        }
+
+        sportBreakdownChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: houses,
+            datasets: [
+              {
+                label: selectedSport.name,
+                data: scores,
+                backgroundColor: houses.map(
+                  (house) => houseColors[house] + "80",
+                ),
+                borderColor: houses.map((house) => houseColors[house]),
+                borderWidth: 2,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                display: false,
+              },
+              title: {
+                display: true,
+                text: `${selectedSport.name} - House Scores`,
+                color: "#ffffff",
+                font: { size: 16, weight: "bold" },
+              },
+              tooltip: {
+                backgroundColor: "rgba(0, 0, 0, 0.8)",
+                titleColor: "#ffffff",
+                bodyColor: "#ffffff",
+              },
+            },
+            scales: {
+              x: {
+                title: {
+                  display: true,
+                  text: "House",
+                  color: "#ffffff",
+                  font: { size: 14, weight: "bold" },
+                },
+                grid: { color: "rgba(255, 255, 255, 0.1)" },
+                ticks: { color: "#ffffff" },
+              },
+              y: {
+                beginAtZero: true,
+                title: {
+                  display: true,
+                  text: "Points",
+                  color: "#ffffff",
+                  font: { size: 14, weight: "bold" },
+                },
+                grid: { color: "rgba(255, 255, 255, 0.1)" },
+                ticks: { color: "#ffffff" },
+              },
+            },
+          },
+        });
+      }
+
+      // Update Rankings Table
+      function updateRankingsTable(yearData) {
+        if (!rankingsTableBody) return;
+
+        const currentSports =
+          yearData && yearData.sports ? yearData.sports : sportsData.sports;
+        const rankings = calculateTotalPoints(); // Already sorted [{name, total, color}, ...]
+        const totalPoints = rankings.reduce((sum, r) => sum + r.total, 0);
+
+        if (totalPoints === 0) {
+          rankingsTableBody.innerHTML = `
+            <tr>
+              <td colspan="4" style="text-align: center; padding: 3rem; opacity: 0.5; letter-spacing: 2px;">
+                COMING SOON
+              </td>
+            </tr>
+          `;
+          return;
+        }
+
+        const tableHTML = rankings
+          .map((houseData, index) => {
+            let topSportName = "N/A";
+            let maxScore = -1;
+
+            if (currentSports && Array.isArray(currentSports)) {
+              currentSports.forEach((sport) => {
+                if (!sport.scores) return;
+                const houseScoreObj = sport.scores.find(
+                  (s) => s.house === houseData.name,
+                );
+                const score = houseScoreObj ? houseScoreObj.score : 0;
+
+                if (score > 0 && score > maxScore) {
+                  maxScore = score;
+                  topSportName = sport.name || sport.id || "N/A";
+                }
+              });
+            }
+
+            const colorClass = houseData.name.toLowerCase();
+            return `
+            <tr class="rank-row-${colorClass}">
+              <td class="rank-cell"><span class="rank-badge">#${
+                index + 1
+              }</span></td>
+              <td class="house-cell">
+                <div class="table-house-info">
+                  <span class="house-indicator ${colorClass}"></span>
+                  <strong>${houseData.name}</strong>
+                </div>
+              </td>
+              <td class="points-cell"><strong>${houseData.total.toLocaleString()}</strong></td>
+              <td class="top-sport-cell">${topSportName}</td>
+            </tr>
+          `;
+          })
+          .join("");
+
+        rankingsTableBody.innerHTML = tableHTML;
+      }
+
+      // Format Sport Name
+      function formatSportName(sport) {
+        const sportNames = {
+          bestHouseDesign: "Best House Design",
+          karate: "Karate",
+          tableTennis: "Table Tennis",
+          hardball: "Hardball",
+          wrestling: "Wrestling",
+          boxing: "Boxing",
+          football: "Football",
+          athletics: "Athletics",
+          swimming: "Swimming",
+          tagRugby: "Tag Rugby",
+          roadRace: "Road Race",
+          badminton: "Badminton",
+          chess: "Chess",
+          volleyball: "Volleyball",
+          elle: "Elle",
+          hockey: "Hockey",
+          softball: "Softball",
+          basketball: "Basketball",
+        };
+        return sportNames[sport] || sport;
+      }
+
+      function getColoredHouseName(name) {
+        if (!name) return "";
+        const houses = ["Vijaya", "Gemunu", "Parakrama", "Tissa"];
+        let coloredName = name;
+        houses.forEach((house) => {
+          const regex = new RegExp(house, "gi");
+          coloredName = coloredName.replace(
+            regex,
+            `<span class="house-text-${house.toLowerCase()}">$&</span>`,
+          );
+        });
+        return coloredName;
+      }
+
+      // Summary Data Logic
+      let summariesData = null;
+
+      async function loadSummaryData() {
+        try {
+          const response = await fetch("data/summaries.json");
+          if (response.ok) {
+            summariesData = await response.json();
+            renderSummaryFilters();
+            if (summariesData.years.length > 0) {
+              renderSummary(summariesData.years[0].year);
+            }
+          }
+        } catch (error) {
+          console.error("Error loading summary data:", error);
+        }
+      }
+
+      function renderSummaryFilters() {
+        const container = document.getElementById("summary-year-options");
+        if (!container || !summariesData) return;
+
+        container.innerHTML = "";
+        summariesData.years.forEach((item, index) => {
+          const btn = document.createElement("button");
+          btn.className = `filter-pill ${index === 0 ? "active" : ""}`;
+          btn.innerHTML = `<span>${item.year}</span>`;
+          btn.onclick = () => {
+            container
+              .querySelectorAll(".filter-pill")
+              .forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            renderSummary(item.year);
+          };
+          container.appendChild(btn);
+        });
+      }
+
+      function renderSummary(year) {
+        const container = document.getElementById("summary-content-body");
+        const titleEl = document.getElementById("summary-section-title");
+        if (!container || !summariesData) return;
+
+        const data = summariesData.years.find((y) => y.year === year);
+        if (!data) return;
+
+        if (titleEl) titleEl.textContent = `${year} ${data.summaryTitle}`;
+
+        let html = `<div class="summary-grid">`;
+
+        data.sports.forEach((sport) => {
+          html += `
+            <div class="summary-item-card">
+              <div class="summary-item-title"><b>${sport.name}</b></div>
+              <div class="summary-row">
+                <span class="summary-label">Champions</span>
+                <span class="summary-value">${getColoredHouseName(sport.champions)}</span>
+              </div>
+              <div class="summary-row">
+                <span class="summary-label">Runners-up</span>
+                <span class="summary-value">${getColoredHouseName(sport.runnersUp)}</span>
+              </div>
+            </div>
+          `;
+        });
+
+        // Add Best Athletes
+        html += `
+          <div class="best-athletes-card-wrapper">
+            <div class="best-athletes-card">
+              <div class="best-athletes-title">
+                <i class="fas fa-trophy"></i>
+                <span>Best Athletes ${year}</span>
+              </div>
+              <div class="athlete-grid">
+        `;
+
+        data.bestAthletes.forEach((athlete) => {
+          html += `
+            <div class="athlete-item">
+              <span class="athlete-cat">${getColoredHouseName(athlete.category)}</span>
+              <span class="athlete-name">${getColoredHouseName(athlete.name)}</span>
+            </div>
+          `;
+        });
+
+        html += `
+              </div>
+            </div>
+          </div>
+        </div>`;
+
+        container.innerHTML = html;
+      }
+
+      // Initialize Current Year Analytics (2026 only)
+      async function initCurrentYearAnalytics() {
+        await updateCurrentYearAnalytics();
+      }
+
+      // Global data variables (loaded from JSON)
+      let sportsData = { sports: [] };
+      let athleticsData = { categories: [] };
+      let historicalData = [];
+
+      // Load data from JSON file
+      async function loadSportsData() {
+        try {
+          // Load current year data from basic.json currentYear
+          const response = await fetch(`data/${currentYear}.json`);
+          if (!response.ok) {
+            throw new Error(`Failed to load ${currentYear}.json`);
+          }
+          const data = await response.json();
+          sportsData = { sports: data.sports || [] };
+          athleticsData = { categories: data.athletics?.categories || [] };
+
+          // Trigger PWA Badge update
+          window.dispatchEvent(
+            new CustomEvent("data-updated", {
+              detail: { count: sportsData.sports.length },
+            }),
+          );
+
+          // Load historical data
+          try {
+            const histResponse = await fetch("data/historical.json");
+            if (histResponse.ok) {
+              historicalData = await histResponse.json();
+            }
+          } catch (histError) {
+            console.log("No historical data available");
+            historicalData = [];
+          }
+
+          return data;
+        } catch (error) {
+          console.error(`Error loading sports data for ${currentYear}:`, error);
+          return null;
+        }
+      }
+
+      // Initialize Application
+      async function initializeApp() {
+        await loadBasicConfig();
+        await loadSportsData();
+        await loadMomentsData();
+        await loadLeadersData();
+
+        // Stagger initialization to prevent single long task blocking the loader animation
+        const tasks = [
+          () => renderSports(),
+          () => renderRankings(),
+          () => renderMoments(currentYear.toString()),
+          () => renderMomentsFilters(),
+          () => createSlideshow(currentYear.toString()),
+          () => updateAnalyticsStats(),
+          () => initCurrentYearAnalytics(),
+          () => initChart(),
+          () => loadSummaryData(),
+          () => {
+            showPage(leaderboardPage);
+            setActiveTab(leaderboardTab);
+          },
+        ];
+
+        for (const task of tasks) {
+          await new Promise((resolve) =>
+            setTimeout(() => {
+              task();
+              resolve();
+            }, 0),
+          );
+        }
+      }
+
+      // Start the application when DOM is loaded
+      // Start the application when DOM is loaded
+      document.addEventListener("DOMContentLoaded", initializeApp);
+
+      // Handle Footer Links Navigation
+      // Handle Footer Links Navigation (Robust Event Delegation)
+      document.addEventListener("click", (e) => {
+        const link = e.target.closest(".footer-nav-link");
+        if (link) {
+          e.preventDefault();
+          const targetId = link.dataset.target;
+          const targetTab = document.getElementById(targetId);
+
+          if (targetTab) {
+            targetTab.click();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }
+        }
+      });
+      // Quick Navigation Event Listeners
+      document
+        .getElementById("quick-nav-scores")
+        ?.addEventListener("click", () => {
+          showPage(scoresPage);
+          setActiveTab(scoresTab);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+      document
+        .getElementById("quick-nav-moments")
+        ?.addEventListener("click", () => {
+          showPage(momentsPage);
+          setActiveTab(momentsTab);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+      document
+        .getElementById("quick-nav-analytics")
+        ?.addEventListener("click", () => {
+          showPage(analyticsPage);
+          setActiveTab(analyticsTab);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+      document
+        .getElementById("quick-nav-leaders")
+        ?.addEventListener("click", () => {
+          showPage(leadersPage);
+          setActiveTab(leadersTab);
+          window.scrollTo({ top: 0, behavior: "smooth" });
+          renderLeaders();
+        });
+
+      document
+        .getElementById("quick-nav-historical")
+        ?.addEventListener("click", () => {
+          showPage(analyticsPage);
+          setActiveTab(analyticsTab);
+
+          // Scroll to historical section after a short delay
+          setTimeout(() => {
+            const historicalSection = document.querySelector(
+              ".analytics-card.card-historical",
+            );
+            if (historicalSection) {
+              historicalSection.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          }, 300);
+        });
+
+      document
+        .getElementById("quick-nav-summary")
+        ?.addEventListener("click", () => {
+          showPage(analyticsPage);
+          setActiveTab(analyticsTab);
+
+          // Scroll to summary section after a short delay
+          setTimeout(() => {
+            const summarySection = document.querySelector(
+              ".analytics-card.card-summary",
+            );
+            if (summarySection) {
+              summarySection.scrollIntoView({
+                behavior: "smooth",
+                block: "start",
+              });
+            }
+          }, 300);
+        });
+
+      // ============================================
+      // TYPING ANIMATION FUNCTIONALITY
+      // ============================================
+      function initTypingAnimation() {
+        const typingElements = document.querySelectorAll(".typing-text");
+
+        // Create an Intersection Observer to trigger animations when visible
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting) {
+                const element = entry.target;
+
+                // Get the full text
+                const fullText = element.textContent.trim();
+
+                // Clear the element
+                element.textContent = "";
+                element.style.whiteSpace = "nowrap";
+                element.style.overflow = "hidden";
+                element.style.borderRight = "3px solid var(--bright-red)";
+
+                // Calculate typing speed based on text length
+                const baseSpeed = 30; // milliseconds per character
+                const speed = Math.max(15, Math.min(50, baseSpeed));
+
+                let charIndex = 0;
+
+                // Typing effect
+                const typingInterval = setInterval(() => {
+                  if (charIndex < fullText.length) {
+                    element.textContent += fullText.charAt(charIndex);
+                    charIndex++;
+                  } else {
+                    clearInterval(typingInterval);
+
+                    // Remove cursor and allow text wrapping after typing completes
+                    setTimeout(() => {
+                      element.style.whiteSpace = "normal";
+                      element.style.borderRight = "none";
+                      element.classList.add("typing-complete");
+                    }, 500);
+                  }
+                }, speed);
+
+                // Stop observing this element
+                observer.unobserve(element);
+              }
+            });
+          },
+          {
+            threshold: 0.2, // Trigger when 20% of element is visible
+            rootMargin: "0px 0px -100px 0px", // Start animation slightly before element enters viewport
+          },
+        );
+
+        // Observe all typing elements
+        typingElements.forEach((element) => {
+          observer.observe(element);
+        });
+      }
+
+      // Initialize typing animation when leaderboard is shown
+      leaderboardTab.addEventListener("click", () => {
+        setTimeout(() => {
+          initTypingAnimation();
+        }, 300); // Small delay to ensure page is rendered
+      });
+
+      // Also initialize on page load if leaderboard is the default page
+      document.addEventListener("DOMContentLoaded", () => {
+        setTimeout(() => {
+          initTypingAnimation();
+        }, 1000); // Wait for initial page load
+      });
+
+      // getHouseColor utility function for Leaders page styling
+      function getHouseColor(house) {
+        const root = document.documentElement;
+        const colorMap = {
+          Vijaya:
+            getComputedStyle(root).getPropertyValue("--vijaya-color").trim() ||
+            "#ef4444",
+          Gemunu:
+            getComputedStyle(root).getPropertyValue("--gemunu-color").trim() ||
+            "#3b82f6",
+          Parakrama:
+            getComputedStyle(root)
+              .getPropertyValue("--parakrama-color")
+              .trim() || "#fbbf24",
+          Tissa:
+            getComputedStyle(root).getPropertyValue("--tissa-color").trim() ||
+            "#10b981",
+        };
+        return colorMap[house] || "#999";
+      }
+    </script>
+    <!-- Security Script -->
+    <!-- <script src="security.js"></script> -->
+    <!-- PWA Installation Script -->
+    <script src="pwa-install.js"></script>
+    <script>
+      // Service Worker Registration
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("sw.js")
+            .then((reg) => console.log("Service Worker registered", reg))
+            .catch((err) =>
+              console.error("Service Worker registration failed", err),
+            );
+        });
+      }
+    </script>
+  </body>
+</html>

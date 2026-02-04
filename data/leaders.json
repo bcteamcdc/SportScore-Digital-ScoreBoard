@@ -1,0 +1,213 @@
+{
+  "years": [
+    {
+      "year": 2026,
+      "sportsCaptain": {},
+      "sportsCommittee": [],
+      "houseMasters": {},
+      "studentLeaders": {}
+    },
+    {
+      "year": 2025,
+      "sportsCaptain": {
+        "name": "M.A. Harshana Warnajith Manchanayaka",
+        "photo": "https://i.ibb.co/DgkmnZpy/image-3.png",
+        "description": "As the sports captain of the Bandaranayake College, I forward my message with great pride and honour on the sportsmeet 2025. Sports build up a person to bear victory and defeat equally. It also helps to improve our human values and sharing with our brotherhood. As the sports captain, I have experienced the true spirit of sports and games. It really helped me to stand as a strong pillar to my mother Bandaranayake."
+      },
+      "sportsCommittee": [
+        {
+          "name": "Mr. M.R.D. Kasun Gunaratne",
+          "role": "Principal",
+          "photo": "https://i.ibb.co/27kMDXBq/image.png",
+          "message": "I extend my heartfelt congratulations on the occasion of the Bandaranayake College Gampaha Annual Inter House Sportsmeet 2025. Sports play a significant role in fostering physical health, personality growth, and timely wisdom, thereby contributing meaningfully to humanity. I am confident that this grand inter house sportsmeet will enhance the sportsmanship of our students and provide them with rich educational opportunities. I extend my profound gratitude to all staff who have dedicated themselves to this endeavor."
+        },
+        {
+          "name": "Mr. K.M. Ranasinghe",
+          "role": "Deputy Principal",
+          "photo": "https://i.ibb.co/TX3PL2S/image.png"
+        },
+        {
+          "name": "Rev. B. Kalyanawansha Thero",
+          "role": "Deputy Principal",
+          "photo": "https://i.ibb.co/NdSpYQ0g/image.png"
+        },
+        {
+          "name": "Mr. P.W. Gunarathne",
+          "role": "Deputy Principal",
+          "photo": "https://i.ibb.co/1SWGXkM/image.png"
+        },
+        {
+          "name": "Mrs. K.H.A.S. Wijayanthi",
+          "role": "Deputy Principal",
+          "photo": "https://i.ibb.co/RTw56s2F/image.png"
+        },
+        {
+          "name": "Mrs. Chamila Batuwita",
+          "role": "Assistant Principal",
+          "photo": "https://i.ibb.co/k2ZSxFFd/image.png"
+        },
+        {
+          "name": "Mrs. Uthpala Herath",
+          "role": "Assistant Principal",
+          "photo": "https://i.ibb.co/5XmgvJwt/image.png"
+        },
+        {
+          "name": "Mr. Susil Ranjith",
+          "role": "Assistant Principal",
+          "photo": "https://i.ibb.co/hxW58Ghn/image.png"
+        },
+        {
+          "name": "Mr. N.A.A.P. Nissanka",
+          "role": "Sports Administrator",
+          "photo": "https://i.ibb.co/0yW9cBvb/image.png"
+        },
+        {
+          "name": "Mr. A.L.H.P. Perera",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/qFph3NS8/image.png"
+        },
+        {
+          "name": "Mr. H.L.U.A. Wimaladharma",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/Rp0Xd1F9/image.png"
+        },
+        {
+          "name": "Mrs. C.H. Mallikarachchi",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/4Z42RxrC/image.png"
+        },
+        {
+          "name": "Mr. H.A.D.A.S. Kumara",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/HpPYvWq7/image.png"
+        },
+        {
+          "name": "Mrs. K.W.P.S.P. Withanage",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/wFHR4Djq/image.png"
+        },
+        {
+          "name": "Mrs. W.A.I. Wijalath",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/vxQr7sFh/image.png"
+        },
+        {
+          "name": "Mrs. S.I. Apsara",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/N232T98C/image.png"
+        },
+        {
+          "name": "Mrs. D.M.P. Kumari",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/GQhXbdMn/image.png"
+        },
+        {
+          "name": "Mrs. M.A.T.S.P. Muthugala",
+          "role": "Physical Education Teacher",
+          "photo": "https://i.ibb.co/k2nJYP2G/image.png"
+        }
+      ],
+      "houseMasters": {
+        "Vijaya": {
+          "master": {
+            "name": "Mr. K.P.H Karunanayake",
+            "role": "House Master",
+            "photo": "https://i.ibb.co/Z6d7cX4C/image.png"
+          },
+          "mistress": {
+            "name": "Mrs. D.W.U.S. Doolwala",
+            "role": "House Mistress",
+            "photo": "https://i.ibb.co/LDh61HZY/image.png"
+          }
+        },
+        "Gemunu": {
+          "master": {
+            "name": "Mr. A.M.U. Mubarak",
+            "role": "House Master",
+            "photo": "https://i.ibb.co/5g9GF5xc/image.png"
+          },
+          "mistress": {
+            "name": "Mrs. S.D.C.Sarojani",
+            "role": "House Mistress",
+            "photo": "https://i.ibb.co/hxPL64wT/image.png"
+          }
+        },
+        "Parakrama": {
+          "master": {
+            "name": "Mr. S.D.W.G. Wijesinghe",
+            "role": "House Master",
+            "photo": "https://i.ibb.co/3yLsfnzH/image.png"
+          },
+          "mistress": {
+            "name": "Mrs. D.A.S.C. Dayarathna",
+            "role": "House Mistress",
+            "photo": "https://i.ibb.co/rRgBp05f/image.png"
+          }
+        },
+        "Tissa": {
+          "master": {
+            "name": "Mr. R.M. Bandula Rathnayaka",
+            "role": "House Master",
+            "photo": "https://i.ibb.co/4wd3nnD7/image.png"
+          },
+          "mistress": {
+            "name": "Mrs. R.V. Ashika",
+            "role": "House Mistress",
+            "photo": "https://i.ibb.co/TDrbJZmX/image.png"
+          }
+        }
+      },
+      "studentLeaders": {
+        "Vijaya": {
+          "houseCaptain": {
+            "name": "E.A.D.C.Senith Pansilu",
+            "role": "House Captain",
+            "photo": "https://i.ibb.co/hFD6vGmJ/image.png"
+          },
+          "sportsCaptain": {
+            "name": "R.A.Ridma Daham Ranathunghe",
+            "role": "Sports Captain",
+            "photo": "https://i.ibb.co/vx4wL9d6/image.png"
+          }
+        },
+        "Gemunu": {
+          "houseCaptain": {
+            "name": "Aritha D. Silva",
+            "role": "House Captain",
+            "photo": "https://i.ibb.co/qY6RZyDp/image.png"
+          },
+          "sportsCaptain": {
+            "name": "Jineth Bimsara",
+            "role": "Sports Captain",
+            "photo": "https://i.ibb.co/2BTqxm5/image.png"
+          }
+        },
+        "Parakrama": {
+          "houseCaptain": {
+            "name": "A.A.K.D. Bandarathilaka",
+            "role": "House Captain",
+            "photo": "https://i.ibb.co/CKhrx7Xw/image.png"
+          },
+          "sportsCaptain": {
+            "name": "Vinuth S. Munasinghe",
+            "role": "Sports Captain",
+            "photo": "https://i.ibb.co/cKhJxqnB/image.png"
+          }
+        },
+        "Tissa": {
+          "houseCaptain": {
+            "name": "R.D Disnaka Abhishek",
+            "role": "House Captain",
+            "photo": "https://i.ibb.co/C3yNvHFL/image.png"
+          },
+          "sportsCaptain": {
+            "name": "P.G.Sadew Nimsara",
+            "role": "Sports Captain",
+            "photo": "https://i.ibb.co/HLG4j3NM/image.png"
+          }
+        }
+      }
+    }
+  ],
+  "awards": []
+}
