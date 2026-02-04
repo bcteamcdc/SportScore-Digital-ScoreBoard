@@ -1280,13 +1280,11 @@ function updateDynamicTheme() {
   const rankings = calculateTotalPoints();
   if (!rankings || rankings.length === 0) return;
 
-  const leader = rankings[0];
+  const topScore = rankings[0].total;
+  const leaders = rankings.filter((r) => r.total === topScore);
 
   // Only change theme if the leader has more than 0 points
-  if (!leader || leader.total === 0) return;
-
-  const houseName = leader.name;
-  const root = document.documentElement;
+  if (leaders.length === 0 || topScore === 0) return;
 
   // Define theme colors for each house
   const themes = {
@@ -1336,7 +1334,31 @@ function updateDynamicTheme() {
     },
   };
 
-  const theme = themes[houseName];
+  if (leaders.length === 1) {
+    // Single leader - use their theme
+    applyTheme(themes[leaders[0].name]);
+  } else {
+    // Tie - Mix the themes of the top two houses
+    const theme1 = themes[leaders[0].name];
+    const theme2 = themes[leaders[1].name];
+
+    const mixedTheme = {
+      bright: theme1.bright,
+      deep: theme2.bright, // Using bright color of 2nd house for contrast
+      accent: theme1.accent,
+      glow: theme1.glow,
+      glowSoft: theme2.glow,
+      accent10: theme1.accent10,
+      accent20: theme2.accent20,
+      accent50: theme1.accent50,
+      glass: `linear-gradient(135deg, ${theme1.glass}, ${theme2.glass})`,
+    };
+    applyTheme(mixedTheme);
+  }
+}
+
+function applyTheme(theme) {
+  const root = document.documentElement;
   if (!theme) return;
 
   // Update CSS Variables dynamically
@@ -1370,7 +1392,12 @@ function renderRankings() {
     return;
   }
 
+  let currentRank = 1;
   rankings.forEach((house, index) => {
+    if (index > 0 && house.total < rankings[index - 1].total) {
+      currentRank = index + 1;
+    }
+
     const rankCard = document.createElement("div");
     rankCard.className = `ranking-card ${house.color}-card ${
       index === 0 ? "highlighted" : ""
@@ -1379,7 +1406,7 @@ function renderRankings() {
     rankCard.addEventListener("click", () => showHouseDetails(house.name));
 
     rankCard.innerHTML = `
-        <div class="rank-number">Rank #${index + 1}</div>
+        <div class="rank-number">Rank #${currentRank}</div>
         <div class="house-ranking ${house.color}">
           <span class="house-icon"><i class="fas fa-home"></i></span>
           <span>${house.name}</span>
