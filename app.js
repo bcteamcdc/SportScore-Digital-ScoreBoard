@@ -30,14 +30,14 @@
   }
 
   // 2. Event Listeners
-  window.addEventListener('resize', applyAutoFit);
-  window.addEventListener('load', applyAutoFit);
+  window.addEventListener("resize", applyAutoFit);
+  window.addEventListener("load", applyAutoFit);
   // Initial call
   applyAutoFit();
 
   // 3. Selective Zoom Prevention (Optional - keeping touch restrictions but allowing generic browser zoom)
   // Prevent specific gesture zooming (pinch) which can mess up the "app-like" feel on touch pads
-  document.addEventListener('gesturestart', function (e) {
+  document.addEventListener("gesturestart", function (e) {
     e.preventDefault();
   });
 })();
@@ -51,11 +51,7 @@
 
   let start = null;
   const duration = 3000;
-  const statusMessages = [
-    "LOADING...",
-    "PREPARING DATA...",
-    "ALMOST READY...",
-  ];
+  const statusMessages = ["LOADING...", "PREPARING DATA...", "ALMOST READY..."];
 
   function animate(timestamp) {
     if (!start) start = timestamp;
@@ -104,17 +100,13 @@ const momentsPage = document.getElementById("moments-page");
 const leadersPage = document.getElementById("leaders-page");
 const analyticsPage = document.getElementById("analytics-page");
 const houseDetailsPage = document.getElementById("house-details-page");
-const athleticsDetailsPage = document.getElementById(
-  "athletics-details-page",
-);
+const athleticsDetailsPage = document.getElementById("athletics-details-page");
 
 // DOM Elements - Containers
 const sportsContainer = document.getElementById("sports-container");
 const rankingsContainer = document.getElementById("rankings-container");
 const momentsContainer = document.getElementById("moments-container");
-const houseSportsContainer = document.getElementById(
-  "house-sports-container",
-);
+const houseSportsContainer = document.getElementById("house-sports-container");
 const athleticsContainer = document.getElementById("athletics-container");
 const slideshowContainer = document.getElementById("slideshow-container");
 const slideshowControls = document.getElementById("slideshow-controls");
@@ -314,11 +306,12 @@ async function loadMomentsData() {
 function cacheMomentsImages() {
   // Cache images from all sources
   const allMoments = [];
-  if (momentsData && momentsData.moments) allMoments.push(...momentsData.moments);
+  if (momentsData && momentsData.moments)
+    allMoments.push(...momentsData.moments);
   if (bcpasData && bcpasData.moments) allMoments.push(...bcpasData.moments);
   if (bcmuData && bcmuData.moments) allMoments.push(...bcmuData.moments);
 
-  allMoments.forEach(moment => {
+  allMoments.forEach((moment) => {
     if (moment.image) {
       const img = new Image();
       img.src = moment.image;
@@ -352,7 +345,7 @@ function cacheLeadersImages() {
 
   const imageUrls = [];
 
-  leadersData.years.forEach(yearData => {
+  leadersData.years.forEach((yearData) => {
     // Sports Captain
     if (yearData.sportsCaptain && yearData.sportsCaptain.photo) {
       imageUrls.push(yearData.sportsCaptain.photo);
@@ -360,37 +353,41 @@ function cacheLeadersImages() {
 
     // Sports Committee
     if (yearData.sportsCommittee) {
-      yearData.sportsCommittee.forEach(member => {
+      yearData.sportsCommittee.forEach((member) => {
         if (member.photo) imageUrls.push(member.photo);
       });
     }
 
     // House Masters
     if (yearData.houseMasters) {
-      Object.values(yearData.houseMasters).forEach(house => {
-        if (house.master && house.master.photo) imageUrls.push(house.master.photo);
-        if (house.mistress && house.mistress.photo) imageUrls.push(house.mistress.photo);
+      Object.values(yearData.houseMasters).forEach((house) => {
+        if (house.master && house.master.photo)
+          imageUrls.push(house.master.photo);
+        if (house.mistress && house.mistress.photo)
+          imageUrls.push(house.mistress.photo);
       });
     }
 
     // Student Leaders
     if (yearData.studentLeaders) {
-      Object.values(yearData.studentLeaders).forEach(house => {
-        if (house.houseCaptain && house.houseCaptain.photo) imageUrls.push(house.houseCaptain.photo);
-        if (house.sportsCaptain && house.sportsCaptain.photo) imageUrls.push(house.sportsCaptain.photo);
+      Object.values(yearData.studentLeaders).forEach((house) => {
+        if (house.houseCaptain && house.houseCaptain.photo)
+          imageUrls.push(house.houseCaptain.photo);
+        if (house.sportsCaptain && house.sportsCaptain.photo)
+          imageUrls.push(house.sportsCaptain.photo);
       });
     }
   });
 
   // Add Awards images if any
   if (leadersData.awards) {
-    leadersData.awards.forEach(award => {
+    leadersData.awards.forEach((award) => {
       if (award.photo) imageUrls.push(award.photo);
     });
   }
 
   // Trigger fetch for each image to let Service Worker cache them
-  imageUrls.forEach(url => {
+  imageUrls.forEach((url) => {
     // Use a low-priority fetch or just create an Image object
     const img = new Image();
     img.src = url;
@@ -414,9 +411,7 @@ function renderLeaders() {
   if (years.length > 0 && !selectedLeaderYear) {
     // Always default to currentYear from basic.json
     // If currentYear exists in the years array, use it. Otherwise use the first year.
-    let defaultYear = years.includes(currentYear)
-      ? currentYear
-      : years[0];
+    let defaultYear = years.includes(currentYear) ? currentYear : years[0];
     selectedLeaderYear = defaultYear;
 
     // Update the active button in year filter
@@ -560,11 +555,7 @@ function renderSportsCaptain(yearData) {
 
 function renderHouseCaptains(yearData) {
   const grid = document.getElementById("house-captains-grid");
-  if (
-    !grid ||
-    !yearData.houses ||
-    Object.keys(yearData.houses).length === 0
-  ) {
+  if (!grid || !yearData.houses || Object.keys(yearData.houses).length === 0) {
     if (grid) {
       grid.innerHTML = `
               <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 3rem; opacity: 0.5; letter-spacing: 2px;">
@@ -594,10 +585,7 @@ function renderHouseCaptains(yearData) {
   const housesToShow =
     selectedLeaderHouse === "all"
       ? Object.keys(yearData.houses)
-      : [
-        houseMap[selectedLeaderHouse.toLowerCase()] ||
-        selectedLeaderHouse,
-      ];
+      : [houseMap[selectedLeaderHouse.toLowerCase()] || selectedLeaderHouse];
 
   housesToShow.forEach((houseName) => {
     const houseData = yearData.houses[houseName];
@@ -654,9 +642,7 @@ function renderAwards(yearData) {
 
   grid.innerHTML = "";
 
-  const yearAwards = leadersData.awards.filter(
-    (a) => a.year === yearData.year,
-  );
+  const yearAwards = leadersData.awards.filter((a) => a.year === yearData.year);
   const houseMap = {
     gemunu: "Gemunu",
     vijaya: "Vijaya",
@@ -675,11 +661,11 @@ function renderAwards(yearData) {
     selectedLeaderHouse === "all"
       ? yearAwards
       : yearAwards.filter(
-        (a) =>
-          a.house &&
-          a.house.toLowerCase() ===
-          houseMap[selectedLeaderHouse.toLowerCase()]?.toLowerCase(),
-      );
+          (a) =>
+            a.house &&
+            a.house.toLowerCase() ===
+              houseMap[selectedLeaderHouse.toLowerCase()]?.toLowerCase(),
+        );
 
   if (filteredAwards.length > 0) {
     const header = document.createElement("div");
@@ -688,13 +674,7 @@ function renderAwards(yearData) {
     grid.appendChild(header);
 
     filteredAwards.forEach((award) => {
-      if (
-        award &&
-        award.player &&
-        award.title &&
-        award.house &&
-        award.photo
-      ) {
+      if (award && award.player && award.title && award.house && award.photo) {
         const houseColor = houseColors[award.house] || "#FFC107";
         const card = createLeaderCard(
           award.player,
@@ -771,9 +751,10 @@ function renderPrincipal(yearData) {
   }
 
   // Get the Principal (first member or role contains 'principal')
-  const principal = yearData.sportsCommittee.find(
-    (member) => member.role.toLowerCase() === 'principal'
-  ) || yearData.sportsCommittee[0];
+  const principal =
+    yearData.sportsCommittee.find(
+      (member) => member.role.toLowerCase() === "principal",
+    ) || yearData.sportsCommittee[0];
 
   if (!principal) {
     cardContainer.innerHTML = "";
@@ -781,7 +762,9 @@ function renderPrincipal(yearData) {
   }
 
   // Use principal's message if available, otherwise use default
-  const message = principal.message || "Under the leadership of our respected Principal, Bandaranayake College continues to excel in sports and athletics, fostering a spirit of teamwork, discipline, and sportsmanship among all students.";
+  const message =
+    principal.message ||
+    "Under the leadership of our respected Principal, Bandaranayake College continues to excel in sports and athletics, fostering a spirit of teamwork, discipline, and sportsmanship among all students.";
 
   cardContainer.innerHTML = `
     <div class="principal-horizontal-card">
@@ -808,10 +791,7 @@ function renderSportsCommittee(yearData) {
   // First render the Principal in the horizontal card
   renderPrincipal(yearData);
 
-  if (
-    !yearData.sportsCommittee ||
-    yearData.sportsCommittee.length === 0
-  ) {
+  if (!yearData.sportsCommittee || yearData.sportsCommittee.length === 0) {
     grid.innerHTML = `
             <div class="no-data" style="grid-column: 1/-1; text-align: center; padding: 4rem 2rem; font-size: 1.8rem; letter-spacing: 3px; opacity: 0.5; font-weight: 700;">
               COMING SOON
@@ -824,11 +804,16 @@ function renderSportsCommittee(yearData) {
   const members = yearData.sportsCommittee.slice(1);
 
   // Group members by role
-  const deputyPrincipals = members.filter(m => m.role.toLowerCase().includes('deputy principal'));
-  const assistantPrincipals = members.filter(m => m.role.toLowerCase().includes('assistant principal'));
-  const others = members.filter(m =>
-    !m.role.toLowerCase().includes('deputy principal') &&
-    !m.role.toLowerCase().includes('assistant principal')
+  const deputyPrincipals = members.filter((m) =>
+    m.role.toLowerCase().includes("deputy principal"),
+  );
+  const assistantPrincipals = members.filter((m) =>
+    m.role.toLowerCase().includes("assistant principal"),
+  );
+  const others = members.filter(
+    (m) =>
+      !m.role.toLowerCase().includes("deputy principal") &&
+      !m.role.toLowerCase().includes("assistant principal"),
   );
 
   // Create row for Deputy Principals (4 columns)
@@ -1124,10 +1109,7 @@ function renderSports() {
     let currentScores = sport.scores;
 
     // If Athletics and main scores are 0, use aggregated scores from events
-    if (
-      sport.name === "Athletics" &&
-      !sport.scores.some((s) => s.score > 0)
-    ) {
+    if (sport.name === "Athletics" && !sport.scores.some((s) => s.score > 0)) {
       const aggregated = [
         { house: "Gemunu", score: 0 },
         { house: "Vijaya", score: 0 },
@@ -1146,7 +1128,7 @@ function renderSports() {
     }
 
     const maxScore = getMaxScore(currentScores) || 1;
-    const isDataMissing = !currentScores.some(s => s.score > 0);
+    const isDataMissing = !currentScores.some((s) => s.score > 0);
     const hasDate = sport.date && sport.date.trim() !== "";
 
     if (isDataMissing && !hasDate && sport.name !== "Athletics") return;
@@ -1163,9 +1145,11 @@ function renderSports() {
     let sportContent = `
           <div class="sport-header">
             <div class="sport-title-row">
-              <div class="sport-title">${sport.name} <i class="fas ${sport.name === "Athletics" ? "fa-external-link-alt" : ""
-      }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${sport.name === "Athletics" ? "" : "display:none;"
-      }"></i></div>
+              <div class="sport-title">${sport.name} <i class="fas ${
+                sport.name === "Athletics" ? "fa-external-link-alt" : ""
+              }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${
+                sport.name === "Athletics" ? "" : "display:none;"
+              }"></i></div>
               <div class="sport-date">${sport.date}</div>
             </div>
             <div class="sport-subtitle">${sport.venue}</div>
@@ -1206,8 +1190,9 @@ function renderSports() {
       sportContent += `
           <div class="score-item">
             <div class="score-row">
-              <div class="house-name ${score.house.toLowerCase()}">${score.house
-        }</div>
+              <div class="house-name ${score.house.toLowerCase()}">${
+                score.house
+              }</div>
               <div class="house-score">${score.score}</div>
             </div>
             <div class="progress-container">
@@ -1256,10 +1241,7 @@ function calculateTotalPoints() {
   sportsData.sports.forEach((sport) => {
     let currentScores = sport.scores;
     // If Athletics and main scores are 0, use aggregated scores from events
-    if (
-      sport.name === "Athletics" &&
-      !sport.scores.some((s) => s.score > 0)
-    ) {
+    if (sport.name === "Athletics" && !sport.scores.some((s) => s.score > 0)) {
       const aggregated = [
         { house: "Gemunu", score: 0 },
         { house: "Vijaya", score: 0 },
@@ -1308,71 +1290,71 @@ function updateDynamicTheme() {
 
   // Define theme colors for each house
   const themes = {
-    'Vijaya': {
-      bright: '#9e0d0d',
-      deep: '#7a0a0a',
-      accent: '#f23d3d',
-      glow: 'rgba(158, 13, 13, 0.4)',
-      glowSoft: 'rgba(158, 13, 13, 0.2)',
-      accent10: 'rgba(255, 31, 31, 0.1)',
-      accent20: 'rgba(255, 31, 31, 0.2)',
-      accent50: 'rgba(255, 31, 31, 0.5)',
-      glass: 'rgba(158, 13, 13, 0.15)'
+    Vijaya: {
+      bright: "#9e0d0d",
+      deep: "#7a0a0a",
+      accent: "#f23d3d",
+      glow: "rgba(158, 13, 13, 0.4)",
+      glowSoft: "rgba(158, 13, 13, 0.2)",
+      accent10: "rgba(255, 31, 31, 0.1)",
+      accent20: "rgba(255, 31, 31, 0.2)",
+      accent50: "rgba(255, 31, 31, 0.5)",
+      glass: "rgba(158, 13, 13, 0.15)",
     },
-    'Gemunu': {
-      bright: '#1e40af',
-      deep: '#1e3a8a',
-      accent: '#3b82f6',
-      glow: 'rgba(30, 64, 175, 0.4)',
-      glowSoft: 'rgba(30, 64, 175, 0.2)',
-      accent10: 'rgba(59, 130, 246, 0.1)',
-      accent20: 'rgba(59, 130, 246, 0.2)',
-      accent50: 'rgba(59, 130, 246, 0.5)',
-      glass: 'rgba(30, 64, 175, 0.15)'
+    Gemunu: {
+      bright: "#1e40af",
+      deep: "#1e3a8a",
+      accent: "#3b82f6",
+      glow: "rgba(30, 64, 175, 0.4)",
+      glowSoft: "rgba(30, 64, 175, 0.2)",
+      accent10: "rgba(59, 130, 246, 0.1)",
+      accent20: "rgba(59, 130, 246, 0.2)",
+      accent50: "rgba(59, 130, 246, 0.5)",
+      glass: "rgba(30, 64, 175, 0.15)",
     },
-    'Parakrama': {
-      bright: '#b45309',
-      deep: '#92400e',
-      accent: '#fbbf24',
-      glow: 'rgba(180, 83, 9, 0.4)',
-      glowSoft: 'rgba(180, 83, 9, 0.2)',
-      accent10: 'rgba(251, 191, 36, 0.1)',
-      accent20: 'rgba(251, 191, 36, 0.2)',
-      accent50: 'rgba(251, 191, 36, 0.5)',
-      glass: 'rgba(180, 83, 9, 0.15)'
+    Parakrama: {
+      bright: "#b45309",
+      deep: "#92400e",
+      accent: "#fbbf24",
+      glow: "rgba(180, 83, 9, 0.4)",
+      glowSoft: "rgba(180, 83, 9, 0.2)",
+      accent10: "rgba(251, 191, 36, 0.1)",
+      accent20: "rgba(251, 191, 36, 0.2)",
+      accent50: "rgba(251, 191, 36, 0.5)",
+      glass: "rgba(180, 83, 9, 0.15)",
     },
-    'Tissa': {
-      bright: '#065f46',
-      deep: '#064e3b',
-      accent: '#10b981',
-      glow: 'rgba(6, 95, 70, 0.4)',
-      glowSoft: 'rgba(6, 95, 70, 0.2)',
-      accent10: 'rgba(16, 185, 129, 0.1)',
-      accent20: 'rgba(16, 185, 129, 0.2)',
-      accent50: 'rgba(16, 185, 129, 0.5)',
-      glass: 'rgba(6, 95, 70, 0.15)'
-    }
+    Tissa: {
+      bright: "#065f46",
+      deep: "#064e3b",
+      accent: "#10b981",
+      glow: "rgba(6, 95, 70, 0.4)",
+      glowSoft: "rgba(6, 95, 70, 0.2)",
+      accent10: "rgba(16, 185, 129, 0.1)",
+      accent20: "rgba(16, 185, 129, 0.2)",
+      accent50: "rgba(16, 185, 129, 0.5)",
+      glass: "rgba(6, 95, 70, 0.15)",
+    },
   };
 
   const theme = themes[houseName];
   if (!theme) return;
 
   // Update CSS Variables dynamically
-  root.style.setProperty('--bright-red', theme.bright);
-  root.style.setProperty('--deep-red', theme.deep);
-  root.style.setProperty('--theme-bright', theme.accent);
-  root.style.setProperty('--theme-glow', theme.glow);
-  root.style.setProperty('--theme-glow-soft', theme.glowSoft);
-  root.style.setProperty('--theme-accent-10', theme.accent10);
-  root.style.setProperty('--theme-accent-20', theme.accent20);
-  root.style.setProperty('--theme-accent-50', theme.accent50);
-  root.style.setProperty('--shadow-glow', `0 0 20px ${theme.glow}`);
-  root.style.setProperty('--glass-border', theme.glass);
+  root.style.setProperty("--bright-red", theme.bright);
+  root.style.setProperty("--deep-red", theme.deep);
+  root.style.setProperty("--theme-bright", theme.accent);
+  root.style.setProperty("--theme-glow", theme.glow);
+  root.style.setProperty("--theme-glow-soft", theme.glowSoft);
+  root.style.setProperty("--theme-accent-10", theme.accent10);
+  root.style.setProperty("--theme-accent-20", theme.accent20);
+  root.style.setProperty("--theme-accent-50", theme.accent50);
+  root.style.setProperty("--shadow-glow", `0 0 20px ${theme.glow}`);
+  root.style.setProperty("--glass-border", theme.glass);
 
   // Update meta theme color for browser UI
   const metaThemeColor = document.querySelector('meta[name="theme-color"]');
   if (metaThemeColor) {
-    metaThemeColor.setAttribute('content', theme.deep);
+    metaThemeColor.setAttribute("content", theme.deep);
   }
 }
 
@@ -1384,19 +1366,17 @@ function renderRankings() {
   rankingsContainer.innerHTML = "";
 
   if (rankings.length === 0 || rankings.every((h) => h.total === 0)) {
-    rankingsContainer.innerHTML =
-      '<div class="no-data">COMING SOON</div>';
+    rankingsContainer.innerHTML = '<div class="no-data">COMING SOON</div>';
     return;
   }
 
   rankings.forEach((house, index) => {
     const rankCard = document.createElement("div");
-    rankCard.className = `ranking-card ${house.color}-card ${index === 0 ? "highlighted" : ""
-      }`;
+    rankCard.className = `ranking-card ${house.color}-card ${
+      index === 0 ? "highlighted" : ""
+    }`;
     rankCard.dataset.house = house.name;
-    rankCard.addEventListener("click", () =>
-      showHouseDetails(house.name),
-    );
+    rankCard.addEventListener("click", () => showHouseDetails(house.name));
 
     rankCard.innerHTML = `
         <div class="rank-number">Rank #${index + 1}</div>
@@ -1427,9 +1407,7 @@ function renderHouseSports(houseName) {
   const houseSports = sportsData.sports
     .filter((sport) => {
       // Find score for this house
-      const houseScoreEntry = sport.scores.find(
-        (s) => s.house === houseName,
-      );
+      const houseScoreEntry = sport.scores.find((s) => s.house === houseName);
       let score = houseScoreEntry ? houseScoreEntry.score : 0;
 
       // Special handling for Athletics aggregation
@@ -1437,9 +1415,7 @@ function renderHouseSports(houseName) {
         let aggregatedScore = 0;
         athleticsData.categories.forEach((cat) => {
           cat.events.forEach((event) => {
-            const eventScore = event.scores.find(
-              (s) => s.house === houseName,
-            );
+            const eventScore = event.scores.find((s) => s.house === houseName);
             if (eventScore) aggregatedScore += eventScore.score;
           });
         });
@@ -1451,18 +1427,14 @@ function renderHouseSports(houseName) {
     .map((sport) => {
       // Create a copy of the sport with only the selected house's score
       // We need to potentially update the score for Athletics if it was aggregated
-      const houseScoreEntry = sport.scores.find(
-        (s) => s.house === houseName,
-      );
+      const houseScoreEntry = sport.scores.find((s) => s.house === houseName);
       let finalScore = houseScoreEntry ? houseScoreEntry.score : 0;
 
       if (sport.name === "Athletics" && finalScore === 0) {
         let aggregatedScore = 0;
         athleticsData.categories.forEach((cat) => {
           cat.events.forEach((event) => {
-            const eventScore = event.scores.find(
-              (s) => s.house === houseName,
-            );
+            const eventScore = event.scores.find((s) => s.house === houseName);
             if (eventScore) aggregatedScore += eventScore.score;
           });
         });
@@ -1477,8 +1449,7 @@ function renderHouseSports(houseName) {
     .sort((a, b) => parseDate(b.date) - parseDate(a.date));
 
   if (houseSports.length === 0) {
-    houseSportsContainer.innerHTML =
-      '<div class="no-data">COMING SOON</div>';
+    houseSportsContainer.innerHTML = '<div class="no-data">COMING SOON</div>';
     return;
   }
 
@@ -1501,9 +1472,11 @@ function renderHouseSports(houseName) {
     let sportContent = `
         <div class="sport-header">
           <div class="sport-title-row">
-            <div class="sport-title">${sport.name} <i class="fas ${sport.name === "Athletics" ? "fa-external-link-alt" : ""
-      }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${sport.name === "Athletics" ? "" : "display:none;"
-      }"></i></div>
+            <div class="sport-title">${sport.name} <i class="fas ${
+              sport.name === "Athletics" ? "fa-external-link-alt" : ""
+            }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${
+              sport.name === "Athletics" ? "" : "display:none;"
+            }"></i></div>
             <div class="sport-date">${sport.date}</div>
           </div>
           <div class="sport-subtitle">${sport.venue}</div>
@@ -1514,8 +1487,9 @@ function renderHouseSports(houseName) {
       sportContent += `
           <div class="score-item ${score.house.toLowerCase()}">
             <div class="score-row">
-              <div class="house-name ${score.house.toLowerCase()}">${score.house
-        }</div>
+              <div class="house-name ${score.house.toLowerCase()}">${
+                score.house
+              }</div>
               <div class="house-score">${score.score}</div>
             </div>
           </div>
@@ -1580,12 +1554,8 @@ function showAthleticsDetails(houseName = null) {
 function renderAthleticsDetails(houseName = null) {
   athleticsContainer.innerHTML = "";
 
-  if (
-    !athleticsData.categories ||
-    athleticsData.categories.length === 0
-  ) {
-    athleticsContainer.innerHTML =
-      '<div class="no-data">NO SPORTS</div>';
+  if (!athleticsData.categories || athleticsData.categories.length === 0) {
+    athleticsContainer.innerHTML = '<div class="no-data">NO SPORTS</div>';
     return;
   }
 
@@ -1594,9 +1564,7 @@ function renderAthleticsDetails(houseName = null) {
     const filteredEvents = category.events.filter((event) => {
       // 1. House Filter (if applicable)
       if (houseName) {
-        const houseScore = event.scores.find(
-          (s) => s.house === houseName,
-        );
+        const houseScore = event.scores.find((s) => s.house === houseName);
         if (!houseScore || houseScore.score === 0) return false;
       }
 
@@ -1653,11 +1621,10 @@ function renderAthleticsDetails(houseName = null) {
       eventCard.className = "event-card";
 
       // Get max score for progress bar calculation
-      const eventMaxScore =
-        Math.max(...event.scores.map((s) => s.score)) || 1;
+      const eventMaxScore = Math.max(...event.scores.map((s) => s.score)) || 1;
 
       // Build new event card HTML
-      const isDataMissing = !event.scores.some(s => s.score > 0);
+      const isDataMissing = !event.scores.some((s) => s.score > 0);
       const hasDate = event.date && event.date.trim() !== "";
 
       if (isDataMissing && !hasDate) return;
@@ -1676,12 +1643,13 @@ function renderAthleticsDetails(houseName = null) {
         eventContent += `
         <div class="blur-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); background: rgba(0,0,0,0.6); z-index: 100; display: flex; align-items: center; justify-content: center; text-align: center; border-radius: 12px; padding: 15px;">
           <div style="color: #fff; font-size: 0.85rem; font-weight: 600; line-height: 1.5; text-shadow: 0 2px 8px rgba(0,0,0,0.8);">
-            ${isHeldPending
-            ? `Scores are being finalized.<br>
+            ${
+              isHeldPending
+                ? `Scores are being finalized.<br>
                  <span style="color: var(--theme-bright); font-size: 1rem; font-weight: 800; display: block; margin-top: 10px; text-transform: uppercase;">Please wait<span class="dots-animation"></span></span>`
-            : `Scheduled to be held on ${event.date || "soon"}.<br>
+                : `Scheduled to be held on ${event.date || "soon"}.<br>
                  <span style="color: var(--theme-bright); font-size: 1rem; font-weight: 800; display: block; margin-top: 10px; text-transform: uppercase; letter-spacing: 1px;">GET READY FOR ACTION!</span>`
-          }
+            }
           </div>
         </div>
       `;
@@ -1733,9 +1701,12 @@ function createSlideshow(selectedYear) {
   let allMoments = [];
   if (currentCategory === "mix") {
     // Combine moments, bcpas, and bcmu data
-    if (momentsData && momentsData.moments) allMoments = allMoments.concat(momentsData.moments);
-    if (bcpasData && bcpasData.moments) allMoments = allMoments.concat(bcpasData.moments);
-    if (bcmuData && bcmuData.moments) allMoments = allMoments.concat(bcmuData.moments);
+    if (momentsData && momentsData.moments)
+      allMoments = allMoments.concat(momentsData.moments);
+    if (bcpasData && bcpasData.moments)
+      allMoments = allMoments.concat(bcpasData.moments);
+    if (bcmuData && bcmuData.moments)
+      allMoments = allMoments.concat(bcmuData.moments);
   } else if (currentCategory === "bcpas" && bcpasData && bcpasData.moments) {
     allMoments = bcpasData.moments;
   } else if (currentCategory === "bcmu" && bcmuData && bcmuData.moments) {
@@ -1747,9 +1718,7 @@ function createSlideshow(selectedYear) {
   const filteredMoments = (
     selectedYear === "All"
       ? allMoments
-      : allMoments.filter(
-        (m) => m.year.toString() === selectedYear,
-      )
+      : allMoments.filter((m) => m.year.toString() === selectedYear)
   ).sort((a, b) => b.id - a.id);
 
   if (filteredMoments.length === 0) {
@@ -1767,8 +1736,9 @@ function createSlideshow(selectedYear) {
 
   filteredMoments.forEach((moment, index) => {
     const slide = document.createElement("div");
-    slide.className = `slideshow-slide ${index === 0 ? "active" : ""
-      } skeleton-loading`;
+    slide.className = `slideshow-slide ${
+      index === 0 ? "active" : ""
+    } skeleton-loading`;
 
     const imagePath = moment.image || `/api/placeholder/800/400`;
     const houseColor = moment.house.toLowerCase();
@@ -1791,8 +1761,7 @@ function createSlideshow(selectedYear) {
     wrapper.appendChild(slide);
 
     const indicator = document.createElement("div");
-    indicator.className = `slideshow-indicator ${index === 0 ? "active" : ""
-      }`;
+    indicator.className = `slideshow-indicator ${index === 0 ? "active" : ""}`;
     indicator.dataset.slideIndex = index;
     indicator.addEventListener("click", () => {
       goToSlide(index);
@@ -1886,9 +1855,12 @@ function renderMoments(selectedYear) {
   let allMoments = [];
   if (currentCategory === "mix") {
     // Combine moments, bcpas, and bcmu data
-    if (momentsData && momentsData.moments) allMoments = allMoments.concat(momentsData.moments);
-    if (bcpasData && bcpasData.moments) allMoments = allMoments.concat(bcpasData.moments);
-    if (bcmuData && bcmuData.moments) allMoments = allMoments.concat(bcmuData.moments);
+    if (momentsData && momentsData.moments)
+      allMoments = allMoments.concat(momentsData.moments);
+    if (bcpasData && bcpasData.moments)
+      allMoments = allMoments.concat(bcpasData.moments);
+    if (bcmuData && bcmuData.moments)
+      allMoments = allMoments.concat(bcmuData.moments);
   } else if (currentCategory === "bcpas" && bcpasData && bcpasData.moments) {
     allMoments = bcpasData.moments;
   } else if (currentCategory === "bcmu" && bcmuData && bcmuData.moments) {
@@ -1900,10 +1872,15 @@ function renderMoments(selectedYear) {
   const filteredMoments = (
     selectedYear === "All"
       ? allMoments
-      : allMoments.filter(
-        (m) => m.year.toString() === selectedYear,
-      )
-  ).sort((a, b) => b.id - a.id);
+      : allMoments.filter((m) => m.year.toString() === selectedYear)
+  ).sort((a, b) => {
+    // Sort by sport/title to group similar events together
+    const titleA = a.title.toLowerCase();
+    const titleB = b.title.toLowerCase();
+    if (titleA < titleB) return -1;
+    if (titleA > titleB) return 1;
+    return b.id - a.id; // Secondary sort by ID descending
+  });
 
   if (filteredMoments.length === 0) {
     momentsContainer.innerHTML = '<div class="no-data">COMING SOON</div>';
@@ -1946,7 +1923,7 @@ function renderMoments(selectedYear) {
             <p class="moment-description">${moment.description}</p>
             <div class="moment-actions">
               ${viewAlbumBtn}
-              <span class="moment-category-tag">${moment.category ? '© ' + moment.category.toUpperCase() : ''}</span>
+              <span class="moment-category-tag">${moment.category ? "© " + moment.category.toUpperCase() : ""}</span>
             </div>
           </div>
         `;
@@ -2004,8 +1981,12 @@ function setupMomentsCategoryFilter() {
       }
 
       // Get current year filter
-      const yearOption = document.querySelector("#moments-year-options .filter-option.active");
-      const selectedYear = yearOption ? yearOption.dataset.year : currentYear.toString();
+      const yearOption = document.querySelector(
+        "#moments-year-options .filter-option.active",
+      );
+      const selectedYear = yearOption
+        ? yearOption.dataset.year
+        : currentYear.toString();
 
       renderMoments(selectedYear);
       createSlideshow(selectedYear);
@@ -2046,9 +2027,7 @@ function renderMomentsFilters() {
   if (!momentsFilter || !momentsData || !momentsData.moments) return;
 
   // Get unique years from momentsData
-  const years = [
-    ...new Set(momentsData.moments.map((m) => m.year.toString())),
-  ];
+  const years = [...new Set(momentsData.moments.map((m) => m.year.toString()))];
 
   // Add currentYear if not in list
   if (currentYear && !years.includes(currentYear.toString())) {
@@ -2125,9 +2104,7 @@ function initChart() {
 // Transform Data for Chart - uses all available years dynamically
 function transformData() {
   // Sync 2026 data in historicalData with whatever is in sportsData
-  const data2026Index = historicalData.findIndex(
-    (item) => item.year === 2026,
-  );
+  const data2026Index = historicalData.findIndex((item) => item.year === 2026);
   if (data2026Index !== -1 && sportsData.sports.length > 0) {
     const calcRankings = calculateTotalPoints();
     calcRankings.forEach((h) => {
@@ -2140,19 +2117,16 @@ function transformData() {
       sportsData.sports.forEach((s) => {
         // Map s.name (e.g. "Football") to camelCase key used in historical.json (e.g. "football")
         let sportKey =
-          s.name.charAt(0).toLowerCase() +
-          s.name.slice(1).replace(/\s+/g, "");
+          s.name.charAt(0).toLowerCase() + s.name.slice(1).replace(/\s+/g, "");
         // Specific fixes for non-standard mapping if any
         if (s.name.toLowerCase() === "hardball") sportKey = "hardball";
         if (s.name.toLowerCase() === "road race") sportKey = "roadRace";
         if (s.name.toLowerCase() === "tag rugby") sportKey = "tagRugby";
-        if (s.name.toLowerCase() === "table tennis")
-          sportKey = "tableTennis";
+        if (s.name.toLowerCase() === "table tennis") sportKey = "tableTennis";
         if (s.name.toLowerCase() === "best house design")
           sportKey = "bestHouseDesign";
 
-        const score =
-          s.scores.find((sc) => sc.house === h.name)?.score || 0;
+        const score = s.scores.find((sc) => sc.house === h.name)?.score || 0;
 
         historicalData[data2026Index][h.name][sportKey] = score;
       });
@@ -2290,9 +2264,7 @@ function updateChartData() {
 
 // Update Chart Description
 function updateDescription(noData = false) {
-  const descriptionText = document.getElementById(
-    "chart-description-text",
-  );
+  const descriptionText = document.getElementById("chart-description-text");
   if (!descriptionText) return;
 
   if (noData) {
@@ -2312,9 +2284,7 @@ function updateDescription(noData = false) {
       : currentState.selectedSport;
 
   // Calculate years dynamically from historicalData
-  const years = historicalData
-    .map((item) => item.year)
-    .sort((a, b) => a - b);
+  const years = historicalData.map((item) => item.year).sort((a, b) => a - b);
   const yearCount = years.length;
   const timeText =
     yearCount === 1
@@ -2342,10 +2312,7 @@ lineChartBtn.addEventListener("click", () => {
 function updateAnalyticsStats() {
   const rankings = calculateTotalPoints();
   const leader = rankings[0];
-  const totalPoints = rankings.reduce(
-    (sum, house) => sum + house.total,
-    0,
-  );
+  const totalPoints = rankings.reduce((sum, house) => sum + house.total, 0);
   const sportsCount = sportsData.sports.length;
 
   const leaderEl = document.getElementById("stat-leader");
@@ -2353,8 +2320,7 @@ function updateAnalyticsStats() {
   const sportsCountEl = document.getElementById("stat-sports-count");
 
   if (leaderEl) leaderEl.textContent = leader.name;
-  if (totalPointsEl)
-    totalPointsEl.textContent = totalPoints.toLocaleString();
+  if (totalPointsEl) totalPointsEl.textContent = totalPoints.toLocaleString();
   if (sportsCountEl) sportsCountEl.textContent = sportsCount;
 }
 
@@ -2367,15 +2333,12 @@ let currentYearChart = null;
 let sportBreakdownChart = null;
 let yearDataCache = {};
 let activeYearData = null;
-const currentYearChartCanvas =
-  document.getElementById("current-year-chart");
+const currentYearChartCanvas = document.getElementById("current-year-chart");
 const sportBreakdownChartCanvas = document.getElementById(
   "sport-breakdown-chart",
 );
 const rankingsTableBody = document.getElementById("rankings-table-body");
-const sportFilterButtons = document.getElementById(
-  "sport-filter-buttons",
-);
+const sportFilterButtons = document.getElementById("sport-filter-buttons");
 let selectedSport = "";
 
 // Load Basic Config
@@ -2403,11 +2366,8 @@ function applyBasicConfig() {
   if (metaTitle)
     metaTitle.content = `${siteConfig.siteName} ${currentYear} | Live Scores & Results`;
 
-  const metaDescription = document.querySelector(
-    'meta[name="description"]',
-  );
-  if (metaDescription)
-    metaDescription.content = siteConfig.meta.description;
+  const metaDescription = document.querySelector('meta[name="description"]');
+  if (metaDescription) metaDescription.content = siteConfig.meta.description;
 
   const metaKeywords = document.querySelector('meta[name="keywords"]');
   if (metaKeywords) metaKeywords.content = siteConfig.meta.keywords;
@@ -2416,44 +2376,32 @@ function applyBasicConfig() {
   const ogTitle = document.querySelector('meta[property="og:title"]');
   if (ogTitle)
     ogTitle.content = `${siteConfig.siteName} ${currentYear} - Live Daily Updates`;
-  const twTitle = document.querySelector(
-    'meta[property="twitter:title"]',
-  );
-  if (twTitle)
-    twTitle.content = `${siteConfig.siteName} ${currentYear} Live`;
+  const twTitle = document.querySelector('meta[property="twitter:title"]');
+  if (twTitle) twTitle.content = `${siteConfig.siteName} ${currentYear} Live`;
 
   // Update Favicons & Icons
   if (siteConfig.assets && siteConfig.assets.favicon) {
-    const favicon32 = document.querySelector(
-      'link[rel="icon"][sizes="32x32"]',
-    );
+    const favicon32 = document.querySelector('link[rel="icon"][sizes="32x32"]');
     if (favicon32) favicon32.href = siteConfig.assets.favicon;
-    const favicon16 = document.querySelector(
-      'link[rel="icon"][sizes="16x16"]',
-    );
+    const favicon16 = document.querySelector('link[rel="icon"][sizes="16x16"]');
     if (favicon16) favicon16.href = siteConfig.assets.favicon;
     const appleTouchIcons = document.querySelectorAll(
       'link[rel="apple-touch-icon"]',
     );
-    appleTouchIcons.forEach(
-      (icon) => (icon.href = siteConfig.assets.favicon),
-    );
+    appleTouchIcons.forEach((icon) => (icon.href = siteConfig.assets.favicon));
   }
 
   // Update OG & Twitter Meta
   if (siteConfig.assets && siteConfig.assets.ogImage) {
     const ogImg = document.querySelector('meta[property="og:image"]');
     if (ogImg) ogImg.content = siteConfig.assets.ogImage;
-    const twImg = document.querySelector(
-      'meta[property="twitter:image"]',
-    );
+    const twImg = document.querySelector('meta[property="twitter:image"]');
     if (twImg) twImg.content = siteConfig.assets.ogImage;
   }
 
   // Update Header
   const headerTitle = document.querySelector(".header-title");
-  if (headerTitle)
-    headerTitle.textContent = `InterHouse Sports ${currentYear}`;
+  if (headerTitle) headerTitle.textContent = `InterHouse Sports ${currentYear}`;
 
   const headerSubtitle = document.querySelector(".header-subtitle");
   if (headerSubtitle && siteConfig.ui.headerSubtitle)
@@ -2487,8 +2435,7 @@ function applyBasicConfig() {
 
   // Update Footer Branding
   const footerBranding = document.querySelector(".footer-branding");
-  if (footerBranding)
-    footerBranding.textContent = `SportMeet ${currentYear}`;
+  if (footerBranding) footerBranding.textContent = `SportMeet ${currentYear}`;
 
   // Update Copyright Year & Link
   const footerBottom = document.querySelector(".footer-bottom span");
@@ -2543,9 +2490,7 @@ function applyBasicConfig() {
     });
 
   // Update JSON-LD
-  const jsonLd = document.querySelector(
-    'script[type="application/ld+json"]',
-  );
+  const jsonLd = document.querySelector('script[type="application/ld+json"]');
   if (jsonLd) {
     try {
       const data = JSON.parse(jsonLd.textContent);
@@ -2553,8 +2498,7 @@ function applyBasicConfig() {
       data.description = siteConfig.meta.description;
       data.organizer.name = siteConfig.organizer;
       data.location.name = siteConfig.location;
-      if (siteConfig.assets.ogImage)
-        data.image = [siteConfig.assets.ogImage];
+      if (siteConfig.assets.ogImage) data.image = [siteConfig.assets.ogImage];
       jsonLd.textContent = JSON.stringify(data, null, 2);
     } catch (e) {
       console.error("Error updating JSON-LD:", e);
@@ -2611,9 +2555,7 @@ function populateSportFilterButtons(yearData) {
     btn.className = "sport-filter-btn";
     btn.dataset.sport = sport.id;
     btn.textContent = sport.name;
-    btn.addEventListener("click", () =>
-      handleSportFilter(sport.id, yearData),
-    );
+    btn.addEventListener("click", () => handleSportFilter(sport.id, yearData));
     sportFilterButtons.appendChild(btn);
   });
 }
@@ -2623,8 +2565,7 @@ function handleSportFilter(sportId, yearData) {
   selectedSport = sportId;
 
   // Update active state
-  const buttons =
-    sportFilterButtons.querySelectorAll(".sport-filter-btn");
+  const buttons = sportFilterButtons.querySelectorAll(".sport-filter-btn");
   buttons.forEach((btn) => {
     btn.classList.remove("active");
     if (btn.dataset.sport === sportId) {
@@ -2664,17 +2605,13 @@ function getActiveYearHistoricalData() {
 function updateCurrentYearStats(yearData) {
   const rankings = calculateTotalPoints();
 
-  const totalPoints = rankings.reduce(
-    (sum, house) => sum + house.total,
-    0,
-  );
+  const totalPoints = rankings.reduce((sum, house) => sum + house.total, 0);
   const leader = totalPoints > 0 ? rankings[0] : { name: "--", total: 0 };
 
   // Only count sports that have at least one score recorded
   const activeSportsCount = yearData.sports
-    ? yearData.sports.filter((sport) =>
-      sport.scores.some((s) => s.score > 0),
-    ).length
+    ? yearData.sports.filter((sport) => sport.scores.some((s) => s.score > 0))
+        .length
     : 0;
 
   const leaderEl = document.getElementById("stat-leader");
@@ -2684,8 +2621,7 @@ function updateCurrentYearStats(yearData) {
   if (leaderEl) {
     leaderEl.textContent = leader.name;
   }
-  if (totalPointsEl)
-    totalPointsEl.textContent = totalPoints.toLocaleString();
+  if (totalPointsEl) totalPointsEl.textContent = totalPoints.toLocaleString();
   if (sportsCountEl) sportsCountEl.textContent = activeSportsCount;
 }
 
@@ -2819,9 +2755,7 @@ function updateSportBreakdownChart(yearData, selectedSportId) {
 
   // Get scores for each house from the sports array
   const scores = houses.map((house) => {
-    const houseScore = selectedSport.scores.find(
-      (s) => s.house === house,
-    );
+    const houseScore = selectedSport.scores.find((s) => s.house === house);
     return houseScore ? houseScore.score : 0;
   });
 
@@ -2854,9 +2788,7 @@ function updateSportBreakdownChart(yearData, selectedSportId) {
         {
           label: selectedSport.name,
           data: scores,
-          backgroundColor: houses.map(
-            (house) => houseColors[house] + "80",
-          ),
+          backgroundColor: houses.map((house) => houseColors[house] + "80"),
           borderColor: houses.map((house) => houseColors[house]),
           borderWidth: 2,
         },
@@ -2951,8 +2883,9 @@ function updateRankingsTable(yearData) {
       const colorClass = houseData.name.toLowerCase();
       return `
             <tr class="rank-row-${colorClass}">
-              <td class="rank-cell"><span class="rank-badge">#${index + 1
-        }</span></td>
+              <td class="rank-cell"><span class="rank-badge">#${
+                index + 1
+              }</span></td>
               <td class="house-cell">
                 <div class="table-house-info">
                   <span class="house-indicator ${colorClass}"></span>
@@ -3284,21 +3217,17 @@ document.addEventListener("click", (e) => {
   }
 });
 // Quick Navigation Event Listeners
-document
-  .getElementById("quick-nav-scores")
-  ?.addEventListener("click", () => {
-    showPage(scoresPage);
-    setActiveTab(scoresTab);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+document.getElementById("quick-nav-scores")?.addEventListener("click", () => {
+  showPage(scoresPage);
+  setActiveTab(scoresTab);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
-document
-  .getElementById("quick-nav-moments")
-  ?.addEventListener("click", () => {
-    showPage(momentsPage);
-    setActiveTab(momentsTab);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  });
+document.getElementById("quick-nav-moments")?.addEventListener("click", () => {
+  showPage(momentsPage);
+  setActiveTab(momentsTab);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
 
 document
   .getElementById("quick-nav-analytics")
@@ -3308,14 +3237,12 @@ document
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 
-document
-  .getElementById("quick-nav-leaders")
-  ?.addEventListener("click", () => {
-    showPage(leadersPage);
-    setActiveTab(leadersTab);
-    window.scrollTo({ top: 0, behavior: "smooth" });
-    renderLeaders();
-  });
+document.getElementById("quick-nav-leaders")?.addEventListener("click", () => {
+  showPage(leadersPage);
+  setActiveTab(leadersTab);
+  window.scrollTo({ top: 0, behavior: "smooth" });
+  renderLeaders();
+});
 
 document
   .getElementById("quick-nav-historical")
@@ -3337,25 +3264,23 @@ document
     }, 300);
   });
 
-document
-  .getElementById("quick-nav-summary")
-  ?.addEventListener("click", () => {
-    showPage(analyticsPage);
-    setActiveTab(analyticsTab);
+document.getElementById("quick-nav-summary")?.addEventListener("click", () => {
+  showPage(analyticsPage);
+  setActiveTab(analyticsTab);
 
-    // Scroll to summary section after a short delay
-    setTimeout(() => {
-      const summarySection = document.querySelector(
-        ".analytics-card.card-summary",
-      );
-      if (summarySection) {
-        summarySection.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        });
-      }
-    }, 300);
-  });
+  // Scroll to summary section after a short delay
+  setTimeout(() => {
+    const summarySection = document.querySelector(
+      ".analytics-card.card-summary",
+    );
+    if (summarySection) {
+      summarySection.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  }, 300);
+});
 
 // ============================================
 // TYPING ANIMATION FUNCTIONALITY
@@ -3444,9 +3369,8 @@ function getHouseColor(house) {
       getComputedStyle(root).getPropertyValue("--gemunu-color").trim() ||
       "#3b82f6",
     Parakrama:
-      getComputedStyle(root)
-        .getPropertyValue("--parakrama-color")
-        .trim() || "#fbbf24",
+      getComputedStyle(root).getPropertyValue("--parakrama-color").trim() ||
+      "#fbbf24",
     Tissa:
       getComputedStyle(root).getPropertyValue("--tissa-color").trim() ||
       "#10b981",
