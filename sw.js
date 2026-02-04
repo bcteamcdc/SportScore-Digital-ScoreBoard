@@ -22,25 +22,19 @@ self.addEventListener('install', (event) => {
   );
 });
 
-// Activate event - Cleanup and enable navigation preload
+// Activate event - Cleanup
 self.addEventListener('activate', (event) => {
-  const cacheAllowlist = [CACHE_NAME, ASSETS_CACHE_NAME, IMAGES_CACHE_NAME, CDN_CACHE_NAME];
+  const cacheAllowlist = [IMAGES_CACHE_NAME, ASSETS_CACHE_NAME]; // Keep ASSETS for core files
   event.waitUntil(
-    Promise.all([
-      // Enable navigation preload for instant page loads
-      'navigationPreload' in self.registration ?
-        self.registration.navigationPreload.enable() : Promise.resolve(),
-      // Cleanup old caches
-      caches.keys().then((cacheNames) => {
-        return Promise.all(
-          cacheNames.map((cacheName) => {
-            if (!cacheAllowlist.includes(cacheName)) {
-              return caches.delete(cacheName);
-            }
-          })
-        );
-      })
-    ]).then(() => self.clients.claim())
+    caches.keys().then((cacheNames) => {
+      return Promise.all(
+        cacheNames.map((cacheName) => {
+          if (!cacheAllowlist.includes(cacheName)) {
+            return caches.delete(cacheName);
+          }
+        })
+      );
+    }).then(() => self.clients.claim())
   );
 });
 
@@ -108,91 +102,27 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 3. Data (JSON) - Network First with instant cache fallback
+  // 3. Data (JSON) - Network Only
   const isData = url.pathname.endsWith('.json') || url.pathname.includes('/api/');
 
   if (isData) {
-    event.respondWith(
-      Promise.race([
-        // Try network first but with timeout
-        fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            const responseToCache = networkResponse.clone();
-            caches.open(CACHE_NAME).then((cache) => {
-              cache.put(event.request, responseToCache);
-            });
-          }
-          return networkResponse;
-        }),
-        // Fallback to cache after 3 seconds
-        new Promise((resolve) => {
-          setTimeout(() => {
-            caches.match(event.request).then((cached) => {
-              if (cached) resolve(cached);
-            });
-          }, 3000);
-        })
-      ]).catch(() => caches.match(event.request))
-    );
+    event.respondWith(fetch(event.request));
     return;
   }
 
-  // 4. CDN Resources (Fonts, Icons) - Cache First with long expiry
+  // 4. CDN Resources - Network Only
   const isCDN = url.origin !== location.origin;
 
   if (isCDN) {
-    event.respondWith(
-      caches.match(event.request).then((cachedResponse) => {
-        if (cachedResponse) return cachedResponse;
-
-        return fetch(event.request).then((networkResponse) => {
-          if (networkResponse && networkResponse.status === 200) {
-            const responseToCache = networkResponse.clone();
-            caches.open(CDN_CACHE_NAME).then((cache) => {
-              cache.put(event.request, responseToCache);
-            });
-          }
-          return networkResponse;
-        });
-      })
-    );
+    event.respondWith(fetch(event.request));
     return;
   }
 
-  // 5. Everything else - Stale-While-Revalidate for instant loads
-  event.respondWith(
-    caches.match(event.request).then((cachedResponse) => {
-      const fetchPromise = fetch(event.request).then((networkResponse) => {
-        if (networkResponse && networkResponse.status === 200) {
-          const responseToCache = networkResponse.clone();
-          caches.open(ASSETS_CACHE_NAME).then((cache) => {
-            cache.put(event.request, responseToCache);
-          });
-        }
-        return networkResponse;
-      });
-
-      // Return cached immediately, update in background
-      return cachedResponse || fetchPromise;
-    })
-  );
+  // 5. Everything else - Network Only
+  event.respondWith(fetch(event.request));
 });
 
-// Background Sync
+// Background Sync removed to avoid data caching
 self.addEventListener('periodicsync', (event) => {
-  if (event.tag === 'sync-scores') {
-    event.waitUntil(updateScoresInBackground());
-  }
+  // Disabled as per request to only cache images
 });
-
-async function updateScoresInBackground() {
-  const cache = await caches.open(CACHE_NAME);
-  try {
-    const response = await fetch('/data/2026.json');
-    if (response.ok) {
-      await cache.put('/data/2026.json', response);
-    }
-  } catch (e) {
-    console.error('Background sync failed', e);
-  }
-}
