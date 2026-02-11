@@ -195,7 +195,7 @@
             ]
           },
           {
-            "name": "High jump",
+            "name": "High Jump",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -264,7 +264,7 @@
             ]
           },
           {
-            "name": "100x4",
+            "name": "100x4 Relay",
             "date": "2026/02/06",
             "isHeld": false,
             "scores": [
@@ -314,7 +314,6 @@
               }
             ]
           },
-          
           {
             "name": "400m Running",
             "date": "2026/02/06",
@@ -477,7 +476,7 @@
             ]
           },
           {
-            "name": "Discus throw",
+            "name": "Discus Throw",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -500,7 +499,7 @@
             ]
           },
           {
-            "name": "Javelin throw",
+            "name": "Javelin Throw",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -523,7 +522,7 @@
             ]
           },
           {
-            "name": "400x4",
+            "name": "400x4 Relay",
             "date": "2026/02/10",
             "isHeld": false,
             "scores": [
@@ -545,7 +544,6 @@
               }
             ]
           }
-        
         ]
       },
       {
@@ -759,7 +757,7 @@
             ]
           },
           {
-            "name": "Tripple Jump",
+            "name": "Triple Jump",
             "date": "2026/02/06",
             "isHeld": false,
             "scores": [
@@ -805,7 +803,7 @@
             ]
           },
           {
-            "name": "Discus throw",
+            "name": "Discus Throw",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -828,7 +826,7 @@
             ]
           },
           {
-            "name": "Javelin throw",
+            "name": "Javelin Throw",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -851,7 +849,7 @@
             ]
           },
           {
-            "name": "400x4",
+            "name": "400x4 Relay",
             "date": "2026/02/10",
             "isHeld": false,
             "scores": [
@@ -1086,7 +1084,7 @@
             ]
           },
           {
-            "name": "Tripple Jump",
+            "name": "Triple Jump",
             "date": "2026/02/06",
             "isHeld": false,
             "scores": [
@@ -1132,7 +1130,7 @@
             ]
           },
           {
-            "name": "Discus throw",
+            "name": "Discus Throw",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -1155,7 +1153,7 @@
             ]
           },
           {
-            "name": "Javelin throw",
+            "name": "Javelin Throw",
             "date": "2026/02/09",
             "isHeld": false,
             "scores": [
@@ -1178,7 +1176,7 @@
             ]
           },
           {
-            "name": "400x4",
+            "name": "400x4 Relay",
             "date": "2026/02/10",
             "isHeld": false,
             "scores": [
@@ -1201,7 +1199,7 @@
             ]
           },
           {
-            "name": "100x4",
+            "name": "100x4 Relay",
             "date": "2026/02/06",
             "isHeld": false,
             "scores": [
@@ -1226,10 +1224,10 @@
         ]
       },
       {
-        "name": "Mix",
+        "name": "Mixed",
         "events": [
           {
-            "name": "Mixed relay race",
+            "name": "Mixed Relay Race",
             "date": "",
             "isHeld": false,
             "scores": [
@@ -1257,8 +1255,8 @@
   },
   "sports": [
     {
-      "id": "Best house design",
-      "name": "Best house design",
+      "id": "best_house_design",
+      "name": "Best House Design",
       "date": "",
       "venue": "Main Ground",
       "isHeld": false,
@@ -1282,7 +1280,7 @@
       ]
     },
     {
-      "id": "Karate",
+      "id": "karate",
       "name": "Karate",
       "date": "2026/02/11",
       "venue": "Indoor Stadium",
@@ -1307,7 +1305,7 @@
       ]
     },
     {
-      "id": "Table Tennis",
+      "id": "table_tennis",
       "name": "Table Tennis",
       "date": "2026/01/29",
       "venue": "Auditorium",
@@ -1332,8 +1330,8 @@
       ]
     },
     {
-      "id": "HardBall",
-      "name": "HardBall",
+      "id": "hardball",
+      "name": "Hardball",
       "date": "2026/01/29",
       "venue": "Main Ground",
       "isHeld": false,
@@ -1357,7 +1355,7 @@
       ]
     },
     {
-      "id": "Wrestling",
+      "id": "wrestling",
       "name": "Wrestling",
       "date": "",
       "venue": "Indoor Stadium",
@@ -1382,7 +1380,7 @@
       ]
     },
     {
-      "id": "Boxing",
+      "id": "boxing",
       "name": "Boxing",
       "date": "2026/02/11",
       "venue": "Indoor Stadium",
@@ -1407,7 +1405,7 @@
       ]
     },
     {
-      "id": "Football",
+      "id": "football",
       "name": "Football",
       "date": "2026/01/27",
       "venue": "Main Ground",
@@ -1432,7 +1430,7 @@
       ]
     },
     {
-      "id": "Athletics",
+      "id": "athletics",
       "name": "Athletics",
       "date": "2026/02/05",
       "venue": "Main Ground",
@@ -1457,7 +1455,7 @@
       ]
     },
     {
-      "id": "Swimming",
+      "id": "swimming",
       "name": "Swimming",
       "date": "2026/02/03",
       "venue": "Swimming Pool",
@@ -1482,7 +1480,7 @@
       ]
     },
     {
-      "id": "Tag Rugby",
+      "id": "tag_rugby",
       "name": "Tag Rugby",
       "date": "2026/02/03",
       "venue": "Main Ground",
@@ -1507,7 +1505,7 @@
       ]
     },
     {
-      "id": "Road Race",
+      "id": "road_race",
       "name": "Road Race",
       "date": "2026/02/13",
       "venue": "Gampaha Road",
@@ -1532,7 +1530,7 @@
       ]
     },
     {
-      "id": "Badminton",
+      "id": "badminton",
       "name": "Badminton",
       "date": "2026/01/28",
       "venue": "Indoor Stadium",
@@ -1557,7 +1555,7 @@
       ]
     },
     {
-      "id": "Chess",
+      "id": "chess",
       "name": "Chess",
       "date": "2026/01/30",
       "venue": "Auditorium",
@@ -1582,7 +1580,7 @@
       ]
     },
     {
-      "id": "Volleyball",
+      "id": "volleyball",
       "name": "Volleyball",
       "date": "2026/01/26",
       "venue": "Volleyball Court",
@@ -1607,7 +1605,7 @@
       ]
     },
     {
-      "id": "Elle",
+      "id": "elle",
       "name": "Elle",
       "date": "2026/01/22",
       "venue": "Main Ground",
@@ -1632,7 +1630,7 @@
       ]
     },
     {
-      "id": "Hockey",
+      "id": "hockey",
       "name": "Hockey",
       "date": "2026/01/28",
       "venue": "Main Ground",
@@ -1657,7 +1655,7 @@
       ]
     },
     {
-      "id": "Softball",
+      "id": "softball",
       "name": "Softball",
       "date": "2026/01/30",
       "venue": "Main Ground",
@@ -1682,7 +1680,7 @@
       ]
     },
     {
-      "id": "Basketball",
+      "id": "basketball",
       "name": "Basketball",
       "date": "2026/02/02",
       "venue": "Basketball Court",
@@ -1704,8 +1702,6 @@
           "house": "Vijaya",
           "score": 0
         }
-      ]
-    }
       ]
     }
   ],
