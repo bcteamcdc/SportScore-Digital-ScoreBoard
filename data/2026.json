@@ -1288,7 +1288,7 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Tissa",
@@ -1296,11 +1296,11 @@
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 10
         }
       ]
     },
@@ -1388,7 +1388,7 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Tissa",
@@ -1396,11 +1396,11 @@
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 10
         }
       ]
     },
@@ -1513,19 +1513,19 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Tissa",
-          "score": 0
+          "score": 25
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 20
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 10
         }
       ]
     },
