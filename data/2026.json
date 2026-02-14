@@ -459,7 +459,7 @@
             "scores": [
               {
                 "house": "Gemunu",
-                "score": 0
+                "score": 8
               },
               {
                 "house": "Vijaya",
@@ -471,7 +471,7 @@
               },
               {
                 "house": "Tissa",
-                "score": 0
+                "score": 1
               }
             ]
           },
@@ -1463,15 +1463,15 @@
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Tissa",
-          "score": 0
+          "score": 5
         },
         {
           "house": "Parakrama",
-          "score": 0
+          "score": 10
         },
         {
           "house": "Vijaya",
