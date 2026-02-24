@@ -1,0 +1,858 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Coming Soon | Bandaranayake College Sportmeet 2026</title>
+    <meta
+      name="title"
+      content="Coming Soon | Bandaranayake College Sportmeet 2026"
+    />
+    <meta
+      name="description"
+      content="Get ready for Bandaranayake College Sportmeet 2026. The official digital marks board for live sports scores, results, and updates. Launching soon on bcsports.site."
+    />
+    <meta
+      name="keywords"
+      content="Bandaranayake College Sportmeet, bc sports, bcsports.site, SportMeet 2026, BCG Sportmeet, Inter House Sports Meet Gampaha, Bandaranayake College"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.bcsports.site/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.bcsports.site/" />
+    <meta
+      property="og:title"
+      content="Coming Soon | Bandaranayake College Sportmeet 2026"
+    />
+    <meta
+      property="og:description"
+      content="Official digital scores board for Bandaranayake College Inter-house Sports Meet 2026. Stay tuned!"
+    />
+    <meta
+      property="og:image"
+      content="https://i.ibb.co/8DYjdRdn/New-Project.png"
+    />
+    <meta property="og:site_name" content="BC Sports Site" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://www.bcsports.site/" />
+    <meta
+      property="twitter:title"
+      content="Bandaranayake College Sportmeet 2026 - Coming Soon"
+    />
+    <meta
+      property="twitter:description"
+      content="Official live updates for Bandaranayake College Sportmeet 2026. Launching soon on bcsports.site."
+    />
+    <meta
+      property="twitter:image"
+      content="https://i.ibb.co/8DYjdRdn/New-Project.png"
+    />
+
+    <!-- iOS PWA Tags -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
+    <meta name="apple-mobile-web-app-title" content="SportMeet" />
+    <meta name="theme-color" content="#080808" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="application-name" content="SportMeet 2026" />
+    <meta name="msapplication-TileColor" content="#080808" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json" />
+
+    <!-- Icons -->
+    <link
+      rel="icon"
+      type="image/jpeg"
+      sizes="32x32"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="icon"
+      type="image/jpeg"
+      sizes="16x16"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg"
+    />
+    <!-- PWA Advanced Features -->
+    <script src="pwa-features.js" defer></script>
+    <style>
+      :root {
+        --primary-black: #080808;
+        --secondary-black: #111111;
+        --bright-red: #9e0d0d;
+        --deep-red: #7a0a0a;
+        --white: #ffffff;
+        --surface-1: #111111;
+        --surface-2: #1a1a1a;
+        --surface-3: #222222;
+        --glass-border: rgba(255, 31, 31, 0.15);
+        --glass-bg: rgba(255, 255, 255, 0.05);
+        --font-header: "Oswald", sans-serif;
+        --font-body: "Outfit", sans-serif;
+        --text-primary: #ffffff;
+        --text-secondary: #cbd5e1;
+        --text-muted: #94a3b8;
+        --vijaya-color: #ef4444;
+        --gemunu-color: #3b82f6;
+        --parakrama-color: #fbbf24;
+        --tissa-color: #10b981;
+        --gradient-sports: linear-gradient(135deg, #9e0d0d 0%, #7a0a0a 100%);
+        --gradient-dark: radial-gradient(
+          circle at 50% 0%,
+          #0f0f0f 0%,
+          #080808 100%
+        );
+        --shadow-glow: 0 0 20px rgba(255, 31, 31, 0.2);
+        --transition-fast: 0.15s cubic-bezier(0.23, 1, 0.32, 1);
+        --transition-normal: 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: var(--font-body);
+        background: var(--primary-black);
+        color: var(--text-primary);
+        overflow-x: hidden;
+        min-height: 100vh;
+      }
+
+      .background {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        background: var(--gradient-dark);
+      }
+
+      .grid-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image:
+          linear-gradient(rgba(255, 31, 31, 0.03) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(255, 31, 31, 0.03) 1px, transparent 1px);
+        background-size: 50px 50px;
+        animation: gridMove 20s linear infinite;
+      }
+
+      @keyframes gridMove {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(50px, 50px);
+        }
+      }
+
+      .glow-orb {
+        position: absolute;
+        border-radius: 50%;
+        filter: blur(100px);
+        opacity: 0.15;
+        animation: float 8s ease-in-out infinite;
+      }
+
+      .orb-1 {
+        width: 400px;
+        height: 400px;
+        background: var(--bright-red);
+        top: -200px;
+        right: -200px;
+        animation-delay: 0s;
+      }
+
+      .orb-2 {
+        width: 300px;
+        height: 300px;
+        background: var(--vijaya-color);
+        bottom: -150px;
+        left: -150px;
+        animation-delay: 2s;
+      }
+
+      .orb-3 {
+        width: 250px;
+        height: 250px;
+        background: var(--gemunu-color);
+        top: 50%;
+        left: 50%;
+        animation-delay: 4s;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translate(0, 0) scale(1);
+        }
+        50% {
+          transform: translate(30px, -30px) scale(1.1);
+        }
+      }
+
+      .container {
+        position: relative;
+        z-index: 1;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem;
+      }
+
+      .logo {
+        margin-bottom: 2rem;
+        animation: fadeInDown 0.8s ease-out;
+      }
+
+      .logo-text {
+        padding: 0.35rem 1rem;
+        background: rgba(255, 31, 31, 0.05);
+        border: 1px solid var(--glass-border);
+        border-radius: 50px;
+        color: var(--text-primary);
+        font-family: var(--font-header);
+        font-size: 0.75rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.2px;
+        transition: all var(--transition-normal);
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .logo-text:hover {
+        background: rgba(255, 31, 31, 0.2);
+        border-color: var(--bright-red);
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-glow);
+      }
+
+      .main-content {
+        text-align: center;
+        max-width: 800px;
+        animation: fadeInUp 0.8s ease-out 0.2s both;
+      }
+
+      .title {
+        font-family: var(--font-header);
+        font-size: clamp(2.5rem, 8vw, 4.5rem);
+        font-weight: 900;
+        line-height: 0.9;
+        letter-spacing: -2px;
+        text-transform: uppercase;
+        margin-bottom: 1.2rem;
+        background: linear-gradient(
+          180deg,
+          var(--white) 0%,
+          var(--text-secondary) 100%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      .subtitle {
+        font-size: clamp(0.75rem, 1.5vw, 0.9rem);
+        color: var(--text-muted);
+        margin-bottom: 2rem;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        line-height: 1.4;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .countdown {
+        display: flex;
+        gap: 2rem;
+        justify-content: center;
+        margin-bottom: 3rem;
+        flex-wrap: wrap;
+      }
+
+      .countdown-item {
+        background: rgba(17, 17, 17, 0.8);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 1.5rem 2rem;
+        border-radius: 0;
+        min-width: 120px;
+        transition: all var(--transition-normal);
+      }
+
+      .countdown-item:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-glow);
+        border-color: rgba(255, 31, 31, 0.3);
+      }
+
+      .countdown-number {
+        font-family: var(--font-header);
+        font-size: 3.5rem;
+        font-weight: 900;
+        line-height: 1;
+        color: var(--bright-red);
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      .countdown-label {
+        font-size: 0.75rem;
+        color: #9ca3af;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-weight: 600;
+      }
+
+      /* Install Section - Premium Design */
+      .install-section {
+        width: 100%;
+        max-width: 600px;
+        margin: 4rem auto 2rem auto;
+        animation: fadeInUp 0.8s ease-out 0.6s both;
+      }
+
+      .install-card {
+        background: linear-gradient(
+          135deg,
+          rgba(255, 31, 31, 0.1) 0%,
+          rgba(15, 15, 15, 0.95) 100%
+        );
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 31, 31, 0.2);
+        border-radius: 20px;
+        padding: 1.25rem 1.75rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .install-content {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        z-index: 1;
+        text-align: left;
+      }
+
+      .install-icon-wrapper {
+        width: 60px;
+        height: 60px;
+        background: rgba(255, 31, 31, 0.1);
+        border: 1px solid rgba(255, 31, 31, 0.3);
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: var(--bright-red);
+        flex-shrink: 0;
+      }
+
+      .install-info {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+
+      .install-title {
+        font-family: var(--font-header);
+        font-size: 1.25rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        color: var(--white);
+        margin: 0;
+      }
+
+      .install-text {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        margin: 0;
+        line-height: 1.4;
+      }
+
+      .premium-install-btn {
+        background: var(--gradient-sports);
+        border: none;
+        border-radius: 12px;
+        color: var(--white);
+        padding: 0.8rem 1.25rem;
+        font-family: var(--font-header);
+        font-size: 0.9rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 10px 20px rgba(255, 31, 31, 0.2);
+        flex-shrink: 0;
+        z-index: 1;
+      }
+
+      .premium-install-btn:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 15px 30px rgba(255, 31, 31, 0.4);
+        filter: brightness(1.1);
+      }
+
+      @media (max-width: 650px) {
+        .install-card {
+          flex-direction: column;
+          text-align: center;
+          padding: 1.5rem;
+        }
+
+        .install-content {
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+
+      .social-links {
+        display: flex;
+        gap: 1.25rem;
+        justify-content: center;
+        margin-top: 1rem;
+        animation: fadeIn 0.8s ease-out 0.8s both;
+      }
+
+      .social-link {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        color: var(--white);
+        transition: all var(--transition-normal);
+        text-decoration: none;
+        font-size: 1.2rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      .social-link:hover {
+        transform: translateY(-5px) scale(1.1);
+        filter: brightness(1.1);
+      }
+
+      .social-link.whatsapp {
+        background: #25d366;
+      }
+
+      .social-link.facebook {
+        background: #1877f2;
+      }
+
+      .social-link.instagram {
+        background: linear-gradient(
+          45deg,
+          #f09433 0%,
+          #e6683c 25%,
+          #dc2743 50%,
+          #cc2366 75%,
+          #bc1888 100%
+        );
+      }
+
+      .progress-bar {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 3px;
+        background: var(--gradient-sports);
+        width: 0%;
+        animation: progress 3s ease-out forwards;
+      }
+
+      @keyframes progress {
+        to {
+          width: 75%;
+        }
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translateY(-30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .container {
+          padding: 1.5rem;
+        }
+
+        .title {
+          font-size: clamp(2rem, 10vw, 3rem);
+        }
+
+        .countdown {
+          gap: 0.75rem;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+
+        .countdown-item {
+          padding: 1rem;
+          min-width: 80px;
+          flex: 1 1 calc(50% - 1rem);
+          max-width: 120px;
+        }
+
+        .countdown-number {
+          font-size: 2rem;
+        }
+
+        .install-card {
+          flex-direction: column;
+          text-align: center;
+          padding: 1.5rem;
+          gap: 1.5rem;
+        }
+
+        .install-content {
+          flex-direction: column;
+          text-align: center;
+        }
+
+        .premium-install-btn {
+          width: 100%;
+          justify-content: center;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .countdown-item {
+          min-width: 70px;
+          padding: 0.75rem;
+        }
+
+        .countdown-number {
+          font-size: 1.75rem;
+        }
+
+        .logo-text {
+          font-size: 0.65rem;
+          padding: 0.3rem 0.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="background">
+      <div class="grid-overlay"></div>
+      <div class="glow-orb orb-1"></div>
+      <div class="glow-orb orb-2"></div>
+      <div class="glow-orb orb-3"></div>
+    </div>
+
+    <div class="container">
+      <div class="logo">
+        <div class="logo-text">SPORTMEET 2026</div>
+      </div>
+
+      <div class="main-content">
+        <h1 class="title">COMING SOON</h1>
+        <p class="subtitle">
+          The official digital marks board for the annual inter-house sports
+          meet of Bandaranayake College, Gampaha. Real-time updates, analytics,
+          and historical records.
+        </p>
+
+        <div class="countdown" id="countdown">
+          <div class="countdown-item">
+            <span class="countdown-number" id="days">00</span>
+            <span class="countdown-label">Days</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="hours">00</span>
+            <span class="countdown-label">Hours</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="minutes">00</span>
+            <span class="countdown-label">Minutes</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-number" id="seconds">00</span>
+            <span class="countdown-label">Seconds</span>
+          </div>
+        </div>
+
+        <!-- PWA Install Section -->
+        <div
+          class="install-section"
+          id="pwa-install-section"
+          style="display: none"
+        >
+          <div class="install-card">
+            <div class="install-content">
+              <div class="install-icon-wrapper">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <div class="install-info">
+                <h2 class="install-title">Live Updates on Your Phone</h2>
+                <p class="install-text">
+                  Install the SportMeet app for the best experience.
+                </p>
+              </div>
+            </div>
+            <button id="pwa-install-btn-trigger" class="premium-install-btn">
+              <i class="fas fa-download"></i>
+              <span>Install Now</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="social-links">
+          <a
+            href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J"
+            target="_blank"
+            class="social-link whatsapp"
+            title="WhatsApp"
+          >
+            <i class="fab fa-whatsapp"></i>
+          </a>
+          <a
+            href="https://facebook.com/tembccdc"
+            target="_blank"
+            class="social-link facebook"
+            title="Facebook"
+          >
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a
+            href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk"
+            target="_blank"
+            class="social-link instagram"
+            title="Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-bar"></div>
+
+    <!-- Security Script -->
+    <!-- <script src="security.js"></script> -->
+
+    <!-- PWA Install Script -->
+    <script src="pwa-install.js"></script>
+
+    <script>
+      // Countdown Timer
+      let launchDate = new Date("2026-01-23T00:00:00").getTime();
+
+      // Load Basic Config and update dynamic content
+      async function loadBasicConfig() {
+        try {
+          const response = await fetch("data/basic.json");
+          if (response.ok) {
+            const config = await response.json();
+            const year = config.currentYear;
+            const name = config.siteName;
+
+            // Update Countdown Launch Date
+            if (config.dates && config.dates.launchDate) {
+              launchDate = new Date(config.dates.launchDate).getTime();
+            }
+
+            // Update Title & Meta
+            document.title = `Coming Soon | ${name} ${year}`;
+            const metaTitle = document.querySelector('meta[name="title"]');
+            if (metaTitle) metaTitle.content = `Coming Soon | ${name} ${year}`;
+
+            // Update Description
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = config.meta.description;
+
+            // Update OG & Twitter Titles
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = `${name} ${year} - Coming Soon`;
+            const twTitle = document.querySelector(
+              'meta[property="twitter:title"]',
+            );
+            if (twTitle) twTitle.content = `${name} ${year} Live`;
+
+            // Update Logo Text
+            const logoText = document.querySelector(".logo-text");
+            if (logoText) logoText.textContent = `SPORTMEET ${year}`;
+
+            // Update Icons
+            if (config.assets && config.assets.favicon) {
+              const favicon32 = document.querySelector(
+                'link[rel="icon"][sizes="32x32"]',
+              );
+              if (favicon32) favicon32.href = config.assets.favicon;
+              const favicon16 = document.querySelector(
+                'link[rel="icon"][sizes="16x16"]',
+              );
+              if (favicon16) favicon16.href = config.assets.favicon;
+              const appleTouchIcons = document.querySelectorAll(
+                'link[rel="apple-touch-icon"]',
+              );
+              appleTouchIcons.forEach(
+                (icon) => (icon.href = config.assets.favicon),
+              );
+            }
+
+            // Update OG Image
+            if (config.assets && config.assets.ogImage) {
+              const ogImg = document.querySelector('meta[property="og:image"]');
+              if (ogImg) ogImg.content = config.assets.ogImage;
+            }
+
+            // Update Social Links
+            if (config.social) {
+              const wa = document.querySelector(".social-link.whatsapp");
+              if (wa) wa.href = config.social.whatsapp;
+              const fb = document.querySelector(".social-link.facebook");
+              if (fb) fb.href = config.social.facebook;
+              const ins = document.querySelector(".social-link.instagram");
+              if (ins) ins.href = config.social.instagram;
+            }
+
+            // Update Manifest link for PWA metadata if needed
+            // (Manifest is static, but application-name meta tags can be updated)
+            const appName = document.querySelector(
+              'meta[name="application-name"]',
+            );
+            if (appName) appName.content = `SportMeet ${year}`;
+          }
+        } catch (error) {
+          console.error("Error loading basic config:", error);
+        }
+      }
+      loadBasicConfig();
+
+      function updateCountdown() {
+        const now = new Date().getTime();
+        const distance = launchDate - now;
+
+        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        const hours = Math.floor(
+          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
+        );
+        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        const daysEl = document.getElementById("days");
+        const hoursEl = document.getElementById("hours");
+        const minutesEl = document.getElementById("minutes");
+        const secondsEl = document.getElementById("seconds");
+
+        if (daysEl) daysEl.textContent = String(days).padStart(2, "0");
+        if (hoursEl) hoursEl.textContent = String(hours).padStart(2, "0");
+        if (minutesEl) minutesEl.textContent = String(minutes).padStart(2, "0");
+        if (secondsEl) secondsEl.textContent = String(seconds).padStart(2, "0");
+
+        if (distance < 0) {
+          clearInterval(countdownInterval);
+          const countdownEl = document.getElementById("countdown");
+          if (countdownEl) countdownEl.innerHTML = "<h2>We're Live!</h2>";
+        }
+      }
+
+      const countdownInterval = setInterval(updateCountdown, 1000);
+      updateCountdown();
+    </script>
+    <!-- PWA Install Script -->
+    <script src="pwa-install.js"></script>
+
+    <script>
+      // Service Worker Registration
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("sw.js")
+            .then((reg) => console.log("Service Worker registered", reg))
+            .catch((err) =>
+              console.error("Service Worker registration failed", err),
+            );
+        });
+      }
+    </script>
+    <!-- Security Script -->
+    <!-- <script src="security.js"></script> -->
+  </body>
+</html>

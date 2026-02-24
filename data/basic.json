@@ -1,0 +1,34 @@
+{
+  "siteName": "Bandaranayake College Sportmeet",
+  "currentYear": 2026,
+  "organizer": "Bandaranayake College Coding Club",
+  "footer": "Bandaranayake College",
+  "location": "Bandaranayake College Grounds, Gampaha",
+  "domain": "https://www.bcsports.site",
+  "assets": {
+    "favicon": "https://i.ibb.co/p6nRXkvK/Untitled-s1.jpg",
+    "logo": "https://i.ibb.co/BHjp74H0/New-Project-4.png",
+    "ogImage": "https://i.ibb.co/8DYjdRdn/New-Project.png",
+    "profileIcon": "https://i.ibb.co/8DYjdRdn/New-Project.png",
+    "clubIcon": "https://i.ibb.co/nMvqF6Yz/New-Logo-Enhnaced-1.png"
+  },
+  "social": {
+    "whatsapp": "https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J",
+    "facebook": "https://facebook.com/teambccdc",
+    "instagram": "https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk",
+    "website": "https://teamcdc.vercel.app"
+  },
+  "meta": {
+    "description": "The official real-time marks board for Bandaranayake College Sportmeet. View live house rankings, athletics results, and sports updates.",
+    "keywords": "Bandaranayake College Sportmeet, bcsports, bc sports site, bc sports, Bandaranayake College Sports, SportMeet, BCG Sportmeet, Inter House Sports Meet Gampaha, Bandaranayake College, Sports Scores, Live Leaderboard"
+  },
+  "ui": {
+    "headerSubtitle": "Live Scores & Rankings",
+    "leaderboardTitle": "Overall House Rankings",
+    "loadingText": "LOADING.."
+  },
+  "dates": {
+    "launchDate": "2026-01-23T00:00:00",
+    "lastUpdate": "January 31, 2026"
+  }
+}

@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Offline - SportMeet 2026</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family:
+          "Outfit",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        background: #080808;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 2rem;
+        overflow: hidden;
+      }
+
+      .offline-container {
+        text-align: center;
+        max-width: 500px;
+        animation: fadeInUp 0.8s ease-out;
+      }
+
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(30px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .offline-icon {
+        font-size: 6rem;
+        margin-bottom: 2rem;
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%,
+        100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-20px);
+        }
+      }
+
+      h1 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 3rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        background: linear-gradient(135deg, #fff 0%, #ff1f1f 100%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-bottom: 1rem;
+        letter-spacing: -1px;
+      }
+
+      p {
+        color: #cbd5e1;
+        font-size: 1.1rem;
+        margin-bottom: 2rem;
+        line-height: 1.6;
+      }
+
+      .retry-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        background: linear-gradient(135deg, #ff1f1f 0%, #9e0d0d 100%);
+        color: white;
+        border: none;
+        padding: 1rem 2rem;
+        border-radius: 50px;
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        box-shadow: 0 10px 30px rgba(255, 31, 31, 0.4);
+        transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+        text-decoration: none;
+      }
+
+      .retry-button:hover {
+        transform: translateY(-4px) scale(1.05);
+        box-shadow: 0 15px 40px rgba(255, 31, 31, 0.6);
+      }
+
+      .retry-button:active {
+        transform: translateY(-2px) scale(1.02);
+      }
+
+      .offline-message {
+        background: rgba(255, 31, 31, 0.1);
+        border: 1px solid rgba(255, 31, 31, 0.2);
+        border-radius: 12px;
+        padding: 1.5rem;
+        margin-top: 2rem;
+      }
+
+      .offline-message h3 {
+        font-family: "Barlow Condensed", sans-serif;
+        font-size: 1.2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #ff1f1f;
+        margin-bottom: 0.75rem;
+      }
+
+      .offline-message ul {
+        text-align: left;
+        list-style: none;
+        padding: 0;
+      }
+
+      .offline-message li {
+        color: #94a3b8;
+        font-size: 0.95rem;
+        margin-bottom: 0.5rem;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .offline-message li::before {
+        content: "✓";
+        position: absolute;
+        left: 0;
+        color: #ff1f1f;
+        font-weight: bold;
+      }
+
+      /* Animated background */
+      body::before {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(circle at 50% 0%, #0f0f0f 0%, #080808 100%);
+        z-index: -1;
+      }
+
+      body::after {
+        content: "";
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 2px,
+          rgba(255, 31, 31, 0.03) 2px,
+          rgba(255, 31, 31, 0.03) 4px
+        );
+        animation: drift 20s linear infinite;
+        z-index: -1;
+      }
+
+      @keyframes drift {
+        0% {
+          transform: translate(0, 0);
+        }
+        100% {
+          transform: translate(50px, 50px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="offline-container">
+      <div class="offline-icon">📡</div>
+      <h1>You're Offline</h1>
+      <p>
+        It looks like you've lost your internet connection. Don't worry, some
+        features of SportMeet 2026 are still available offline!
+      </p>
+
+      <a
+        href="/"
+        class="retry-button"
+        onclick="
+          window.location.reload();
+          return false;
+        "
+      >
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path
+            d="M4 10c0-3.3 2.7-6 6-6 1.8 0 3.4.8 4.5 2.1L12 8h6V2l-2.3 2.3C14.2 2.8 12.2 2 10 2 5.6 2 2 5.6 2 10s3.6 8 8 8c3.7 0 6.8-2.6 7.7-6h-2.1c-.8 2.3-3 4-5.6 4-3.3 0-6-2.7-6-6z"
+          />
+        </svg>
+        Retry Connection
+      </a>
+
+      <div class="offline-message">
+        <h3>Available Offline:</h3>
+        <ul>
+          <li>View cached scores and rankings</li>
+          <li>Browse previous moments gallery</li>
+          <li>Access historical analytics data</li>
+          <li>Navigate through all pages</li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      // Auto-retry connection every 5 seconds
+      let retryCount = 0;
+      const maxRetries = 10;
+
+      function checkConnection() {
+        if (retryCount < maxRetries) {
+          fetch("/", { method: "HEAD", cache: "no-cache" })
+            .then((response) => {
+              if (response.ok) {
+                // Connection restored
+                window.location.href = "/";
+              }
+            })
+            .catch(() => {
+              // Still offline
+              retryCount++;
+              setTimeout(checkConnection, 5000);
+            });
+        }
+      }
+
+      // Start checking after 5 seconds
+      setTimeout(checkConnection, 5000);
+
+      // Listen for online event
+      window.addEventListener("online", () => {
+        window.location.href = "/";
+      });
+    </script>
+  </body>
+</html>
