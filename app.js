@@ -125,7 +125,7 @@ const slideshowDelay = 2000;
 let momentsData = null;
 let bcpasData = null;
 let bcmuData = null;
-let currentCategory = "mix"; // Default category filter
+let currentCategory = "bcpas"; // Default category filter
 
 // Navigation State
 let athleticsSourceHouse = null;
@@ -661,11 +661,11 @@ function renderAwards(yearData) {
     selectedLeaderHouse === "all"
       ? yearAwards
       : yearAwards.filter(
-          (a) =>
-            a.house &&
-            a.house.toLowerCase() ===
-              houseMap[selectedLeaderHouse.toLowerCase()]?.toLowerCase(),
-        );
+        (a) =>
+          a.house &&
+          a.house.toLowerCase() ===
+          houseMap[selectedLeaderHouse.toLowerCase()]?.toLowerCase(),
+      );
 
   if (filteredAwards.length > 0) {
     const header = document.createElement("div");
@@ -1145,11 +1145,9 @@ function renderSports() {
     let sportContent = `
           <div class="sport-header">
             <div class="sport-title-row">
-              <div class="sport-title">${sport.name} <i class="fas ${
-                sport.name === "Athletics" ? "fa-external-link-alt" : ""
-              }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${
-                sport.name === "Athletics" ? "" : "display:none;"
-              }"></i></div>
+              <div class="sport-title">${sport.name} <i class="fas ${sport.name === "Athletics" ? "fa-external-link-alt" : ""
+      }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${sport.name === "Athletics" ? "" : "display:none;"
+      }"></i></div>
               <div class="sport-date">${sport.date}</div>
             </div>
             <div class="sport-subtitle">${sport.venue}</div>
@@ -1190,9 +1188,8 @@ function renderSports() {
       sportContent += `
           <div class="score-item">
             <div class="score-row">
-              <div class="house-name ${score.house.toLowerCase()}">${
-                score.house
-              }</div>
+              <div class="house-name ${score.house.toLowerCase()}">${score.house
+        }</div>
               <div class="house-score">${score.score}</div>
             </div>
             <div class="progress-container">
@@ -1399,9 +1396,8 @@ function renderRankings() {
     }
 
     const rankCard = document.createElement("div");
-    rankCard.className = `ranking-card ${house.color}-card ${
-      index === 0 ? "highlighted" : ""
-    }`;
+    rankCard.className = `ranking-card ${house.color}-card ${index === 0 ? "highlighted" : ""
+      }`;
     rankCard.dataset.house = house.name;
     rankCard.addEventListener("click", () => showHouseDetails(house.name));
 
@@ -1499,11 +1495,9 @@ function renderHouseSports(houseName) {
     let sportContent = `
         <div class="sport-header">
           <div class="sport-title-row">
-            <div class="sport-title">${sport.name} <i class="fas ${
-              sport.name === "Athletics" ? "fa-external-link-alt" : ""
-            }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${
-              sport.name === "Athletics" ? "" : "display:none;"
-            }"></i></div>
+            <div class="sport-title">${sport.name} <i class="fas ${sport.name === "Athletics" ? "fa-external-link-alt" : ""
+      }" style="font-size: 0.8em; margin-left: 5px; opacity: 0.7; ${sport.name === "Athletics" ? "" : "display:none;"
+      }"></i></div>
             <div class="sport-date">${sport.date}</div>
           </div>
           <div class="sport-subtitle">${sport.venue}</div>
@@ -1514,9 +1508,8 @@ function renderHouseSports(houseName) {
       sportContent += `
           <div class="score-item ${score.house.toLowerCase()}">
             <div class="score-row">
-              <div class="house-name ${score.house.toLowerCase()}">${
-                score.house
-              }</div>
+              <div class="house-name ${score.house.toLowerCase()}">${score.house
+        }</div>
               <div class="house-score">${score.score}</div>
             </div>
           </div>
@@ -1670,13 +1663,12 @@ function renderAthleticsDetails(houseName = null) {
         eventContent += `
         <div class="blur-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); background: rgba(0,0,0,0.6); z-index: 100; display: flex; align-items: center; justify-content: center; text-align: center; border-radius: 12px; padding: 15px;">
           <div style="color: #fff; font-size: 0.85rem; font-weight: 600; line-height: 1.5; text-shadow: 0 2px 8px rgba(0,0,0,0.8);">
-            ${
-              isHeldPending
-                ? `Scores are being finalized.<br>
+            ${isHeldPending
+            ? `Scores are being finalized.<br>
                  <span style="color: var(--theme-bright); font-size: 1rem; font-weight: 800; display: block; margin-top: 10px; text-transform: uppercase;">Please wait<span class="dots-animation"></span></span>`
-                : `Scheduled to be held on ${event.date || "soon"}.<br>
+            : `Scheduled to be held on ${event.date || "soon"}.<br>
                  <span style="color: var(--theme-bright); font-size: 1rem; font-weight: 800; display: block; margin-top: 10px; text-transform: uppercase; letter-spacing: 1px;">GET READY FOR ACTION!</span>`
-            }
+          }
           </div>
         </div>
       `;
@@ -1763,9 +1755,8 @@ function createSlideshow(selectedYear) {
 
   filteredMoments.forEach((moment, index) => {
     const slide = document.createElement("div");
-    slide.className = `slideshow-slide ${
-      index === 0 ? "active" : ""
-    } skeleton-loading`;
+    slide.className = `slideshow-slide ${index === 0 ? "active" : ""
+      } skeleton-loading`;
 
     const imagePath = moment.image || `/api/placeholder/800/400`;
     const houseColor = moment.house.toLowerCase();
@@ -2638,7 +2629,7 @@ function updateCurrentYearStats(yearData) {
   // Only count sports that have at least one score recorded
   const activeSportsCount = yearData.sports
     ? yearData.sports.filter((sport) => sport.scores.some((s) => s.score > 0))
-        .length
+      .length
     : 0;
 
   const leaderEl = document.getElementById("stat-leader");
@@ -2910,9 +2901,8 @@ function updateRankingsTable(yearData) {
       const colorClass = houseData.name.toLowerCase();
       return `
             <tr class="rank-row-${colorClass}">
-              <td class="rank-cell"><span class="rank-badge">#${
-                index + 1
-              }</span></td>
+              <td class="rank-cell"><span class="rank-badge">#${index + 1
+        }</span></td>
               <td class="house-cell">
                 <div class="table-house-info">
                   <span class="house-indicator ${colorClass}"></span>

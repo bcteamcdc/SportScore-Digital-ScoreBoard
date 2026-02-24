@@ -618,670 +618,669 @@
             </ul>
           </div>
 
-          <div class="social-card">
-            <div class="card-header">
-              <div class="card-icon">
-                <i class="fas fa-share-alt"></i>
+          <div class="card-header">
+            <div class="card-icon">
+              <i class="fas fa-share-alt"></i>
+            </div>
+            <div>
+              <h3 class="card-title">Social Networks</h3>
+              <p class="card-subtitle">Connect with our community</p>
+            </div>
+          </div>
+
+          <div class="social-platforms">
+            <a href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J" target="_blank"
+              class="social-platform whatsapp" aria-label="Join our WhatsApp Channel">
+              <div class="social-icon">
+                <i class="fab fa-whatsapp" aria-hidden="true"></i>
               </div>
-              <div>
-                <h3 class="card-title">Social Networks</h3>
-                <p class="card-subtitle">Connect with our community</p>
+              <div class="social-name">WhatsApp</div>
+              <div class="social-handle">Channel Updates</div>
+            </a>
+
+            <a href="https://web.facebook.com/teambccdc?_rdc=1&_rdr#" target="_blank" class="social-platform facebook"
+              aria-label="Follow us on Facebook">
+              <div class="social-icon">
+                <i class="fab fa-facebook-f" aria-hidden="true"></i>
               </div>
-            </div>
+              <div class="social-name">Facebook</div>
+              <div class="social-handle">@bandaranayakecollege</div>
+            </a>
 
-            <div class="social-platforms">
-              <a href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J" target="_blank"
-                class="social-platform whatsapp" aria-label="Join our WhatsApp Channel">
-                <div class="social-icon">
-                  <i class="fab fa-whatsapp" aria-hidden="true"></i>
-                </div>
-                <div class="social-name">WhatsApp</div>
-                <div class="social-handle">Channel Updates</div>
-              </a>
-
-              <a href="https://web.facebook.com/teambccdc?_rdc=1&_rdr#" target="_blank" class="social-platform facebook"
-                aria-label="Follow us on Facebook">
-                <div class="social-icon">
-                  <i class="fab fa-facebook-f" aria-hidden="true"></i>
-                </div>
-                <div class="social-name">Facebook</div>
-                <div class="social-handle">@bandaranayakecollege</div>
-              </a>
-
-              <a href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk" target="_blank"
-                class="social-platform instagram" aria-label="Follow us on Instagram">
-                <div class="social-icon">
-                  <i class="fab fa-instagram" aria-hidden="true"></i>
-                </div>
-                <div class="social-name">Instagram</div>
-                <div class="social-handle">@teamcdcbc</div>
-              </a>
-            </div>
+            <a href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk" target="_blank"
+              class="social-platform instagram" aria-label="Follow us on Instagram">
+              <div class="social-icon">
+                <i class="fab fa-instagram" aria-hidden="true"></i>
+              </div>
+              <div class="social-name">Instagram</div>
+              <div class="social-handle">@teamcdcbc</div>
+            </a>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Scores Page -->
-    <div id="scores-page" class="page" style="display: none">
-      <!-- Scores Hero Header -->
-      <div class="page-hero">
-        <div class="page-hero-content">
-          <span class="page-title-icon"><i class="fas fa-chart-bar"></i></span>
-          <div class="page-hero-text">
-            <div class="page-title">Sports Scores 2026</div>
-            <p class="page-subtitle">
-              Complete scores and results from all sporting events and
-              competitions
-            </p>
-          </div>
-        </div>
-        <div class="page-hero-bg"></div>
-      </div>
-
-      <!-- Filter Section -->
-      <div class="filter-section">
-        <div class="filter-options" id="scores-filter-options">
-          <div class="filter-option active" data-filter="completed">
-            Completed
-          </div>
-          <div class="filter-option" data-filter="ongoing">Ongoing</div>
-          <div class="filter-option" data-filter="upcoming">Upcoming</div>
-        </div>
-      </div>
-
-      <div class="sports-grid" id="sports-container"></div>
-    </div>
-
-    <!-- Winning Moments Page -->
-    <div id="moments-page" class="page" style="display: none">
-      <!-- Moments Hero Header -->
-      <div class="page-hero">
-        <div class="page-hero-content">
-          <span class="page-title-icon"><i class="fas fa-camera"></i></span>
-          <div class="page-hero-text">
-            <div class="page-title">Winning Moments</div>
-            <p class="page-subtitle">
-              Captured memories and highlights from InterHouse Sports Meet
-              2026
-            </p>
-          </div>
-        </div>
-        <div class="page-hero-bg"></div>
-      </div>
-      <!-- Year Filter -->
-      <div class="filter-section">
-        <div class="filter-options" id="moments-year-options">
-          <div class="filter-option active" data-year="2026">2026</div>
-          <div class="filter-option" data-year="2025">2025</div>
-        </div>
-      </div>
-      <!-- Category Filter -->
-      <div class="filter-section">
-        <div class="filter-options" id="moments-category-options">
-          <div class="filter-option active" data-category="mix">Mix</div>
-          <div class="filter-option" data-category="bcpas">BCPAS</div>
-          <div class="filter-option" data-category="bcmu">BCMU</div>
-        </div>
-      </div>
-
-      <!-- Image Slideshow -->
-      <div class="slideshow-container" id="slideshow-container"></div>
-      <div class="slideshow-controls" id="slideshow-controls"></div>
-
-      <!-- Moments Grid -->
-      <div class="moments-grid" id="moments-container"></div>
-
-      <!-- Copyright Notices -->
-      <!-- BCPAS Copyright Notice -->
-      <div class="moments-copyright-notice" id="bcpas-copyright">
-        <a href="https://web.facebook.com/teambcpas?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer"
-          class="copyright-link">
-          <i class="fas fa-copyright"></i>
-          <span>All rights of the following Album belong to the Bandaranayake
-            College Photographic Art Society©.</span>
-        </a>
-      </div>
-
-      <!-- BCMU Copyright Notice -->
-      <div class="moments-copyright-notice" id="bcmu-copyright">
-        <a href="https://web.facebook.com/BandaranayakeCollegeMediaUnit" target="_blank" rel="noopener noreferrer"
-          class="copyright-link">
-          <i class="fas fa-copyright"></i>
-          <span>All Rights Reserved. Bandaranayake College Media Unit©.</span>
-        </a>
-      </div>
-    </div>
-
-    <!-- House Details Page -->
-    <div id="house-details-page" class="page" style="display: none">
-      <!-- House Details Hero Header -->
-      <div class="page-hero">
-        <div class="back-btn-container">
-          <a href="#" class="back-to-sports-btn" id="back-to-leaderboard">
-            <i class="fas fa-arrow-left"></i>
-            <span>Back to Leaderboard</span>
-          </a>
-        </div>
-        <div class="page-hero-content">
-          <span class="page-title-icon"><i class="fas fa-home"></i></span>
-          <div class="page-hero-text">
-            <div class="page-title" id="house-details-title">
-              House Details
-            </div>
-            <p class="page-subtitle">
-              Detailed breakdown of house performance and event results
-            </p>
-          </div>
-        </div>
-        <div class="page-hero-bg"></div>
-      </div>
-      <div class="sports-grid" id="house-sports-container"></div>
-    </div>
-
-    <!-- Athletics Details Page -->
-    <div id="athletics-details-page" class="page" style="display: none">
-      <!-- Athletics Hero Header -->
-      <div class="page-hero">
-        <div class="back-btn-container">
-          <a href="#" class="back-to-sports-btn" id="back-to-scores">
-            <i class="fas fa-arrow-left"></i>
-            <span>Back to Sports</span>
-          </a>
-        </div>
-        <div class="page-hero-content">
-          <span class="page-title-icon"><i class="fas fa-running pulse"></i></span>
-          <div class="page-hero-text">
-            <div class="page-title">Athletics Details</div>
-            <p class="page-subtitle">
-              Live standings and event breakdowns for all track and field
-              competitions
-            </p>
-          </div>
-        </div>
-        <div class="page-hero-bg"></div>
-      </div>
-
-      <!-- Filter Section for Athletics -->
-      <div class="filter-section">
-        <div class="filter-options" id="athletics-filter-options">
-          <div class="filter-option active" data-filter="completed">
-            Completed
-          </div>
-          <div class="filter-option" data-filter="ongoing">Ongoing</div>
-          <div class="filter-option" data-filter="upcoming">Upcoming</div>
-        </div>
-      </div>
-
-      <div class="athletics-full-stack" id="athletics-container"></div>
-    </div>
-
-    <!-- Leaders Page -->
-    <div id="leaders-page" class="page" style="display: none">
-      <!-- Leaders Hero Header -->
-      <div class="page-hero">
-        <div class="page-hero-content">
-          <span class="page-title-icon"><i class="fas fa-users"></i></span>
-          <div class="page-hero-text">
-            <div class="page-title">Players & Sports Leaders</div>
-            <p class="page-subtitle">
-              Meet the champions and leaders driving excellence in InterHouse
-              Sports <span class="dynamic-year">2026</span>
-            </p>
-          </div>
-        </div>
-        <div class="page-hero-bg"></div>
-      </div>
-
-      <!-- Year Filter -->
-      <div class="filter-section">
-        <div class="filter-options" id="leaders-year-options">
-          <!-- Dynamically populated -->
-        </div>
-      </div>
-
-      <!-- Sports Committee Section -->
-      <div class="sports-committee-section">
-        <div class="section-header-title">
-          <h2 class="section-main-title">Sports Committee</h2>
-          <p class="section-subtitle">
-            Teachers and administrators managing sports excellence
+  <!-- Scores Page -->
+  <div id="scores-page" class="page" style="display: none">
+    <!-- Scores Hero Header -->
+    <div class="page-hero">
+      <div class="page-hero-content">
+        <span class="page-title-icon"><i class="fas fa-chart-bar"></i></span>
+        <div class="page-hero-text">
+          <div class="page-title">Sports Scores 2026</div>
+          <p class="page-subtitle">
+            Complete scores and results from all sporting events and
+            competitions
           </p>
         </div>
-
-        <!-- Principal Showcase -->
-        <div id="principal-showcase" class="principal-showcase-wrapper">
-          <div id="principal-card-container"></div>
-        </div>
-
-        <div class="sports-committee-grid" id="sports-committee-grid">
-          <!-- Dynamically populated -->
-        </div>
       </div>
+      <div class="page-hero-bg"></div>
+    </div>
 
-      <!-- House Masters & Mistresses Section -->
-      <div class="house-masters-section">
-        <div class="section-header-title">
-          <h2 class="section-main-title">House Masters & Mistresses</h2>
-          <p class="section-subtitle">Faculty leaders guiding each house</p>
+    <!-- Filter Section -->
+    <div class="filter-section">
+      <div class="filter-options" id="scores-filter-options">
+        <div class="filter-option active" data-filter="completed">
+          Completed
         </div>
-        <div class="house-masters-grid" id="house-masters-grid">
-          <!-- Dynamically populated -->
-        </div>
-      </div>
-
-      <!-- Sports Captain Section -->
-      <div id="sports-captain-showcase" class="sports-captain-showcase-wrapper">
-        <div id="sports-captain-title-container"></div>
-        <div id="sports-captain-card-container"></div>
-      </div>
-      <!-- Student Leaders Section -->
-      <div class="student-leaders-section">
-        <div class="section-header-title">
-          <h2 class="section-main-title">Student Leaders 2026</h2>
-          <p class="section-subtitle">House Captains & Sports Captains</p>
-        </div>
-
-        <!-- House Captains -->
-        <div class="student-leaders-category">
-          <div class="student-leaders-grid" id="house-captains-student-grid">
-            <!-- Dynamically populated -->
-          </div>
-        </div>
-
-        <!-- Sports Captains -->
-        <div class="student-leaders-category">
-          <div class="student-leaders-grid" id="sports-captains-student-grid">
-            <!-- Dynamically populated -->
-          </div>
-        </div>
+        <div class="filter-option" data-filter="ongoing">Ongoing</div>
+        <div class="filter-option" data-filter="upcoming">Upcoming</div>
       </div>
     </div>
 
-    <!-- Analytics Dashboard Page -->
-    <div id="analytics-page" class="page" style="display: none">
-      <!-- Analytics Hero Header -->
-      <div class="page-hero">
-        <div class="page-hero-content">
-          <span class="page-title-icon"><i class="fas fa-chart-line"></i></span>
-          <div class="page-hero-text">
-            <div class="page-title">Performance Analytics</div>
-            <p class="page-subtitle">
-              Real-time insights and historical performance tracking for
-              InterHouse Sports 2026
-            </p>
-          </div>
-        </div>
-        <div class="page-hero-bg"></div>
-      </div>
+    <div class="sports-grid" id="sports-container"></div>
+  </div>
 
-      <!-- Key Metrics Cards -->
-      <div class="analytics-metrics-section">
-        <div class="analytics-stat-card metric-leader">
-          <div class="stat-card-inner">
-            <div class="stat-icon-wrapper">
-              <i class="fas fa-crown"></i>
-            </div>
-            <div class="stat-details">
-              <div class="stat-label">Current Leader</div>
-              <div class="stat-value" id="stat-leader">--</div>
-              <div class="stat-trend">
-                <i class="fas fa-arrow-up"></i>
-                <span>Leading</span>
-              </div>
-            </div>
-          </div>
-          <div class="stat-card-glow"></div>
-        </div>
-
-        <div class="analytics-stat-card metric-points">
-          <div class="stat-card-inner">
-            <div class="stat-icon-wrapper">
-              <i class="fas fa-fire"></i>
-            </div>
-            <div class="stat-details">
-              <div class="stat-label">Total Points</div>
-              <div class="stat-value" id="stat-total-points">--</div>
-              <div class="stat-trend">
-                <i class="fas fa-chart-line"></i>
-                <span>Cumulative</span>
-              </div>
-            </div>
-          </div>
-          <div class="stat-card-glow"></div>
-        </div>
-
-        <div class="analytics-stat-card metric-sports">
-          <div class="stat-card-inner">
-            <div class="stat-icon-wrapper">
-              <i class="fas fa-trophy"></i>
-            </div>
-            <div class="stat-details">
-              <div class="stat-label">Sports Completed</div>
-              <div class="stat-value" id="stat-sports-count">--</div>
-              <div class="stat-trend">
-                <i class="fas fa-check-circle"></i>
-                <span>Events</span>
-              </div>
-            </div>
-          </div>
-          <div class="stat-card-glow"></div>
-        </div>
-
-        <div class="analytics-stat-card metric-year">
-          <div class="stat-card-inner">
-            <div class="stat-icon-wrapper">
-              <i class="fas fa-calendar-alt"></i>
-            </div>
-            <div class="stat-details">
-              <div class="stat-label">Current Season</div>
-              <div class="stat-value">2026</div>
-              <div class="stat-trend">
-                <i class="fas fa-star"></i>
-                <span>Active</span>
-              </div>
-            </div>
-          </div>
-          <div class="stat-card-glow"></div>
-        </div>
-      </div>
-
-      <!-- Main Analytics Grid -->
-      <div class="analytics-grid">
-        <!-- House Performance Chart -->
-        <div class="analytics-card card-large">
-          <div class="analytics-card-header">
-            <div class="card-header-left">
-              <i class="fas fa-chart-bar"></i>
-              <h3>House Performance Overview</h3>
-            </div>
-            <div class="card-header-badge">2026</div>
-          </div>
-          <div class="analytics-card-body">
-            <canvas id="current-year-chart"></canvas>
-          </div>
-        </div>
-
-        <!-- Sport Breakdown -->
-        <div class="analytics-card card-medium">
-          <div class="analytics-card-header">
-            <div class="card-header-left">
-              <i class="fas fa-futbol"></i>
-              <h3>Sport by Sport Analysis</h3>
-            </div>
-          </div>
-          <div class="analytics-card-body">
-            <div class="sport-filter-buttons" id="sport-filter-buttons">
-              <!-- Buttons will be populated by JavaScript -->
-            </div>
-            <div class="sport-chart-wrapper">
-              <canvas id="sport-breakdown-chart"></canvas>
-            </div>
-          </div>
-        </div>
-
-        <!-- House Rankings Table -->
-        <div class="analytics-card card-table">
-          <div class="analytics-card-header">
-            <div class="card-header-left">
-              <i class="fas fa-ranking-star"></i>
-              <h3>Live House Rankings</h3>
-            </div>
-            <div class="card-header-badge pulse">LIVE</div>
-          </div>
-          <div class="analytics-card-body">
-            <div class="rankings-table-wrapper">
-              <table class="modern-rankings-table">
-                <thead>
-                  <tr>
-                    <th><i class="fas fa-hashtag"></i> Rank</th>
-                    <th><i class="fas fa-home"></i> House</th>
-                    <th><i class="fas fa-star"></i> Points</th>
-                    <th><i class="fas fa-medal"></i> Top Sport</th>
-                  </tr>
-                </thead>
-                <tbody id="rankings-table-body"></tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Past Year Summary Section -->
-      <div class="analytics-section-divider">
-        <div class="divider-line"></div>
-        <div class="divider-content">
-          <i class="fas fa-medal"></i>
-          <span> Results Summary</span>
-        </div>
-        <div class="divider-line"></div>
-      </div>
-
-      <div class="summary-year-filter-wrapper">
-        <div class="summary-year-filter" id="summary-year-options">
-          <!-- Populate dynamically -->
-        </div>
-      </div>
-
-      <div class="analytics-card card-summary">
-        <div class="analytics-card-header">
-          <div class="card-header-left">
-            <i class="fas fa-list-alt"></i>
-            <h3 id="summary-section-title">Results Summary</h3>
-          </div>
-        </div>
-
-        <div class="analytics-card-body" id="summary-content-body">
-          <!-- Populate dynamically -->
-        </div>
-      </div>
-      <!-- Historical Performance Section -->
-      <div class="analytics-section-divider">
-        <div class="divider-line"></div>
-        <div class="divider-content">
-          <i class="fas fa-history"></i>
-          <span>Historical Analysis</span>
-        </div>
-        <div class="divider-line"></div>
-      </div>
-
-      <div class="analytics-card card-historical">
-        <div class="analytics-card-header">
-          <div class="card-header-left">
-            <i class="fas fa-chart-area"></i>
-            <h3>Multi-Year Performance Comparison</h3>
-          </div>
-          <p class="card-subtitle">
-            Track house dominance and trends across multiple seasons
+  <!-- Winning Moments Page -->
+  <div id="moments-page" class="page" style="display: none">
+    <!-- Moments Hero Header -->
+    <div class="page-hero">
+      <div class="page-hero-content">
+        <span class="page-title-icon"><i class="fas fa-camera"></i></span>
+        <div class="page-hero-text">
+          <div class="page-title">Winning Moments</div>
+          <p class="page-subtitle">
+            Captured memories and highlights from InterHouse Sports Meet
+            2026
           </p>
         </div>
+      </div>
+      <div class="page-hero-bg"></div>
+    </div>
+    <!-- Year Filter -->
+    <div class="filter-section">
+      <div class="filter-options" id="moments-year-options">
+        <div class="filter-option active" data-year="2026">2026</div>
+        <div class="filter-option" data-year="2025">2025</div>
+      </div>
+    </div>
+    <!-- Category Filter -->
+    <div class="filter-section">
+      <div class="filter-options" id="moments-category-options">
+        <div class="filter-option active" data-category="mix">Mix</div>
+        <div class="filter-option" data-category="bcpas">BCPAS</div>
+        <div class="filter-option" data-category="bcmu">BCMU</div>
+      </div>
+    </div>
 
-        <!-- Advanced Filters -->
-        <div class="analytics-filters">
-          <div class="filter-group">
-            <label class="filter-label">
-              <i class="fas fa-home"></i> House
-            </label>
-            <div class="filter-pills" id="house-options">
-              <button class="filter-pill active" data-value="All Houses">
-                <span>All Houses</span>
-              </button>
-              <button class="filter-pill gemunu-pill" data-value="Gemunu">
-                <span>Gemunu</span>
-              </button>
-              <button class="filter-pill vijaya-pill" data-value="Vijaya">
-                <span>Vijaya</span>
-              </button>
-              <button class="filter-pill parakrama-pill" data-value="Parakrama">
-                <span>Parakrama</span>
-              </button>
-              <button class="filter-pill tissa-pill" data-value="Tissa">
-                <span>Tissa</span>
-              </button>
-            </div>
+    <!-- Image Slideshow -->
+    <div class="slideshow-container" id="slideshow-container"></div>
+    <div class="slideshow-controls" id="slideshow-controls"></div>
+
+    <!-- Moments Grid -->
+    <div class="moments-grid" id="moments-container"></div>
+
+    <!-- Copyright Notices -->
+    <!-- BCPAS Copyright Notice -->
+    <div class="moments-copyright-notice" id="bcpas-copyright">
+      <a href="https://web.facebook.com/teambcpas?_rdc=1&_rdr#" target="_blank" rel="noopener noreferrer"
+        class="copyright-link">
+        <i class="fas fa-copyright"></i>
+        <span>All rights of the following Album belong to the Bandaranayake
+          College Photographic Art Society©.</span>
+      </a>
+    </div>
+
+    <!-- BCMU Copyright Notice -->
+    <div class="moments-copyright-notice" id="bcmu-copyright">
+      <a href="https://web.facebook.com/BandaranayakeCollegeMediaUnit" target="_blank" rel="noopener noreferrer"
+        class="copyright-link">
+        <i class="fas fa-copyright"></i>
+        <span>All Rights Reserved. Bandaranayake College Media Unit©.</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- House Details Page -->
+  <div id="house-details-page" class="page" style="display: none">
+    <!-- House Details Hero Header -->
+    <div class="page-hero">
+      <div class="back-btn-container">
+        <a href="#" class="back-to-sports-btn" id="back-to-leaderboard">
+          <i class="fas fa-arrow-left"></i>
+          <span>Back to Leaderboard</span>
+        </a>
+      </div>
+      <div class="page-hero-content">
+        <span class="page-title-icon"><i class="fas fa-home"></i></span>
+        <div class="page-hero-text">
+          <div class="page-title" id="house-details-title">
+            House Details
           </div>
+          <p class="page-subtitle">
+            Detailed breakdown of house performance and event results
+          </p>
+        </div>
+      </div>
+      <div class="page-hero-bg"></div>
+    </div>
+    <div class="sports-grid" id="house-sports-container"></div>
+  </div>
 
-          <div class="filter-group">
-            <label class="filter-label">
-              <i class="fas fa-running"></i> Sport Category
-            </label>
-            <div class="filter-pills scrollable" id="sport-options">
-              <button class="filter-pill active" data-value="All Sports">
-                Overall
-              </button>
-              <button class="filter-pill" data-value="bestHouseDesign">
-                Best House Design
-              </button>
-              <button class="filter-pill" data-value="karate">Karate</button>
-              <button class="filter-pill" data-value="tableTennis">
-                Table Tennis
-              </button>
-              <button class="filter-pill" data-value="hardball">
-                HardBall
-              </button>
-              <button class="filter-pill" data-value="wrestling">
-                Wrestling
-              </button>
-              <button class="filter-pill" data-value="boxing">Boxing</button>
-              <button class="filter-pill" data-value="football">
-                Football
-              </button>
-              <button class="filter-pill" data-value="athletics">
-                Athletics
-              </button>
-              <button class="filter-pill" data-value="swimming">
-                Swimming
-              </button>
-              <button class="filter-pill" data-value="tagRugby">
-                Tag Rugby
-              </button>
-              <button class="filter-pill" data-value="roadRace">
-                Road Race
-              </button>
-              <button class="filter-pill" data-value="badminton">
-                Badminton
-              </button>
-              <button class="filter-pill" data-value="chess">Chess</button>
-              <button class="filter-pill" data-value="volleyball">
-                Volleyball
-              </button>
-              <button class="filter-pill" data-value="elle">Elle</button>
-              <button class="filter-pill" data-value="hockey">Hockey</button>
-              <button class="filter-pill" data-value="softball">
-                Softball
-              </button>
-              <button class="filter-pill" data-value="basketball">
-                Basketball
-              </button>
-            </div>
+  <!-- Athletics Details Page -->
+  <div id="athletics-details-page" class="page" style="display: none">
+    <!-- Athletics Hero Header -->
+    <div class="page-hero">
+      <div class="back-btn-container">
+        <a href="#" class="back-to-sports-btn" id="back-to-scores">
+          <i class="fas fa-arrow-left"></i>
+          <span>Back to Sports</span>
+        </a>
+      </div>
+      <div class="page-hero-content">
+        <span class="page-title-icon"><i class="fas fa-running pulse"></i></span>
+        <div class="page-hero-text">
+          <div class="page-title">Athletics Details</div>
+          <p class="page-subtitle">
+            Live standings and event breakdowns for all track and field
+            competitions
+          </p>
+        </div>
+      </div>
+      <div class="page-hero-bg"></div>
+    </div>
+
+    <!-- Filter Section for Athletics -->
+    <div class="filter-section">
+      <div class="filter-options" id="athletics-filter-options">
+        <div class="filter-option active" data-filter="completed">
+          Completed
+        </div>
+        <div class="filter-option" data-filter="ongoing">Ongoing</div>
+        <div class="filter-option" data-filter="upcoming">Upcoming</div>
+      </div>
+    </div>
+
+    <div class="athletics-full-stack" id="athletics-container"></div>
+  </div>
+
+  <!-- Leaders Page -->
+  <div id="leaders-page" class="page" style="display: none">
+    <!-- Leaders Hero Header -->
+    <div class="page-hero">
+      <div class="page-hero-content">
+        <span class="page-title-icon"><i class="fas fa-users"></i></span>
+        <div class="page-hero-text">
+          <div class="page-title">Players & Sports Leaders</div>
+          <p class="page-subtitle">
+            Meet the champions and leaders driving excellence in InterHouse
+            Sports <span class="dynamic-year">2026</span>
+          </p>
+        </div>
+      </div>
+      <div class="page-hero-bg"></div>
+    </div>
+
+    <!-- Year Filter -->
+    <div class="filter-section">
+      <div class="filter-options" id="leaders-year-options">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+
+    <!-- Sports Committee Section -->
+    <div class="sports-committee-section">
+      <div class="section-header-title">
+        <h2 class="section-main-title">Sports Committee</h2>
+        <p class="section-subtitle">
+          Teachers and administrators managing sports excellence
+        </p>
+      </div>
+
+      <!-- Principal Showcase -->
+      <div id="principal-showcase" class="principal-showcase-wrapper">
+        <div id="principal-card-container"></div>
+      </div>
+
+      <div class="sports-committee-grid" id="sports-committee-grid">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+
+    <!-- House Masters & Mistresses Section -->
+    <div class="house-masters-section">
+      <div class="section-header-title">
+        <h2 class="section-main-title">House Masters & Mistresses</h2>
+        <p class="section-subtitle">Faculty leaders guiding each house</p>
+      </div>
+      <div class="house-masters-grid" id="house-masters-grid">
+        <!-- Dynamically populated -->
+      </div>
+    </div>
+
+    <!-- Sports Captain Section -->
+    <div id="sports-captain-showcase" class="sports-captain-showcase-wrapper">
+      <div id="sports-captain-title-container"></div>
+      <div id="sports-captain-card-container"></div>
+    </div>
+    <!-- Student Leaders Section -->
+    <div class="student-leaders-section">
+      <div class="section-header-title">
+        <h2 class="section-main-title">Student Leaders 2026</h2>
+        <p class="section-subtitle">House Captains & Sports Captains</p>
+      </div>
+
+      <!-- House Captains -->
+      <div class="student-leaders-category">
+        <div class="student-leaders-grid" id="house-captains-student-grid">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+
+      <!-- Sports Captains -->
+      <div class="student-leaders-category">
+        <div class="student-leaders-grid" id="sports-captains-student-grid">
+          <!-- Dynamically populated -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Analytics Dashboard Page -->
+  <div id="analytics-page" class="page" style="display: none">
+    <!-- Analytics Hero Header -->
+    <div class="page-hero">
+      <div class="page-hero-content">
+        <span class="page-title-icon"><i class="fas fa-chart-line"></i></span>
+        <div class="page-hero-text">
+          <div class="page-title">Performance Analytics</div>
+          <p class="page-subtitle">
+            Real-time insights and historical performance tracking for
+            InterHouse Sports 2026
+          </p>
+        </div>
+      </div>
+      <div class="page-hero-bg"></div>
+    </div>
+
+    <!-- Key Metrics Cards -->
+    <div class="analytics-metrics-section">
+      <div class="analytics-stat-card metric-leader">
+        <div class="stat-card-inner">
+          <div class="stat-icon-wrapper">
+            <i class="fas fa-crown"></i>
           </div>
-
-          <div class="filter-group">
-            <label class="filter-label">
-              <i class="fas fa-chart-pie"></i> Visualization
-            </label>
-            <div class="chart-toggle-group">
-              <button id="line-chart-btn" class="chart-toggle-btn">
-                <i class="fas fa-chart-line"></i>
-                <span>Line</span>
-              </button>
-              <button id="bar-chart-btn" class="chart-toggle-btn active">
-                <i class="fas fa-chart-bar"></i>
-                <span>Bar</span>
-              </button>
+          <div class="stat-details">
+            <div class="stat-label">Current Leader</div>
+            <div class="stat-value" id="stat-leader">--</div>
+            <div class="stat-trend">
+              <i class="fas fa-arrow-up"></i>
+              <span>Leading</span>
             </div>
           </div>
         </div>
+        <div class="stat-card-glow"></div>
+      </div>
 
-        <!-- Historical Chart -->
+      <div class="analytics-stat-card metric-points">
+        <div class="stat-card-inner">
+          <div class="stat-icon-wrapper">
+            <i class="fas fa-fire"></i>
+          </div>
+          <div class="stat-details">
+            <div class="stat-label">Total Points</div>
+            <div class="stat-value" id="stat-total-points">--</div>
+            <div class="stat-trend">
+              <i class="fas fa-chart-line"></i>
+              <span>Cumulative</span>
+            </div>
+          </div>
+        </div>
+        <div class="stat-card-glow"></div>
+      </div>
+
+      <div class="analytics-stat-card metric-sports">
+        <div class="stat-card-inner">
+          <div class="stat-icon-wrapper">
+            <i class="fas fa-trophy"></i>
+          </div>
+          <div class="stat-details">
+            <div class="stat-label">Sports Completed</div>
+            <div class="stat-value" id="stat-sports-count">--</div>
+            <div class="stat-trend">
+              <i class="fas fa-check-circle"></i>
+              <span>Events</span>
+            </div>
+          </div>
+        </div>
+        <div class="stat-card-glow"></div>
+      </div>
+
+      <div class="analytics-stat-card metric-year">
+        <div class="stat-card-inner">
+          <div class="stat-icon-wrapper">
+            <i class="fas fa-calendar-alt"></i>
+          </div>
+          <div class="stat-details">
+            <div class="stat-label">Current Season</div>
+            <div class="stat-value">2026</div>
+            <div class="stat-trend">
+              <i class="fas fa-star"></i>
+              <span>Active</span>
+            </div>
+          </div>
+        </div>
+        <div class="stat-card-glow"></div>
+      </div>
+    </div>
+
+    <!-- Main Analytics Grid -->
+    <div class="analytics-grid">
+      <!-- House Performance Chart -->
+      <div class="analytics-card card-large">
+        <div class="analytics-card-header">
+          <div class="card-header-left">
+            <i class="fas fa-chart-bar"></i>
+            <h3>House Performance Overview</h3>
+          </div>
+          <div class="card-header-badge">2026</div>
+        </div>
         <div class="analytics-card-body">
-          <div class="historical-chart-container">
-            <canvas id="performance-chart"></canvas>
+          <canvas id="current-year-chart"></canvas>
+        </div>
+      </div>
+
+      <!-- Sport Breakdown -->
+      <div class="analytics-card card-medium">
+        <div class="analytics-card-header">
+          <div class="card-header-left">
+            <i class="fas fa-futbol"></i>
+            <h3>Sport by Sport Analysis</h3>
           </div>
-          <div class="chart-insights" id="chart-description">
-            <i class="fas fa-info-circle"></i>
-            <span id="chart-description-text">Loading performance data...</span>
+        </div>
+        <div class="analytics-card-body">
+          <div class="sport-filter-buttons" id="sport-filter-buttons">
+            <!-- Buttons will be populated by JavaScript -->
+          </div>
+          <div class="sport-chart-wrapper">
+            <canvas id="sport-breakdown-chart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- House Rankings Table -->
+      <div class="analytics-card card-table">
+        <div class="analytics-card-header">
+          <div class="card-header-left">
+            <i class="fas fa-ranking-star"></i>
+            <h3>Live House Rankings</h3>
+          </div>
+          <div class="card-header-badge pulse">LIVE</div>
+        </div>
+        <div class="analytics-card-body">
+          <div class="rankings-table-wrapper">
+            <table class="modern-rankings-table">
+              <thead>
+                <tr>
+                  <th><i class="fas fa-hashtag"></i> Rank</th>
+                  <th><i class="fas fa-home"></i> House</th>
+                  <th><i class="fas fa-star"></i> Points</th>
+                  <th><i class="fas fa-medal"></i> Top Sport</th>
+                </tr>
+              </thead>
+              <tbody id="rankings-table-body"></tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
+    <!-- Past Year Summary Section -->
+    <div class="analytics-section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-content">
+        <i class="fas fa-medal"></i>
+        <span> Results Summary</span>
+      </div>
+      <div class="divider-line"></div>
+    </div>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-section about">
-          <h3 class="footer-branding">SPORTMEET 2026</h3>
-          <p>
-            The official digital marks board for the annual inter-house sports
-            meet of Bandaranayake College, Gampaha. Follow real-time house
-            rankings, athletics results, and performance analytics for Gemunu,
-            Vijaya, Parakrama, and Tissa houses.
-          </p>
-        </div>
+    <div class="summary-year-filter-wrapper">
+      <div class="summary-year-filter" id="summary-year-options">
+        <!-- Populate dynamically -->
+      </div>
+    </div>
 
-        <div class="footer-section links">
-          <h3>Quick Links</h3>
-          <ul class="footer-links-list">
-            <li>
-              <a href="#" class="footer-nav-link" data-target="leaderboard-tab" aria-label="Navigate to Leaderboard">
-                <i class="fas fa-chevron-right" aria-hidden="true"></i> Home
-              </a>
-            </li>
-            <li>
-              <a href="#scoreboard" class="footer-nav-link" data-target="scores-tab" aria-label="View Live Scores">
-                <i class="fas fa-chevron-right" aria-hidden="true"></i> Live
-                Score
-              </a>
-            </li>
-            <li>
-              <a href="#houses" class="footer-nav-link" data-target="leaderboard-tab" aria-label="View House Rankings">
-                <i class="fas fa-chevron-right" aria-hidden="true"></i> Houses
-              </a>
-            </li>
-            <li>
-              <a href="#moments" class="footer-nav-link" data-target="moments-tab" aria-label="View Winning Moments">
-                <i class="fas fa-chevron-right" aria-hidden="true"></i>
-                Moments
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="footer-section contact">
-          <h3>Contact Us</h3>
-          <p>
-            <i class="fas fa-map-marker-alt"></i> Bandaranayake College,<br />
-            Gampaha, 11000, Sri Lanka.
-          </p>
+    <div class="analytics-card card-summary">
+      <div class="analytics-card-header">
+        <div class="card-header-left">
+          <i class="fas fa-list-alt"></i>
+          <h3 id="summary-section-title">Results Summary</h3>
         </div>
       </div>
 
-      <div class="footer-socials">
-        <a href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J" target="_blank" class="social-icon whatsapp"
-          aria-label="WhatsApp Channel">
-          <i class="fab fa-whatsapp" aria-hidden="true"></i>
-        </a>
-        <a href="https://facebook.com/bandaranayakecollege" target="_blank" class="social-icon facebook"
-          aria-label="Facebook Page">
-          <i class="fab fa-facebook-f" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk" target="_blank"
-          class="social-icon instagram" aria-label="Instagram Profile">
-          <i class="fab fa-instagram" aria-hidden="true"></i>
-        </a>
+      <div class="analytics-card-body" id="summary-content-body">
+        <!-- Populate dynamically -->
+      </div>
+    </div>
+    <!-- Historical Performance Section -->
+    <div class="analytics-section-divider">
+      <div class="divider-line"></div>
+      <div class="divider-content">
+        <i class="fas fa-history"></i>
+        <span>Historical Analysis</span>
+      </div>
+      <div class="divider-line"></div>
+    </div>
+
+    <div class="analytics-card card-historical">
+      <div class="analytics-card-header">
+        <div class="card-header-left">
+          <i class="fas fa-chart-area"></i>
+          <h3>Multi-Year Performance Comparison</h3>
+        </div>
+        <p class="card-subtitle">
+          Track house dominance and trends across multiple seasons
+        </p>
       </div>
 
-      <div class="footer-bottom">
-        <span>
-          © 2026 Bandaranayake College
-          <a class="officialweblink" href="https://teamcdc.netlify.app">Coding Club</a>. All rights reserved.
-        </span>
-        <span class="last-updated">
-          Last Updated: <span id="last-update-date">Loading...</span> |
-          <a href="javascript:void(0)" onclick="window.resetPWA()"
-            style="color: var(--theme-bright); text-decoration: none; font-weight: 600; cursor: pointer;">Refresh
-            App</a>
-        </span>
+      <!-- Advanced Filters -->
+      <div class="analytics-filters">
+        <div class="filter-group">
+          <label class="filter-label">
+            <i class="fas fa-home"></i> House
+          </label>
+          <div class="filter-pills" id="house-options">
+            <button class="filter-pill active" data-value="All Houses">
+              <span>All Houses</span>
+            </button>
+            <button class="filter-pill gemunu-pill" data-value="Gemunu">
+              <span>Gemunu</span>
+            </button>
+            <button class="filter-pill vijaya-pill" data-value="Vijaya">
+              <span>Vijaya</span>
+            </button>
+            <button class="filter-pill parakrama-pill" data-value="Parakrama">
+              <span>Parakrama</span>
+            </button>
+            <button class="filter-pill tissa-pill" data-value="Tissa">
+              <span>Tissa</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">
+            <i class="fas fa-running"></i> Sport Category
+          </label>
+          <div class="filter-pills scrollable" id="sport-options">
+            <button class="filter-pill active" data-value="All Sports">
+              Overall
+            </button>
+            <button class="filter-pill" data-value="bestHouseDesign">
+              Best House Design
+            </button>
+            <button class="filter-pill" data-value="karate">Karate</button>
+            <button class="filter-pill" data-value="tableTennis">
+              Table Tennis
+            </button>
+            <button class="filter-pill" data-value="hardball">
+              HardBall
+            </button>
+            <button class="filter-pill" data-value="wrestling">
+              Wrestling
+            </button>
+            <button class="filter-pill" data-value="boxing">Boxing</button>
+            <button class="filter-pill" data-value="football">
+              Football
+            </button>
+            <button class="filter-pill" data-value="athletics">
+              Athletics
+            </button>
+            <button class="filter-pill" data-value="swimming">
+              Swimming
+            </button>
+            <button class="filter-pill" data-value="tagRugby">
+              Tag Rugby
+            </button>
+            <button class="filter-pill" data-value="roadRace">
+              Road Race
+            </button>
+            <button class="filter-pill" data-value="badminton">
+              Badminton
+            </button>
+            <button class="filter-pill" data-value="chess">Chess</button>
+            <button class="filter-pill" data-value="volleyball">
+              Volleyball
+            </button>
+            <button class="filter-pill" data-value="elle">Elle</button>
+            <button class="filter-pill" data-value="hockey">Hockey</button>
+            <button class="filter-pill" data-value="softball">
+              Softball
+            </button>
+            <button class="filter-pill" data-value="basketball">
+              Basketball
+            </button>
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <label class="filter-label">
+            <i class="fas fa-chart-pie"></i> Visualization
+          </label>
+          <div class="chart-toggle-group">
+            <button id="line-chart-btn" class="chart-toggle-btn">
+              <i class="fas fa-chart-line"></i>
+              <span>Line</span>
+            </button>
+            <button id="bar-chart-btn" class="chart-toggle-btn active">
+              <i class="fas fa-chart-bar"></i>
+              <span>Bar</span>
+            </button>
+          </div>
+        </div>
       </div>
-    </footer>
+
+      <!-- Historical Chart -->
+      <div class="analytics-card-body">
+        <div class="historical-chart-container">
+          <canvas id="performance-chart"></canvas>
+        </div>
+        <div class="chart-insights" id="chart-description">
+          <i class="fas fa-info-circle"></i>
+          <span id="chart-description-text">Loading performance data...</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-section about">
+        <h3 class="footer-branding">SPORTMEET 2026</h3>
+        <p>
+          The official digital marks board for the annual inter-house sports
+          meet of Bandaranayake College, Gampaha. Follow real-time house
+          rankings, athletics results, and performance analytics for Gemunu,
+          Vijaya, Parakrama, and Tissa houses.
+        </p>
+      </div>
+
+      <div class="footer-section links">
+        <h3>Quick Links</h3>
+        <ul class="footer-links-list">
+          <li>
+            <a href="#" class="footer-nav-link" data-target="leaderboard-tab" aria-label="Navigate to Leaderboard">
+              <i class="fas fa-chevron-right" aria-hidden="true"></i> Home
+            </a>
+          </li>
+          <li>
+            <a href="#scoreboard" class="footer-nav-link" data-target="scores-tab" aria-label="View Live Scores">
+              <i class="fas fa-chevron-right" aria-hidden="true"></i> Live
+              Score
+            </a>
+          </li>
+          <li>
+            <a href="#houses" class="footer-nav-link" data-target="leaderboard-tab" aria-label="View House Rankings">
+              <i class="fas fa-chevron-right" aria-hidden="true"></i> Houses
+            </a>
+          </li>
+          <li>
+            <a href="#moments" class="footer-nav-link" data-target="moments-tab" aria-label="View Winning Moments">
+              <i class="fas fa-chevron-right" aria-hidden="true"></i>
+              Moments
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-section contact">
+        <h3>Contact Us</h3>
+        <p>
+          <i class="fas fa-map-marker-alt"></i> Bandaranayake College,<br />
+          Gampaha, 11000, Sri Lanka.
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-socials">
+      <a href="https://whatsapp.com/channel/0029Vb8DCeW0bIddkcNUZ51J" target="_blank" class="social-icon whatsapp"
+        aria-label="WhatsApp Channel">
+        <i class="fab fa-whatsapp" aria-hidden="true"></i>
+      </a>
+      <a href="https://facebook.com/bandaranayakecollege" target="_blank" class="social-icon facebook"
+        aria-label="Facebook Page">
+        <i class="fab fa-facebook-f" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.instagram.com/teamcdcbc?igsh=d2RkbTVvMXl5aTRk" target="_blank" class="social-icon instagram"
+        aria-label="Instagram Profile">
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <span>
+        © 2026 Bandaranayake College
+        <a class="officialweblink" href="https://teamcdc.netlify.app">Coding Club</a>. All rights reserved.
+      </span>
+      <span class="last-updated">
+        Last Updated: <span id="last-update-date">Loading...</span> |
+        <a href="javascript:void(0)" onclick="window.resetPWA()"
+          style="color: var(--theme-bright); text-decoration: none; font-weight: 600; cursor: pointer;">Refresh
+          App</a>
+      </span>
+    </div>
+  </footer>
   </div>
 
   <!-- Import Moments Data -->

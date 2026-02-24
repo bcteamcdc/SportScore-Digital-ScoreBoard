@@ -5,14 +5,22 @@
   "description": "The official real-time marks board for Bandaranayake College Sportmeet. View live house rankings, athletics results, and sports updates.",
   "start_url": "index2.html",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "minimal-ui", "standalone"],
+  "display_override": [
+    "window-controls-overlay",
+    "minimal-ui",
+    "standalone"
+  ],
   "background_color": "#080808",
   "theme_color": "#080808",
   "orientation": "any",
   "scope": ".",
   "lang": "en-US",
   "dir": "ltr",
-  "categories": ["sports", "education", "utilities"],
+  "categories": [
+    "sports",
+    "education",
+    "utilities"
+  ],
   "launch_handler": {
     "client_mode": "navigate-existing"
   },
