@@ -14,6 +14,7 @@
             section: document.getElementById('pwa-install-section'),
             btn: document.getElementById('pwa-install-btn-trigger'),
             title: document.querySelector('#pwa-install-section .install-title'),
+            deviceName: document.getElementById('install-device-name'),
             text: document.querySelector('#pwa-install-section .install-text'),
             icon: document.querySelector('#pwa-install-section .install-icon-wrapper i'),
             btnText: document.querySelector('#pwa-install-btn-trigger span')
@@ -120,24 +121,33 @@
         return { name: 'Your Device', icon: 'fas fa-mobile-alt', type: 'unknown' };
     };
 
-    // Capture beforeinstallprompt - The install button will ONLY show if this event fires
+    // Update UI with device info immediately
+    const updateUI = () => {
+        const els = getElements();
+        const deviceInfo = getDeviceInfo();
+
+        if (els.deviceName) els.deviceName.textContent = deviceInfo.name;
+        if (els.icon) els.icon.className = deviceInfo.icon;
+
+        // Show section if not standalone
+        if (els.section && !isStandalone) {
+            // For iOS we might want to show it anyway since beforeinstallprompt doesn't fire
+            const isIOS = /iphone|ipad|ipod/.test(ua.toLowerCase());
+            if (isIOS || deferredPrompt) {
+                els.section.style.display = 'flex';
+            }
+        }
+    };
+
+    // Run initial update
+    document.addEventListener('DOMContentLoaded', updateUI);
+
+    // Capture beforeinstallprompt
     window.addEventListener('beforeinstallprompt', (e) => {
-        console.log('beforeinstallprompt event fired - Install button will now appear');
+        console.log('beforeinstallprompt event fired');
         e.preventDefault();
         deferredPrompt = e;
-
-        // Show the install section ONLY when native prompt is available
-        const els = getElements();
-        if (els.section && !isStandalone) {
-            els.section.style.display = 'flex';
-            els.section.style.visibility = 'visible';
-            els.section.style.opacity = '1';
-
-            // Get real device info and customize UI
-            const deviceInfo = getDeviceInfo();
-            if (els.title) els.title.innerHTML = `Install on <span>${deviceInfo.name}</span>`;
-            if (els.icon) els.icon.className = deviceInfo.icon;
-        }
+        updateUI();
     });
 
     // Handle Install Now button click - Trigger native browser prompt

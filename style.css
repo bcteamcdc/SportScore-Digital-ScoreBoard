@@ -42,17 +42,13 @@
   /* Green */
 
   /* Dynamic Gradients */
-  --gradient-sports: linear-gradient(
-    135deg,
-    var(--bright-red) 0%,
-    var(--deep-red) 100%
-  );
+  --gradient-sports: linear-gradient(135deg,
+      var(--bright-red) 0%,
+      var(--deep-red) 100%);
   --gradient-dark: radial-gradient(circle at 50% 0%, #0f0f0f 0%, #080808 100%);
-  --card-gradient: linear-gradient(
-    165deg,
-    rgba(29, 28, 28, 0.8) 0%,
-    rgba(15, 15, 15, 0.9) 100%
-  );
+  --card-gradient: linear-gradient(165deg,
+      rgba(29, 28, 28, 0.8) 0%,
+      rgba(15, 15, 15, 0.9) 100%);
 
   /* Performance Shadows */
   --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
@@ -79,11 +75,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    circle at center,
-    var(--deep-red) 0%,
-    #080808 100%
-  );
+  background: radial-gradient(circle at center,
+      var(--deep-red) 0%,
+      #080808 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -244,6 +238,7 @@
 }
 
 @keyframes statusFade {
+
   0%,
   100% {
     opacity: 0.3;
@@ -325,11 +320,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: linear-gradient(
-    180deg,
-    var(--theme-bright) 0%,
-    var(--deep-red) 100%
-  );
+  background: linear-gradient(180deg,
+      var(--theme-bright) 0%,
+      var(--deep-red) 100%);
 }
 
 /* Firefox Scrollbar */
@@ -427,6 +420,7 @@ body::after {
 }
 
 @keyframes orbFloat {
+
   0%,
   100% {
     transform: translate(0, 0) scale(1);
@@ -468,11 +462,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: calc(0.75rem + env(safe-area-inset-top)) 2.5rem 0.75rem;
-  background: linear-gradient(
-    180deg,
-    rgba(12, 12, 12, 0.95) 0%,
-    rgba(8, 8, 8, 0.9) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(12, 12, 12, 0.95) 0%,
+      rgba(8, 8, 8, 0.9) 100%);
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.04);
@@ -492,12 +484,10 @@ header::before {
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(158, 13, 13, 0.03) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(90deg,
+      transparent 0%,
+      rgba(158, 13, 13, 0.03) 50%,
+      transparent 100%);
   pointer-events: none;
 }
 
@@ -508,14 +498,12 @@ header::after {
   left: 10%;
   width: 80%;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--deep-red),
-    var(--bright-red),
-    var(--deep-red),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--deep-red),
+      var(--bright-red),
+      var(--deep-red),
+      transparent);
   box-shadow: 0 0 15px var(--shadow-glow);
 }
 
@@ -531,11 +519,9 @@ header::after {
   align-items: center;
   gap: 0.6rem;
   padding: 0.5rem 0.7rem;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    rgba(255, 255, 255, 0.01) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.04) 0%,
+      rgba(255, 255, 255, 0.01) 100%);
   border-radius: 14px;
   border: 1px solid rgba(255, 255, 255, 0.06);
   transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1);
@@ -547,11 +533,9 @@ header::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-10) 0%,
-    transparent 50%
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-10) 0%,
+      transparent 50%);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
@@ -618,11 +602,9 @@ header::after {
   text-transform: uppercase;
   margin: 0;
   line-height: 1.1;
-  background: linear-gradient(
-    135deg,
-    #ffffff 0%,
-    rgba(255, 255, 255, 0.85) 100%
-  );
+  background: linear-gradient(135deg,
+      #ffffff 0%,
+      rgba(255, 255, 255, 0.85) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -637,11 +619,9 @@ header::after {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  background: linear-gradient(
-    135deg,
-    var(--bright-red) 0%,
-    var(--deep-red) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--bright-red) 0%,
+      var(--deep-red) 100%);
   padding: 0.2rem 0.4rem;
   border-radius: 0;
   margin-top: 4px;
@@ -662,6 +642,7 @@ header::after {
 }
 
 @keyframes pulse-dot {
+
   0%,
   100% {
     opacity: 1;
@@ -678,11 +659,9 @@ header::after {
 .header-nav {
   display: flex;
   gap: 0.35rem;
-  background: linear-gradient(
-    135deg,
-    rgba(20, 20, 20, 0.6) 0%,
-    rgba(15, 15, 15, 0.4) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(20, 20, 20, 0.6) 0%,
+      rgba(15, 15, 15, 0.4) 100%);
   padding: 0.35rem;
   border-radius: 16px;
   border: 1px solid rgba(255, 255, 255, 0.04);
@@ -721,11 +700,9 @@ header::after {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    transparent 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      transparent 100%);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -828,11 +805,9 @@ header::after {
     z-index: 9999;
     padding: 0.5rem 0.8rem;
     gap: 0;
-    background: linear-gradient(
-      180deg,
-      rgba(10, 10, 10, 0.98) 0%,
-      rgba(8, 8, 8, 0.95) 100%
-    );
+    background: linear-gradient(180deg,
+        rgba(10, 10, 10, 0.98) 0%,
+        rgba(8, 8, 8, 0.95) 100%);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     box-shadow: 0 2px 25px rgba(0, 0, 0, 0.6);
@@ -963,12 +938,10 @@ header::after {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--bright-red),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--bright-red),
+      transparent);
   opacity: 0.8;
   box-shadow: 0 0 10px var(--bright-red);
 }
@@ -1162,11 +1135,9 @@ header::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    ellipse at bottom left,
-    var(--theme-accent-10) 0%,
-    transparent 50%
-  );
+  background: radial-gradient(ellipse at bottom left,
+      var(--theme-accent-10) 0%,
+      transparent 50%);
   pointer-events: none;
   z-index: 0;
 }
@@ -1355,11 +1326,9 @@ header::after {
 
 /* Sport Card Container - Premium Edition */
 .sport-card {
-  background: linear-gradient(
-    135deg,
-    rgba(15, 15, 15, 0.98) 0%,
-    rgba(8, 8, 8, 0.95) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(15, 15, 15, 0.98) 0%,
+      rgba(8, 8, 8, 0.95) 100%);
   border-radius: 20px;
   padding: 2rem;
   position: relative;
@@ -1390,12 +1359,10 @@ header::after {
   bottom: 0;
   border-radius: 20px;
   padding: 2px;
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-50) 0%,
-    var(--theme-bright) 50%,
-    var(--theme-accent-50) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-50) 0%,
+      var(--theme-bright) 50%,
+      var(--theme-accent-50) 100%);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -1417,12 +1384,10 @@ header::after {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--theme-bright) 50%,
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--theme-bright) 50%,
+      transparent);
   opacity: 0.6;
 }
 
@@ -1443,6 +1408,7 @@ header::after {
 }
 
 @keyframes borderGlow {
+
   0%,
   100% {
     opacity: 0.5;
@@ -1608,11 +1574,9 @@ header::after {
 /* Ranking Card - Consolidated & Premium Redesign */
 .ranking-card {
   position: relative;
-  background: linear-gradient(
-    135deg,
-    rgba(15, 15, 15, 0.98) 0%,
-    rgba(8, 8, 8, 0.98) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(15, 15, 15, 0.98) 0%,
+      rgba(8, 8, 8, 0.98) 100%);
   border-radius: 16px;
   padding: 2rem;
   overflow: hidden;
@@ -1681,12 +1645,10 @@ header::after {
   bottom: 0;
   border-radius: 16px;
   padding: 2px;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.05) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.05) 100%);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -1975,11 +1937,9 @@ header::after {
 }
 
 .event-card {
-  background: linear-gradient(
-    135deg,
-    rgba(20, 20, 20, 0.95) 0%,
-    rgba(10, 10, 10, 0.98) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(20, 20, 20, 0.95) 0%,
+      rgba(10, 10, 10, 0.98) 100%);
   border-radius: 16px;
   padding: 1.5rem;
   position: relative;
@@ -2013,14 +1973,12 @@ header::after {
   left: -100%;
   width: 300%;
   height: 300%;
-  background: linear-gradient(
-    45deg,
-    transparent 0%,
-    rgba(255, 255, 255, 0.03) 45%,
-    rgba(255, 255, 255, 0.08) 50%,
-    rgba(255, 255, 255, 0.03) 55%,
-    transparent 100%
-  );
+  background: linear-gradient(45deg,
+      transparent 0%,
+      rgba(255, 255, 255, 0.03) 45%,
+      rgba(255, 255, 255, 0.08) 50%,
+      rgba(255, 255, 255, 0.03) 55%,
+      transparent 100%);
   transform: rotate(-45deg);
   transition: all 0.6s ease;
   pointer-events: none;
@@ -2125,11 +2083,9 @@ header::after {
 }
 
 .event-card:hover .event-date {
-  background: linear-gradient(
-    135deg,
-    rgba(239, 68, 68, 0.25),
-    rgba(239, 68, 68, 0.1)
-  );
+  background: linear-gradient(135deg,
+      rgba(239, 68, 68, 0.25),
+      rgba(239, 68, 68, 0.1));
   border-color: rgba(239, 68, 68, 0.5);
   transform: translateX(3px);
 }
@@ -2332,16 +2288,14 @@ header::after {
   transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
   position: relative;
   background-size: 20px 20px;
-  background-image: linear-gradient(
-    45deg,
-    rgba(255, 255, 255, 0.1) 25%,
-    transparent 25%,
-    transparent 50%,
-    rgba(255, 255, 255, 0.1) 50%,
-    rgba(255, 255, 255, 0.1) 75%,
-    transparent 75%,
-    transparent
-  );
+  background-image: linear-gradient(45deg,
+      rgba(255, 255, 255, 0.1) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.1) 75%,
+      transparent 75%,
+      transparent);
   animation: progressMove 1s linear infinite;
 }
 
@@ -2405,45 +2359,37 @@ header::after {
 
 /* Progress Bar Colors with enhanced gradients */
 .progress-bar.vijaya {
-  background: linear-gradient(
-    90deg,
-    var(--vijaya-color),
-    #ff6b6b,
-    var(--vijaya-color)
-  );
+  background: linear-gradient(90deg,
+      var(--vijaya-color),
+      #ff6b6b,
+      var(--vijaya-color));
   background-size: 200% 100%;
   animation: progressGradient 3s ease infinite;
 }
 
 .progress-bar.gemunu {
-  background: linear-gradient(
-    90deg,
-    var(--gemunu-color),
-    #60a5fa,
-    var(--gemunu-color)
-  );
+  background: linear-gradient(90deg,
+      var(--gemunu-color),
+      #60a5fa,
+      var(--gemunu-color));
   background-size: 200% 100%;
   animation: progressGradient 3s ease infinite;
 }
 
 .progress-bar.parakrama {
-  background: linear-gradient(
-    90deg,
-    var(--parakrama-color),
-    #fcd34d,
-    var(--parakrama-color)
-  );
+  background: linear-gradient(90deg,
+      var(--parakrama-color),
+      #fcd34d,
+      var(--parakrama-color));
   background-size: 200% 100%;
   animation: progressGradient 3s ease infinite;
 }
 
 .progress-bar.tissa {
-  background: linear-gradient(
-    90deg,
-    var(--tissa-color),
-    #4ade80,
-    var(--tissa-color)
-  );
+  background: linear-gradient(90deg,
+      var(--tissa-color),
+      #4ade80,
+      var(--tissa-color));
   background-size: 200% 100%;
   animation: progressGradient 3s ease infinite;
 }
@@ -2525,11 +2471,9 @@ header::after {
 /* Main Card Container */
 .moment-card {
   position: relative;
-  background: linear-gradient(
-    165deg,
-    rgba(20, 20, 20, 0.95) 0%,
-    rgba(15, 15, 15, 0.98) 100%
-  );
+  background: linear-gradient(165deg,
+      rgba(20, 20, 20, 0.95) 0%,
+      rgba(15, 15, 15, 0.98) 100%);
   border-radius: 1.25rem;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.08);
@@ -2547,12 +2491,10 @@ header::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    transparent 0%,
-    var(--theme-accent-10) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(135deg,
+      transparent 0%,
+      var(--theme-accent-10) 50%,
+      transparent 100%);
   opacity: 0;
   transition: opacity 0.4s ease;
   pointer-events: none;
@@ -2602,25 +2544,21 @@ header::after {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    180deg,
-    transparent 0%,
-    transparent 40%,
-    rgba(15, 15, 15, 0.6) 70%,
-    rgba(15, 15, 15, 0.95) 100%
-  );
+  background: linear-gradient(180deg,
+      transparent 0%,
+      transparent 40%,
+      rgba(15, 15, 15, 0.6) 70%,
+      rgba(15, 15, 15, 0.95) 100%);
   pointer-events: none;
   transition: opacity 0.4s ease;
 }
 
 .moment-card:hover .moment-image-overlay {
-  background: linear-gradient(
-    180deg,
-    var(--theme-accent-10) 0%,
-    transparent 30%,
-    rgba(15, 15, 15, 0.5) 70%,
-    rgba(15, 15, 15, 0.95) 100%
-  );
+  background: linear-gradient(180deg,
+      var(--theme-accent-10) 0%,
+      transparent 30%,
+      rgba(15, 15, 15, 0.5) 70%,
+      rgba(15, 15, 15, 0.95) 100%);
 }
 
 /* Image Shine Effect */
@@ -2630,12 +2568,10 @@ header::after {
   left: -100%;
   width: 60%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.15),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(255, 255, 255, 0.15),
+      transparent);
   transform: skewX(-20deg);
   transition: left 0.8s ease;
   pointer-events: none;
@@ -2665,39 +2601,31 @@ header::after {
 }
 
 .moment-house-badge.vijaya {
-  background: linear-gradient(
-    135deg,
-    rgba(239, 68, 68, 0.9),
-    rgba(185, 28, 28, 0.9)
-  );
+  background: linear-gradient(135deg,
+      rgba(239, 68, 68, 0.9),
+      rgba(185, 28, 28, 0.9));
   border-color: rgba(239, 68, 68, 0.5);
 }
 
 .moment-house-badge.gemunu {
-  background: linear-gradient(
-    135deg,
-    rgba(59, 130, 246, 0.9),
-    rgba(29, 78, 216, 0.9)
-  );
+  background: linear-gradient(135deg,
+      rgba(59, 130, 246, 0.9),
+      rgba(29, 78, 216, 0.9));
   border-color: rgba(59, 130, 246, 0.5);
 }
 
 .moment-house-badge.parakrama {
-  background: linear-gradient(
-    135deg,
-    rgba(245, 158, 11, 0.9),
-    rgba(217, 119, 6, 0.9)
-  );
+  background: linear-gradient(135deg,
+      rgba(245, 158, 11, 0.9),
+      rgba(217, 119, 6, 0.9));
   border-color: rgba(245, 158, 11, 0.5);
   color: #000;
 }
 
 .moment-house-badge.tissa {
-  background: linear-gradient(
-    135deg,
-    rgba(16, 185, 129, 0.9),
-    rgba(5, 150, 105, 0.9)
-  );
+  background: linear-gradient(135deg,
+      rgba(16, 185, 129, 0.9),
+      rgba(5, 150, 105, 0.9));
   border-color: rgba(16, 185, 129, 0.5);
 }
 
@@ -2760,6 +2688,7 @@ header::after {
 }
 
 @keyframes trophyPulse {
+
   0%,
   100% {
     transform: scale(1);
@@ -2838,12 +2767,10 @@ header::after {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent);
   transition: left 0.5s ease;
 }
 
@@ -2892,12 +2819,10 @@ header::after {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--theme-bright),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--theme-bright),
+      transparent);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
@@ -3166,11 +3091,9 @@ header::after {
   gap: 0.6rem;
   margin-top: 1rem;
   padding: 0.7rem 1.2rem;
-  background: linear-gradient(
-    135deg,
-    rgba(239, 68, 68, 0.15),
-    rgba(239, 68, 68, 0.05)
-  );
+  background: linear-gradient(135deg,
+      rgba(239, 68, 68, 0.15),
+      rgba(239, 68, 68, 0.05));
   border: 1px solid rgba(239, 68, 68, 0.4);
   border-radius: 9999px;
   cursor: pointer;
@@ -3186,12 +3109,10 @@ header::after {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.1),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(255, 255, 255, 0.1),
+      transparent);
   transition: left 0.5s ease;
 }
 
@@ -3223,11 +3144,9 @@ header::after {
 }
 
 .see-more-btn:hover {
-  background: linear-gradient(
-    135deg,
-    rgba(239, 68, 68, 0.25),
-    rgba(239, 68, 68, 0.1)
-  );
+  background: linear-gradient(135deg,
+      rgba(239, 68, 68, 0.25),
+      rgba(239, 68, 68, 0.1));
   border-color: rgba(239, 68, 68, 0.6);
   transform: translateY(-3px);
   box-shadow: 0 8px 25px rgba(239, 68, 68, 0.25);
@@ -3449,14 +3368,12 @@ header::after {
 }
 
 .footer .social-icon.instagram {
-  background: linear-gradient(
-    135deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+  background: linear-gradient(135deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%);
   box-shadow: 0 4px 15px rgba(228, 64, 95, 0.3);
 }
 
@@ -3480,7 +3397,7 @@ header::after {
   gap: 1rem;
 }
 
-.footer-bottom > span {
+.footer-bottom>span {
   display: inline-block;
 }
 
@@ -3514,7 +3431,7 @@ header::after {
     gap: 0.75rem;
   }
 
-  .footer-bottom > span {
+  .footer-bottom>span {
     display: block;
     width: 100%;
   }
@@ -3773,11 +3690,9 @@ footer::before {
 }
 
 .analytics-stat-card {
-  background: linear-gradient(
-    145deg,
-    rgba(40, 40, 40, 0.95),
-    rgba(25, 25, 25, 0.95)
-  );
+  background: linear-gradient(145deg,
+      rgba(40, 40, 40, 0.95),
+      rgba(25, 25, 25, 0.95));
   border: 2px solid var(--theme-accent-20);
   border-radius: 1.2rem;
   padding: 1.5rem;
@@ -3888,12 +3803,10 @@ footer::before {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--theme-accent-10),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--theme-accent-10),
+      transparent);
   animation: cardShine 3s infinite;
 }
 
@@ -4282,11 +4195,9 @@ footer::before {
 }
 
 .sport-dropdown {
-  background: linear-gradient(
-    135deg,
-    rgba(20, 20, 20, 0.9),
-    rgba(30, 30, 30, 0.8)
-  );
+  background: linear-gradient(135deg,
+      rgba(20, 20, 20, 0.9),
+      rgba(30, 30, 30, 0.8));
   border: 2px solid rgba(206, 18, 18, 0.4);
   border-radius: 1rem;
   color: var(--white);
@@ -4314,12 +4225,10 @@ footer::before {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(239, 68, 68, 0.1),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(239, 68, 68, 0.1),
+      transparent);
   transition: left 0.5s ease;
 }
 
@@ -4361,11 +4270,9 @@ footer::before {
   position: relative;
   width: 100%;
   max-width: 100%;
-  background: linear-gradient(
-    145deg,
-    rgba(15, 15, 15, 0.95),
-    rgba(25, 25, 25, 0.9)
-  );
+  background: linear-gradient(145deg,
+      rgba(15, 15, 15, 0.95),
+      rgba(25, 25, 25, 0.9));
   border-radius: 1.2rem;
   border: 1px solid var(--theme-accent-20);
   box-shadow:
@@ -4448,6 +4355,7 @@ footer::before {
 }
 
 @keyframes chartIconBounce {
+
   0%,
   100% {
     transform: translateY(0);
@@ -4727,6 +4635,7 @@ footer::before {
 
 /* Animations */
 @keyframes logoFloat {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -4812,6 +4721,7 @@ footer::before {
 }
 
 @keyframes trophyFloat {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -4823,6 +4733,7 @@ footer::before {
 }
 
 @keyframes iconPulse {
+
   0%,
   100% {
     transform: scale(1);
@@ -4853,6 +4764,7 @@ footer::before {
 }
 
 @keyframes livePulse {
+
   0%,
   100% {
     box-shadow: 0 0 5px rgba(206, 18, 18, 0.5);
@@ -4884,6 +4796,7 @@ footer::before {
 }
 
 @keyframes trophyBounce {
+
   0%,
   100% {
     transform: rotate(15deg) scale(1);
@@ -5439,11 +5352,9 @@ footer::before {
 }
 
 .app-file-card {
-  background: linear-gradient(
-    145deg,
-    rgba(40, 40, 40, 0.9),
-    rgba(25, 25, 25, 0.9)
-  );
+  background: linear-gradient(145deg,
+      rgba(40, 40, 40, 0.9),
+      rgba(25, 25, 25, 0.9));
   border: 2px solid rgba(239, 68, 68, 0.2);
   border-radius: 2.5rem;
   padding: 1.5rem;
@@ -5461,12 +5372,10 @@ footer::before {
   inset: 0;
   border-radius: 2.5rem;
   padding: 2px;
-  background: linear-gradient(
-    135deg,
-    transparent,
-    rgba(239, 68, 68, 0.3),
-    transparent
-  );
+  background: linear-gradient(135deg,
+      transparent,
+      rgba(239, 68, 68, 0.3),
+      transparent);
   -webkit-mask:
     linear-gradient(#fff 0 0) content-box,
     linear-gradient(#fff 0 0);
@@ -5533,11 +5442,9 @@ footer::before {
 
 .file-extension {
   display: inline-block;
-  background: linear-gradient(
-    135deg,
-    rgba(239, 68, 68, 0.2),
-    rgba(185, 28, 28, 0.2)
-  );
+  background: linear-gradient(135deg,
+      rgba(239, 68, 68, 0.2),
+      rgba(185, 28, 28, 0.2));
   color: var(--bright-red);
   padding: 0.3rem 0.8rem;
   border-radius: 9999px;
@@ -5583,11 +5490,9 @@ footer::before {
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-  background: linear-gradient(
-    135deg,
-    var(--bright-red) 0%,
-    var(--deep-red) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--bright-red) 0%,
+      var(--deep-red) 100%);
   color: #ffffff;
   padding: 0.8rem 1.5rem;
   border-radius: 9999px;
@@ -5663,6 +5568,7 @@ footer::before {
 }
 
 @keyframes iconFloat {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -5711,11 +5617,9 @@ footer::before {
 }
 
 .instructions-section {
-  background: linear-gradient(
-    145deg,
-    rgba(206, 18, 18, 0.15),
-    rgba(129, 0, 0, 0.15)
-  );
+  background: linear-gradient(145deg,
+      rgba(206, 18, 18, 0.15),
+      rgba(129, 0, 0, 0.15));
   border: 2px solid rgba(206, 18, 18, 0.3);
   border-radius: 3rem;
   padding: 2.5rem;
@@ -5735,12 +5639,10 @@ footer::before {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(206, 18, 18, 0.1),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(206, 18, 18, 0.1),
+      transparent);
   animation: sectionShine 4s infinite;
 }
 
@@ -5792,11 +5694,9 @@ footer::before {
   transform: translateY(-8px) scale(1.02);
   border-color: var(--bright-red);
   box-shadow: var(--shadow-primary);
-  background: linear-gradient(
-    145deg,
-    rgba(206, 18, 18, 0.1),
-    rgba(129, 0, 0, 0.1)
-  );
+  background: linear-gradient(145deg,
+      rgba(206, 18, 18, 0.1),
+      rgba(129, 0, 0, 0.1));
 }
 
 .tab-icon {
@@ -5958,6 +5858,7 @@ footer::before {
 }
 
 @keyframes iconFloat {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -6034,11 +5935,9 @@ footer::before {
   left: -50%;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    circle,
-    rgba(239, 68, 68, 0.05) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      rgba(239, 68, 68, 0.05) 0%,
+      transparent 70%);
   pointer-events: none;
 }
 
@@ -6334,6 +6233,7 @@ footer::before {
 }
 
 @keyframes iconPulse {
+
   0%,
   100% {
     transform: scale(1);
@@ -6347,6 +6247,7 @@ footer::before {
 }
 
 @keyframes iconFloat {
+
   0%,
   100% {
     transform: translateY(0px) rotate(0deg);
@@ -6557,12 +6458,10 @@ footer::before {
   position: relative;
   padding: 4rem 2rem;
   margin: 2rem -1.5rem 3rem -1.5rem;
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-10) 0%,
-    var(--theme-accent-10) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-10) 0%,
+      var(--theme-accent-10) 50%,
+      transparent 100%);
   border-bottom: 1px solid var(--theme-accent-20);
   overflow: hidden;
   display: flex;
@@ -6579,16 +6478,12 @@ footer::before {
   right: 0;
   bottom: 0;
   background:
-    radial-gradient(
-      circle at 20% 50%,
+    radial-gradient(circle at 20% 50%,
       var(--theme-accent-10) 0%,
-      transparent 50%
-    ),
-    radial-gradient(
-      circle at 80% 80%,
+      transparent 50%),
+    radial-gradient(circle at 80% 80%,
       var(--theme-accent-10) 0%,
-      transparent 50%
-    );
+      transparent 50%);
   /* animation: heroFloat 20s ease-in-out infinite; */
   pointer-events: none;
 }
@@ -6619,11 +6514,9 @@ footer::before {
   right: -10%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(
-    circle,
-    var(--theme-accent-10) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      var(--theme-accent-10) 0%,
+      transparent 70%);
   border-radius: 50%;
   transform: translateY(-50%);
   filter: blur(60px);
@@ -6641,12 +6534,10 @@ footer::before {
   position: relative;
   padding: 4rem 2rem;
   margin: 2rem -1.5rem 3rem -1.5rem;
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-10) 0%,
-    var(--theme-accent-10) 50%,
-    transparent 100%
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-10) 0%,
+      var(--theme-accent-10) 50%,
+      transparent 100%);
   border-bottom: 1px solid var(--theme-accent-20);
   overflow: hidden;
   display: flex;
@@ -6664,16 +6555,15 @@ footer::before {
   bottom: 0;
   background:
     radial-gradient(var(--theme-accent-10) 0%, transparent 50%),
-    radial-gradient(
-      circle at 80% 80%,
+    radial-gradient(circle at 80% 80%,
       var(--theme-accent-10) 0%,
-      transparent 50%
-    );
+      transparent 50%);
   /* animation: heroFloat 20s ease-in-out infinite; */
   pointer-events: none;
 }
 
 @keyframes heroFloat {
+
   0%,
   100% {
     transform: translate(0, 0);
@@ -6719,11 +6609,9 @@ footer::before {
   right: -10%;
   width: 500px;
   height: 500px;
-  background: radial-gradient(
-    circle,
-    rgba(255, 31, 31, 0.15) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      rgba(255, 31, 31, 0.15) 0%,
+      transparent 70%);
   border-radius: 50%;
   transform: translateY(-50%);
   filter: blur(60px);
@@ -6740,11 +6628,9 @@ footer::before {
 
 .analytics-stat-card {
   position: relative;
-  background: linear-gradient(
-    135deg,
-    rgba(14, 14, 14, 0.98) 0%,
-    rgba(8, 8, 8, 0.95) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(14, 14, 14, 0.98) 0%,
+      rgba(8, 8, 8, 0.95) 100%);
   border-radius: 16px;
   padding: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.05);
@@ -6759,12 +6645,10 @@ footer::before {
   left: 0;
   right: 0;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--bright-red),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--bright-red),
+      transparent);
   opacity: 0;
   transition: opacity 0.3s ease;
 }
@@ -6852,11 +6736,9 @@ footer::before {
   right: -20%;
   width: 200px;
   height: 200px;
-  background: radial-gradient(
-    circle,
-    var(--theme-accent-20) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      var(--theme-accent-20) 0%,
+      transparent 70%);
   border-radius: 50%;
   filter: blur(40px);
   opacity: 0;
@@ -6870,11 +6752,9 @@ footer::before {
 
 /* Metric Color Variations */
 .metric-leader .stat-icon-wrapper {
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-20),
-    var(--theme-accent-10)
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-20),
+      var(--theme-accent-10));
   border-color: var(--theme-accent-20);
   color: var(--theme-bright);
 }
@@ -6884,31 +6764,25 @@ footer::before {
 }
 
 .metric-points .stat-icon-wrapper {
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-20),
-    var(--theme-accent-10)
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-20),
+      var(--theme-accent-10));
   border-color: var(--theme-accent-20);
   color: var(--theme-bright);
 }
 
 .metric-sports .stat-icon-wrapper {
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-20),
-    var(--theme-accent-10)
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-20),
+      var(--theme-accent-10));
   border-color: var(--theme-accent-20);
   color: var(--theme-bright);
 }
 
 .metric-year .stat-icon-wrapper {
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-20),
-    var(--theme-accent-10)
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-20),
+      var(--theme-accent-10));
   border-color: var(--theme-accent-20);
   color: var(--theme-bright);
 }
@@ -6923,11 +6797,9 @@ footer::before {
 
 /* Analytics Cards */
 .analytics-card {
-  background: linear-gradient(
-    165deg,
-    rgba(15, 15, 15, 0.98) 0%,
-    rgba(8, 8, 8, 0.95) 100%
-  );
+  background: linear-gradient(165deg,
+      rgba(15, 15, 15, 0.98) 0%,
+      rgba(8, 8, 8, 0.95) 100%);
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.05);
   overflow: hidden;
@@ -6959,6 +6831,7 @@ footer::before {
 }
 
 @media (max-width: 1200px) {
+
   .card-large,
   .card-medium,
   .card-table {
@@ -7058,6 +6931,7 @@ footer::before {
 }
 
 @keyframes badgePulse {
+
   0%,
   100% {
     box-shadow: 0 0 0 0 var(--theme-accent-50);
@@ -7430,17 +7304,16 @@ canvas#current-year-chart {
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
   .page-hero,
   .analytics-hero {
     padding: 1.5rem 1rem;
     margin: 1rem 0 2rem 0;
     /* Removed negative margins for cleaner mobile look */
     border-radius: 16px;
-    background: linear-gradient(
-      135deg,
-      rgba(255, 31, 31, 0.15),
-      rgba(10, 10, 10, 0.8)
-    );
+    background: linear-gradient(135deg,
+        rgba(255, 31, 31, 0.15),
+        rgba(10, 10, 10, 0.8));
   }
 
   .page-title {
@@ -7565,25 +7438,23 @@ canvas#current-year-chart {
    PWA INSTALL SECTION - PREMIUM DESIGN
    ============================================ */
 .install-section {
-  width: 100% !important;
-  margin: 3rem 0 0 0 !important;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-  padding: 0 1.5rem !important;
-  box-sizing: border-box !important;
+  width: 100%;
+  margin: 3rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
   animation: fadeInUp 0.8s ease-out;
   position: relative;
   z-index: 10;
 }
 
 .install-card {
-  background: linear-gradient(
-    90deg,
-    rgba(25, 10, 10, 0.95) 0%,
-    rgba(45, 10, 10, 0.9) 50%,
-    rgba(25, 10, 10, 0.95) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(25, 10, 10, 0.95) 0%,
+      rgba(45, 10, 10, 0.9) 50%,
+      rgba(25, 10, 10, 0.95) 100%);
   border: 1px solid rgba(255, 31, 31, 0.15);
   border-radius: 24px;
   padding: 1.5rem 2.5rem;
@@ -7610,11 +7481,9 @@ canvas#current-year-chart {
   transform: translateY(-50%);
   width: 150px;
   height: 100%;
-  background: radial-gradient(
-    circle,
-    rgba(239, 68, 68, 0.1) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle,
+      rgba(239, 68, 68, 0.1) 0%,
+      transparent 70%);
   pointer-events: none;
 }
 
@@ -7731,12 +7600,10 @@ canvas#current-year-chart {
   height: 2px;
   flex: 1;
   min-width: 50px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--theme-bright) 50%,
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--theme-bright) 50%,
+      transparent);
   box-shadow: 0 0 10px var(--theme-glow-soft);
 }
 
@@ -7768,6 +7635,7 @@ canvas#current-year-chart {
 }
 
 @keyframes dividerIconGlow {
+
   0%,
   100% {
     transform: scale(1);
@@ -7902,11 +7770,9 @@ canvas#current-year-chart {
 }
 
 .nav-card {
-  background: linear-gradient(
-    165deg,
-    rgba(25, 25, 25, 0.9) 0%,
-    rgba(10, 10, 10, 0.95) 100%
-  );
+  background: linear-gradient(165deg,
+      rgba(25, 25, 25, 0.9) 0%,
+      rgba(10, 10, 10, 0.95) 100%);
   border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: 20px;
   padding: 1.5rem;
@@ -7927,11 +7793,9 @@ canvas#current-year-chart {
   left: 0;
   width: 100%;
   height: 100%;
-  background: radial-gradient(
-    circle at top left,
-    var(--theme-accent-10),
-    transparent 70%
-  );
+  background: radial-gradient(circle at top left,
+      var(--theme-accent-10),
+      transparent 70%);
   opacity: 0;
   transition: opacity 0.4s ease;
 }
@@ -8089,11 +7953,9 @@ canvas#current-year-chart {
   gap: 1.5rem;
   margin-bottom: 3rem;
   padding: 1.5rem 2.5rem;
-  background: linear-gradient(
-    90deg,
-    rgba(216, 64, 64, 0.15) 0%,
-    rgba(15, 15, 15, 0.8) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(216, 64, 64, 0.15) 0%,
+      rgba(15, 15, 15, 0.8) 100%);
   border-radius: 100px;
   border: 1px solid rgba(255, 31, 31, 0.1);
   border-left: 6px solid var(--bright-red);
@@ -8132,6 +7994,7 @@ canvas#current-year-chart {
 }
 
 @keyframes pulseGlow {
+
   0%,
   100% {
     transform: scale(1);
@@ -8194,6 +8057,7 @@ canvas#current-year-chart {
 
 /* Standard Tablets */
 @media (max-width: 992px) {
+
   .sports-grid,
   .rankings-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -8655,11 +8519,9 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to right,
-    transparent 70%,
-    rgba(10, 10, 10, 0.8) 100%
-  );
+  background: linear-gradient(to right,
+      transparent 70%,
+      rgba(10, 10, 10, 0.8) 100%);
 }
 
 .captain-info-content {
@@ -8881,11 +8743,9 @@ canvas#current-year-chart {
 
 /* Award Card Specific Styling */
 .award-card {
-  background: linear-gradient(
-    135deg,
-    rgba(255, 215, 0, 0.05) 0%,
-    rgba(255, 255, 255, 0.02) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 215, 0, 0.05) 0%,
+      rgba(255, 255, 255, 0.02) 100%);
   border: 1px solid rgba(255, 215, 0, 0.2);
   box-shadow:
     0 15px 45px rgba(0, 0, 0, 0.4),
@@ -9024,11 +8884,9 @@ canvas#current-year-chart {
 
 /* Year Filter - Curved Top Design */
 .year-filter-curved {
-  background: linear-gradient(
-    135deg,
-    var(--surface-2) 0%,
-    var(--surface-1) 100%
-  );
+  background: linear-gradient(135deg,
+      var(--surface-2) 0%,
+      var(--surface-1) 100%);
   border-radius: 30px;
   padding: 2rem;
   margin: 0 1rem 3rem 1rem;
@@ -9160,11 +9018,9 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(158, 13, 13, 0.4) 0%,
-    rgba(0, 0, 0, 0.8) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(158, 13, 13, 0.4) 0%,
+      rgba(0, 0, 0, 0.8) 100%);
   z-index: 1;
 }
 
@@ -9413,6 +9269,7 @@ canvas#current-year-chart {
 
 /* Responsive */
 @media (max-width: 768px) {
+
   .year-buttons-curved,
   .house-filter-buttons {
     flex-direction: column;
@@ -9476,11 +9333,9 @@ canvas#current-year-chart {
    ============================================ */
 .mission-vision-section {
   padding: 4rem 1.5rem;
-  background: linear-gradient(
-    180deg,
-    rgba(15, 15, 15, 0) 0%,
-    rgba(15, 15, 15, 0.8) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(15, 15, 15, 0) 0%,
+      rgba(15, 15, 15, 0.8) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -9568,11 +9423,9 @@ canvas#current-year-chart {
    ============================================ */
 .sports-oath-section {
   padding: 5rem 1.5rem 2rem 1.5rem;
-  background: radial-gradient(
-    circle at center,
-    rgba(216, 64, 64, 0.05) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle at center,
+      rgba(216, 64, 64, 0.05) 0%,
+      transparent 70%);
 }
 
 .oath-container {
@@ -9662,12 +9515,10 @@ canvas#current-year-chart {
 .oath-divider .divider-line {
   flex: 1;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--theme-accent-20),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--theme-accent-20),
+      transparent);
 }
 
 .oath-sub-icon {
@@ -9696,11 +9547,9 @@ canvas#current-year-chart {
    ============================================ */
 .sports-committee-section {
   padding: 1rem 2rem 4rem;
-  background: linear-gradient(
-    180deg,
-    rgba(15, 15, 15, 0) 0%,
-    rgba(15, 15, 15, 0.5) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(15, 15, 15, 0) 0%,
+      rgba(15, 15, 15, 0.5) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9739,12 +9588,10 @@ canvas#current-year-chart {
   transform: translateX(-50%);
   width: 120px;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--bright-red),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--bright-red),
+      transparent);
   border-radius: 2px;
 }
 
@@ -9795,12 +9642,10 @@ canvas#current-year-chart {
   transform: translateX(-50%);
   width: 100px;
   height: 2px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--bright-red),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--bright-red),
+      transparent);
   border-radius: 2px;
 }
 
@@ -9829,12 +9674,10 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.03) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.1) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.03) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 100%);
   pointer-events: none;
   border-radius: 24px;
   z-index: 0;
@@ -9878,11 +9721,9 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    rgba(15, 15, 15, 0.5) 100%
-  );
+  background: linear-gradient(to right,
+      transparent 0%,
+      rgba(15, 15, 15, 0.5) 100%);
   pointer-events: none;
 }
 
@@ -10169,6 +10010,7 @@ canvas#current-year-chart {
 }
 
 @media (max-width: 480px) {
+
   .deputy-row,
   .assistant-row {
     grid-template-columns: 1fr;
@@ -10200,12 +10042,10 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.1) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 100%);
   pointer-events: none;
   border-radius: 24px;
 }
@@ -10217,12 +10057,10 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 255, 255, 0.2),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      rgba(255, 255, 255, 0.2),
+      transparent);
 }
 
 .committee-card:hover {
@@ -10354,11 +10192,9 @@ canvas#current-year-chart {
    ============================================ */
 .house-masters-section {
   padding: 2rem 2rem 4rem;
-  background: radial-gradient(
-    circle at center,
-    var(--theme-accent-10) 0%,
-    transparent 70%
-  );
+  background: radial-gradient(circle at center,
+      var(--theme-accent-10) 0%,
+      transparent 70%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10397,12 +10233,10 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.1) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 100%);
   pointer-events: none;
   border-radius: 24px;
 }
@@ -10503,11 +10337,9 @@ canvas#current-year-chart {
    ============================================ */
 .student-leaders-section {
   padding: 4rem 2rem;
-  background: linear-gradient(
-    180deg,
-    rgba(15, 15, 15, 0.5) 0%,
-    rgba(15, 15, 15, 0) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(15, 15, 15, 0.5) 0%,
+      rgba(15, 15, 15, 0) 100%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10539,12 +10371,10 @@ canvas#current-year-chart {
   transform: translateX(-50%);
   width: 80px;
   height: 3px;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    var(--bright-red),
-    transparent
-  );
+  background: linear-gradient(90deg,
+      transparent,
+      var(--bright-red),
+      transparent);
   border-radius: 2px;
 }
 
@@ -10583,12 +10413,10 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.1) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.05) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 100%);
   pointer-events: none;
   border-radius: 24px;
 }
@@ -10710,6 +10538,7 @@ canvas#current-year-chart {
 }
 
 @media (max-width: 768px) {
+
   .sports-committee-section,
   .house-masters-section,
   .student-leaders-section {
@@ -10854,12 +10683,10 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.03) 0%,
-    transparent 50%,
-    rgba(0, 0, 0, 0.1) 100%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.03) 0%,
+      transparent 50%,
+      rgba(0, 0, 0, 0.1) 100%);
   pointer-events: none;
   border-radius: 24px;
   z-index: 0;
@@ -10903,11 +10730,9 @@ canvas#current-year-chart {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-    to right,
-    transparent 0%,
-    rgba(15, 15, 15, 0.5) 100%
-  );
+  background: linear-gradient(to right,
+      transparent 0%,
+      rgba(15, 15, 15, 0.5) 100%);
   pointer-events: none;
 }
 
@@ -11136,11 +10961,9 @@ canvas#current-year-chart {
 }
 
 .best-athletes-card {
-  background: linear-gradient(
-    135deg,
-    var(--theme-accent-10),
-    rgba(0, 0, 0, 0.3)
-  );
+  background: linear-gradient(135deg,
+      var(--theme-accent-10),
+      rgba(0, 0, 0, 0.3));
   border: 1px solid var(--theme-accent-20);
   padding: 1.5rem;
   border-radius: 12px;
@@ -11238,7 +11061,7 @@ canvas#current-year-chart {
   box-sizing: border-box !important;
 }
 
-.blur-overlay > div {
+.blur-overlay>div {
   color: #fff !important;
   font-size: 0.9rem !important;
   font-weight: 600 !important;
@@ -11291,12 +11114,12 @@ canvas#current-year-chart {
     border-radius: 12px !important;
   }
 
-  .blur-overlay > div {
+  .blur-overlay>div {
     font-size: 0.75rem !important;
     line-height: 1.4 !important;
   }
 
-  .blur-overlay > div br {
+  .blur-overlay>div br {
     display: block;
   }
 
@@ -11318,7 +11141,7 @@ canvas#current-year-chart {
     border-radius: 10px !important;
   }
 
-  .blur-overlay > div {
+  .blur-overlay>div {
     font-size: 0.7rem !important;
     line-height: 1.35 !important;
   }
