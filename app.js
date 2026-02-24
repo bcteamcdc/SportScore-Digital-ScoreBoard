@@ -1718,15 +1718,7 @@ function createSlideshow(selectedYear) {
 
   // Get moments based on category filter
   let allMoments = [];
-  if (currentCategory === "mix") {
-    // Combine moments, bcpas, and bcmu data
-    if (momentsData && momentsData.moments)
-      allMoments = allMoments.concat(momentsData.moments);
-    if (bcpasData && bcpasData.moments)
-      allMoments = allMoments.concat(bcpasData.moments);
-    if (bcmuData && bcmuData.moments)
-      allMoments = allMoments.concat(bcmuData.moments);
-  } else if (currentCategory === "bcpas" && bcpasData && bcpasData.moments) {
+  if (currentCategory === "bcpas" && bcpasData && bcpasData.moments) {
     allMoments = bcpasData.moments;
   } else if (currentCategory === "bcmu" && bcmuData && bcmuData.moments) {
     allMoments = bcmuData.moments;
@@ -1871,15 +1863,7 @@ function renderMoments(selectedYear) {
 
   // Get moments based on category filter
   let allMoments = [];
-  if (currentCategory === "mix") {
-    // Combine moments, bcpas, and bcmu data
-    if (momentsData && momentsData.moments)
-      allMoments = allMoments.concat(momentsData.moments);
-    if (bcpasData && bcpasData.moments)
-      allMoments = allMoments.concat(bcpasData.moments);
-    if (bcmuData && bcmuData.moments)
-      allMoments = allMoments.concat(bcmuData.moments);
-  } else if (currentCategory === "bcpas" && bcpasData && bcpasData.moments) {
+  if (currentCategory === "bcpas" && bcpasData && bcpasData.moments) {
     allMoments = bcpasData.moments;
   } else if (currentCategory === "bcmu" && bcmuData && bcmuData.moments) {
     allMoments = bcmuData.moments;
@@ -1967,11 +1951,31 @@ function setupMomentsFilter() {
   });
 }
 
+function updateCopyrightNotice() {
+  const bcpasCopyright = document.getElementById("bcpas-copyright");
+  const bcmuCopyright = document.getElementById("bcmu-copyright");
+
+  if (currentCategory === "bcpas") {
+    if (bcpasCopyright) bcpasCopyright.style.display = "flex";
+    if (bcmuCopyright) bcmuCopyright.style.display = "none";
+  } else if (currentCategory === "bcmu") {
+    if (bcpasCopyright) bcpasCopyright.style.display = "none";
+    if (bcmuCopyright) bcmuCopyright.style.display = "flex";
+  } else {
+    // Fallback/Default
+    if (bcpasCopyright) bcpasCopyright.style.display = "none";
+    if (bcmuCopyright) bcmuCopyright.style.display = "none";
+  }
+}
+
 function setupMomentsCategoryFilter() {
   const categoryOptions = document.getElementById("moments-category-options");
   if (!categoryOptions) return;
 
   const options = categoryOptions.querySelectorAll(".filter-option");
+
+  // Initial visibility update
+  updateCopyrightNotice();
 
   options.forEach((option) => {
     option.addEventListener("click", async () => {
@@ -1983,20 +1987,7 @@ function setupMomentsCategoryFilter() {
       await loadCategoryData(currentCategory);
 
       // Toggle copyright notices based on category
-      const bcpasCopyright = document.getElementById("bcpas-copyright");
-      const bcmuCopyright = document.getElementById("bcmu-copyright");
-
-      if (currentCategory === "bcpas") {
-        if (bcpasCopyright) bcpasCopyright.style.display = "block";
-        if (bcmuCopyright) bcmuCopyright.style.display = "none";
-      } else if (currentCategory === "bcmu") {
-        if (bcpasCopyright) bcpasCopyright.style.display = "none";
-        if (bcmuCopyright) bcmuCopyright.style.display = "block";
-      } else {
-        // Mix - show both
-        if (bcpasCopyright) bcpasCopyright.style.display = "block";
-        if (bcmuCopyright) bcmuCopyright.style.display = "block";
-      }
+      updateCopyrightNotice();
 
       // Get current year filter
       const yearOption = document.querySelector(
@@ -2013,7 +2004,7 @@ function setupMomentsCategoryFilter() {
 }
 
 async function loadCategoryData(category) {
-  if (category === "mix" || category === "bcpas") {
+  if (category === "bcpas") {
     if (!bcpasData) {
       try {
         const response = await fetch("data/bcpas.json");
@@ -2026,7 +2017,7 @@ async function loadCategoryData(category) {
     }
   }
 
-  if (category === "mix" || category === "bcmu") {
+  if (category === "bcmu") {
     if (!bcmuData) {
       try {
         const response = await fetch("data/bcmu.json");

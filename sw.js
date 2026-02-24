@@ -105,29 +105,11 @@ self.addEventListener('fetch', (event) => {
     return;
   }
 
-  // 3. Data (JSON) - Network First (for offline support)
+  // 3. Data (JSON) - Network Only
   const isData = url.pathname.endsWith('.json') || url.pathname.includes('/api/');
 
   if (isData) {
-    event.respondWith(
-      fetch(event.request)
-        .then((response) => {
-          if (response && response.status === 200) {
-            const responseToCache = response.clone();
-            caches.open(ASSETS_CACHE_NAME).then((cache) => {
-              cache.put(event.request, responseToCache);
-            });
-          }
-          return response;
-        })
-        .catch(async () => {
-          const cachedResponse = await caches.match(event.request);
-          if (cachedResponse) return cachedResponse;
-          return new Response(JSON.stringify({ error: "Offline" }), {
-            headers: { 'Content-Type': 'application/json' }
-          });
-        })
-    );
+    event.respondWith(fetch(event.request));
     return;
   }
 
