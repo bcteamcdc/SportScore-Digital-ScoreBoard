@@ -1357,17 +1357,17 @@
     {
       "id": "wrestling",
       "name": "Wrestling",
-      "date": "",
+      "date": "2026/03/11",
       "venue": "Indoor Stadium",
       "isHeld": false,
       "scores": [
         {
           "house": "Gemunu",
-          "score": 0
+          "score": 10
         },
         {
           "house": "Tissa",
-          "score": 0
+          "score": 15
         },
         {
           "house": "Parakrama",
@@ -1375,7 +1375,7 @@
         },
         {
           "house": "Vijaya",
-          "score": 0
+          "score": 5
         }
       ]
     },
