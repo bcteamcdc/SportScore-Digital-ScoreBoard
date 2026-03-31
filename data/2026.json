@@ -1393,6 +1393,31 @@
   },
   "sports": [
     {
+      "id": "march",
+      "name": "March Pass",
+      "date": "2026/03/31",
+      "venue": "Main Ground",
+      "isHeld": false,
+      "scores": [
+        {
+          "house": "Gemunu",
+          "score": 20
+        },
+        {
+          "house": "Tissa",
+          "score": 20
+        },
+        {
+          "house": "Parakrama",
+          "score": 10
+        },
+        {
+          "house": "Vijaya",
+          "score": 15
+        }
+      ]
+    },
+    {
       "id": "best_house_design",
       "name": "Best House Design",
       "date": "2026/03/31",
