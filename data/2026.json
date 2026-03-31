@@ -314,6 +314,28 @@
               }
             ]
           },
+           {
+            "name": "100*4 Running",
+            "date": "2026/03/31",
+            "isHeld": false,
+            "scores": [
+              {
+                "house": "Gemunu",
+                "score": 5
+              },
+              {
+                "house": "Vijaya",
+                "score": 0
+              },
+              {
+                "house": "Parakrama",
+                "score": 10
+              },
+              {
+                "house": "Tissa",
+                "score": 7
+              }
+            ]
           {
             "name": "100m Running",
             "date": "2026/02/09",
@@ -825,6 +847,28 @@
               }
             ]
           },
+           {
+            "name": "100*4 Running",
+            "date": "2026/03/31",
+            "isHeld": false,
+            "scores": [
+              {
+                "house": "Gemunu",
+                "score": 10
+              },
+              {
+                "house": "Vijaya",
+                "score": 5
+              },
+              {
+                "house": "Parakrama",
+                "score": 7
+              },
+              {
+                "house": "Tissa",
+                "score": 0
+              }
+            ]
           {
             "name": "Shot Put",
             "date": "2026/02/09",
@@ -991,6 +1035,28 @@
               }
             ]
           },
+           {
+            "name": "100*4 Running",
+            "date": "2026/03/31",
+            "isHeld": false,
+            "scores": [
+              {
+                "house": "Gemunu",
+                "score": 7
+              },
+              {
+                "house": "Vijaya",
+                "score": 0
+              },
+              {
+                "house": "Parakrama",
+                "score": 10
+              },
+              {
+                "house": "Tissa",
+                "score": 5
+              }
+            ]
           {
             "name": "800m Running",
             "date": "2026/02/10",
