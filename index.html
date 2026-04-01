@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>WINNER — Interhouse Sports 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #06080f;
+    --gemunu: #4a9eff;
+    --parakrama: #f0b429;
+    --tissa: #30d988;
+    --vijaya: #ff5555;
+    --gold: #ffd700;
+    --gold2: #ffaa00;
+  }
+
+  *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { height: 100%; }
+
+  body {
+    background: var(--bg);
+    color: #fff;
+    font-family: 'Exo 2', sans-serif;
+    min-height: 100%;
+    /* scrollable so nothing clips on small phones */
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 16px 40px;
+  }
+
+  /* ─── BACKGROUND ─── */
+  #particles { position: fixed; inset: 0; z-index: 0; pointer-events: none; }
+
+  .radial-glow {
+    position: fixed;
+    width: min(900px, 160vw);
+    height: min(900px, 160vw);
+    border-radius: 50%;
+    background: radial-gradient(ellipse, rgba(74,158,255,0.13) 0%, transparent 70%);
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    animation: breathe 3s ease-in-out infinite;
+    pointer-events: none;
+  }
+  @keyframes breathe {
+    0%,100% { transform: translate(-50%,-50%) scale(1);    opacity: .7; }
+    50%      { transform: translate(-50%,-50%) scale(1.12); opacity: 1;  }
+  }
+
+  #burst { position: fixed; inset: 0; z-index: 5; pointer-events: none; overflow: hidden; }
+  .conf  { position: absolute; border-radius: 2px; opacity: 0; }
+
+  /* ─── STAGE ─── */
+  .stage {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 680px;
+    /* prevent crown overflow clipping */
+    padding-top: 20px;
+    opacity: 0;
+    animation: stageIn .8s ease forwards .3s;
+  }
+  @keyframes stageIn {
+    from { opacity: 0; transform: translateY(30px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ─── TOP BAR ─── */
+  .top-bar {
+    display: flex; align-items: center; gap: 10px;
+    margin-bottom: 22px;
+    opacity: 0; animation: fadeUp .6s ease forwards .5s;
+    width: 100%; justify-content: center;
+  }
+  .top-bar-line { flex: 1; max-width: 60px; height: 1px; background: rgba(255,215,0,.3); }
+  .top-bar-text {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: clamp(10px, 2.5vw, 12px);
+    letter-spacing: 4px; color: var(--gold2);
+    text-transform: uppercase; font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* ─── LABELS ─── */
+  .event-title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(9px, 2vw, 11px);
+    letter-spacing: 4px; color: rgba(255,255,255,.3);
+    text-transform: uppercase; margin-bottom: 6px; text-align: center;
+    opacity: 0; animation: fadeUp .6s ease forwards .65s;
+  }
+  .champion-label {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(11px, 3vw, 14px);
+    letter-spacing: 5px; color: var(--gold);
+    text-transform: uppercase; margin-bottom: 28px; text-align: center;
+    opacity: 0; animation: fadeUp .6s ease forwards .8s;
+  }
+
+  /* ─── WINNER NAME ─── */
+  .winner-name-wrap {
+    position: relative;
+    /* top padding = crown height so it never overlaps label above */
+    padding-top: 44px;
+    margin-bottom: 8px;
+    opacity: 0;
+    animation: blastIn .9s cubic-bezier(.175,.885,.32,1.275) forwards 1.0s;
+  }
+  @keyframes blastIn {
+    0%   { opacity: 0; transform: scale(.4); filter: blur(20px); }
+    70%  { opacity: 1; filter: blur(0); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+
+  .crown {
+    position: absolute;
+    top: 0; left: 50%;
+    transform: translateX(-50%);
+    font-size: clamp(28px, 7vw, 40px);
+    line-height: 1;
+    filter: drop-shadow(0 0 12px rgba(255,215,0,.8));
+    animation: crownBounce 1.6s ease-in-out infinite 2s;
+  }
+  @keyframes crownBounce {
+    0%,100% { transform: translateX(-50%) translateY(0)   rotate(-3deg); }
+    50%     { transform: translateX(-50%) translateY(-7px) rotate(3deg); }
+  }
+
+  .winner-name {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(52px, 16vw, 130px);
+    font-weight: 900;
+    color: var(--gemunu);
+    letter-spacing: clamp(2px, 1vw, 8px);
+    text-shadow:
+      0 0 40px rgba(74,158,255,.7),
+      0 0 80px rgba(74,158,255,.4),
+      0 0 160px rgba(74,158,255,.2);
+    line-height: 1;
+    animation: nameGlow 2s ease-in-out infinite 2.2s;
+    white-space: nowrap;
+  }
+  @keyframes nameGlow {
+    0%,100% { text-shadow: 0 0 40px rgba(74,158,255,.7), 0 0 80px rgba(74,158,255,.4); }
+    50%     { text-shadow: 0 0 60px rgba(74,158,255,1),  0 0 120px rgba(74,158,255,.7); }
+  }
+
+  /* ─── SCORE ─── */
+  .score-row {
+    display: flex; align-items: baseline; gap: 8px; margin-bottom: 22px;
+    opacity: 0; animation: fadeUp .6s ease forwards 1.4s;
+  }
+  .score-num {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(30px, 8vw, 60px); font-weight: 700; color: var(--gemunu);
+  }
+  .score-pts {
+    font-family: 'Rajdhani', sans-serif; font-size: clamp(12px, 3vw, 15px);
+    letter-spacing: 3px; color: rgba(74,158,255,.6);
+    text-transform: uppercase; margin-bottom: 4px;
+  }
+
+  /* ─── RANK BADGE ─── */
+  .rank-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: rgba(74,158,255,.08);
+    border: 1px solid rgba(74,158,255,.3);
+    border-radius: 30px; padding: 7px 20px; margin-bottom: 30px;
+    opacity: 0; animation: fadeUp .6s ease forwards 1.55s;
+  }
+  .rank-badge-icon { color: var(--gold); font-size: 15px; }
+  .rank-badge-text {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(9px, 2.5vw, 11px);
+    letter-spacing: 2px; color: rgba(255,255,255,.8);
+    white-space: nowrap;
+  }
+
+  /* ─── PODIUM ─── */
+  .podium-section {
+    display: flex; align-items: flex-end; justify-content: center;
+    gap: clamp(6px, 2vw, 12px);
+    margin-bottom: 30px; width: 100%;
+    opacity: 0; animation: fadeUp .7s ease forwards 1.75s;
+  }
+  .podium-item { display: flex; flex-direction: column; align-items: center; flex: 1; max-width: 100px; }
+  .podium-label {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: clamp(9px, 2.5vw, 11px);
+    letter-spacing: 1px; font-weight: 600;
+    text-transform: uppercase; margin-bottom: 4px;
+    text-align: center; white-space: nowrap;
+  }
+  .podium-score-small {
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(10px, 3vw, 13px); font-weight: 700; margin-bottom: 6px;
+  }
+  .podium-block {
+    width: 100%; border-radius: 6px 6px 0 0;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(11px, 3vw, 14px); font-weight: 700;
+    letter-spacing: 1px; padding: 10px 0;
+  }
+  .podium-base { width: 100%; height: 5px; background: rgba(255,255,255,.06); border-radius: 0 0 4px 4px; }
+
+  .first .podium-label       { color: var(--gemunu); }
+  .first .podium-score-small { color: var(--gemunu); }
+  .first .podium-block {
+    height: clamp(70px, 15vw, 100px);
+    background: linear-gradient(180deg,rgba(74,158,255,.22),rgba(74,158,255,.08));
+    border: 1px solid rgba(74,158,255,.5); border-bottom: none; color: var(--gemunu);
+    box-shadow: 0 -10px 28px rgba(74,158,255,.25);
+  }
+  .second .podium-label       { color: var(--parakrama); }
+  .second .podium-score-small { color: var(--parakrama); }
+  .second .podium-block {
+    height: clamp(48px, 11vw, 70px);
+    background: linear-gradient(180deg,rgba(240,180,41,.18),rgba(240,180,41,.06));
+    border: 1px solid rgba(240,180,41,.4); border-bottom: none; color: var(--parakrama);
+  }
+  .third .podium-label       { color: var(--tissa); }
+  .third .podium-score-small { color: var(--tissa); }
+  .third .podium-block {
+    height: clamp(38px, 9vw, 55px);
+    background: linear-gradient(180deg,rgba(48,217,136,.18),rgba(48,217,136,.06));
+    border: 1px solid rgba(48,217,136,.4); border-bottom: none; color: var(--tissa);
+  }
+  .fourth .podium-label       { color: var(--vijaya); }
+  .fourth .podium-score-small { color: var(--vijaya); }
+  .fourth .podium-block {
+    height: clamp(28px, 7vw, 42px);
+    background: linear-gradient(180deg,rgba(255,85,85,.14),rgba(255,85,85,.04));
+    border: 1px solid rgba(255,85,85,.3); border-bottom: none; color: var(--vijaya);
+  }
+
+  /* ─── DIVIDER ─── */
+  .divider {
+    width: min(360px, 85%); height: 1px;
+    background: linear-gradient(90deg,transparent,rgba(74,158,255,.3),transparent);
+    margin-bottom: 16px;
+    opacity: 0; animation: fadeUp .6s ease forwards 1.9s;
+  }
+
+  /* ─── FOOTER STATS ─── */
+  .footer-info {
+    display: flex; align-items: center;
+    gap: clamp(10px, 4vw, 22px);
+    flex-wrap: wrap; justify-content: center;
+    margin-bottom: 28px;
+    opacity: 0; animation: fadeUp .6s ease forwards 2.0s;
+  }
+  .footer-item { display: flex; flex-direction: column; align-items: center; gap: 2px; }
+  .footer-item-label {
+    font-family: 'Rajdhani', sans-serif; font-size: clamp(9px, 2vw, 10px);
+    letter-spacing: 2px; color: rgba(255,255,255,.22); text-transform: uppercase;
+  }
+  .footer-item-val {
+    font-family: 'Orbitron', sans-serif; font-size: clamp(10px, 2.5vw, 11px);
+    color: rgba(255,255,255,.45); letter-spacing: 1px;
+  }
+  .footer-sep { width: 1px; height: 26px; background: rgba(255,255,255,.08); }
+
+  /* ─── DASHBOARD BUTTON ─── */
+  .dashboard-btn {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: rgba(74,158,255,.1);
+    border: 1px solid rgba(74,158,255,.4);
+    border-radius: 12px;
+    padding: clamp(10px,3vw,13px) clamp(22px,6vw,36px);
+    color: var(--gemunu);
+    font-family: 'Orbitron', sans-serif;
+    font-size: clamp(10px, 2.8vw, 13px);
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background .2s, box-shadow .2s, transform .15s;
+    opacity: 0;
+    animation: fadeUp .7s ease forwards 2.15s;
+    white-space: nowrap;
+  }
+  .dashboard-btn:hover {
+    background: rgba(74,158,255,.22);
+    box-shadow: 0 0 28px rgba(74,158,255,.35);
+    transform: translateY(-2px);
+  }
+  .dashboard-btn:active { transform: translateY(0); }
+  .btn-arrow { font-size: 16px; transition: transform .2s; }
+  .dashboard-btn:hover .btn-arrow { transform: translateX(4px); }
+
+  /* ─── MOBILE TWEAKS ─── */
+  @media (max-width: 480px) {
+    body { padding: 50px 12px 36px; justify-content: flex-start; }
+    .footer-sep { display: none; }
+    .footer-info { gap: 16px; }
+    .podium-label { letter-spacing: 0; }
+  }
+</style>
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+<div class="radial-glow"></div>
+<div id="burst"></div>
+
+<div class="stage">
+
+  <div class="top-bar">
+    <div class="top-bar-line"></div>
+    <div class="top-bar-text">Interhouse Sports 2026</div>
+    <div class="top-bar-line"></div>
+  </div>
+
+  <div class="event-title">Overall House Championship</div>
+  <div class="champion-label">🏆 &nbsp; Champion &nbsp; 🏆</div>
+
+  <div class="winner-name-wrap">
+    <div class="crown">👑</div>
+    <div class="winner-name">GEMUNU</div>
+  </div>
+
+  <div class="score-row">
+    <div class="score-num">331</div>
+    <div class="score-pts">Points</div>
+  </div>
+
+  <div class="rank-badge">
+    <span class="rank-badge-icon">🥇</span>
+    <span class="rank-badge-text">Rank #1 · Overall Winner</span>
+  </div>
+
+  <div class="podium-section">
+    <div class="podium-item second">
+      <div class="podium-label">Parakrama</div>
+      <div class="podium-score-small">308</div>
+      <div class="podium-block">🥈</div>
+      <div class="podium-base"></div>
+    </div>
+    <div class="podium-item first">
+      <div class="podium-label">Gemunu</div>
+      <div class="podium-score-small">331</div>
+      <div class="podium-block">🥇</div>
+      <div class="podium-base"></div>
+    </div>
+    <div class="podium-item third">
+      <div class="podium-label">Tissa</div>
+      <div class="podium-score-small">307</div>
+      <div class="podium-block">🥉</div>
+      <div class="podium-base"></div>
+    </div>
+    <div class="podium-item fourth">
+      <div class="podium-label">Vijaya</div>
+      <div class="podium-score-small">277</div>
+      <div class="podium-block">4th</div>
+      <div class="podium-base"></div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="footer-info">
+    <div class="footer-item">
+      <div class="footer-item-label">Season</div>
+      <div class="footer-item-val">2026</div>
+    </div>
+    <div class="footer-sep"></div>
+    <div class="footer-item">
+      <div class="footer-item-label">Houses</div>
+      <div class="footer-item-val">4</div>
+    </div>
+    <div class="footer-sep"></div>
+    <div class="footer-item">
+      <div class="footer-item-label">Victory Margin</div>
+      <div class="footer-item-val">23 Pts</div>
+    </div>
+    <div class="footer-sep"></div>
+    <div class="footer-item">
+      <div class="footer-item-label">Status</div>
+      <div class="footer-item-val" style="color:#30d988;">Final</div>
+    </div>
+  </div>
+
+  <a href="index2.html" class="dashboard-btn">
+    <span>Go to Dashboard</span>
+    <span class="btn-arrow">→</span>
+  </a>
+
+</div>
+
+<script>
+/* ── PARTICLES ── */
+const canvas = document.getElementById('particles');
+const ctx    = canvas.getContext('2d');
+function resize(){ canvas.width = innerWidth; canvas.height = innerHeight; }
+resize(); window.addEventListener('resize', resize);
+const stars = Array.from({length:130}, ()=>({
+  x: Math.random()*innerWidth, y: Math.random()*innerHeight,
+  r: Math.random()*1.2+.2, a: Math.random(), da:(Math.random()-.5)*.005
+}));
+(function tick(){
+  ctx.clearRect(0,0,canvas.width,canvas.height);
+  stars.forEach(s=>{
+    s.a = Math.max(.05, Math.min(.9, s.a+s.da));
+    if(s.a<=.05||s.a>=.9) s.da*=-1;
+    ctx.beginPath(); ctx.arc(s.x,s.y,s.r,0,Math.PI*2);
+    ctx.fillStyle=`rgba(74,158,255,${s.a})`; ctx.fill();
+  });
+  requestAnimationFrame(tick);
+})();
+
+/* ── CONFETTI ── */
+const burst  = document.getElementById('burst');
+const COLORS = ['#4a9eff','#ffd700','#30d988','#ff5555','#ffffff','#f0b429','#b388ff','#ff88cc'];
+function spawnConfetti(){
+  for(let i=0;i<140;i++){
+    const el  = document.createElement('div');
+    el.className = 'conf';
+    const c   = COLORS[Math.floor(Math.random()*COLORS.length)];
+    const sz  = 5 + Math.random()*9;
+    const delay = Math.random()*1.0;
+    const dur   = 1.8 + Math.random()*1.6;
+    const dx    = (Math.random()-.5)*900;
+    const dy    = -(280 + Math.random()*520);
+    const rot   = Math.random()*720;
+    el.style.cssText = `left:50%;top:50%;width:${sz}px;height:${sz}px;
+      background:${c};border-radius:${Math.random()>.5?'50%':'2px'};`;
+    burst.appendChild(el);
+    el.animate([
+      {opacity:0,  transform:`translate(-50%,-50%) translate(0,0) rotate(0deg)`},
+      {opacity:1,  transform:`translate(-50%,-50%) translate(${dx*.3}px,${dy*.4}px) rotate(${rot*.3}deg)`, offset:.1},
+      {opacity:.9, transform:`translate(-50%,-50%) translate(${dx}px,${dy}px) rotate(${rot}deg)`, offset:.5},
+      {opacity:0,  transform:`translate(-50%,-50%) translate(${dx*1.1}px,${innerHeight}px) rotate(${rot*1.5}deg)`},
+    ],{duration:dur*1000, delay:delay*1000, fill:'forwards', easing:'cubic-bezier(.2,.8,.4,1)'});
+    setTimeout(()=>el.remove(),(dur+delay+.5)*1000);
+  }
+}
+setTimeout(spawnConfetti, 1100);
+setTimeout(spawnConfetti, 2300);
+setTimeout(spawnConfetti, 4000);
+setInterval(spawnConfetti,  6200);
+</script>
+</body>
+</html>
