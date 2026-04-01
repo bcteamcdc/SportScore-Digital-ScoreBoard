@@ -89,6 +89,66 @@
       "image": "https://i.postimg.cc/WzDbXwJz/image.png",
       "year": 2026,
       "category": "bcmu"
-    }
+    },
+    {
+    "id": 10,
+    "title": "Boxing Championship",
+    "description": "Precision, power, and discipline on display during the inter-house boxing tournament.",
+    "house": "Tissa",
+    "album": "https://web.facebook.com/share/p/18MqSkvNHh/",
+    "image": "https://i.postimg.cc/placeholder-boxing.png",
+    "year": 2026,
+    "category": "bcmu"
+  },
+  {
+    "id": 11,
+    "title": "Basketball Tournament",
+    "description": "High-energy hoops and teamwork defining the spirit of the court.",
+    "house": "Tissa",
+    "album": "https://web.facebook.com/share/p/1AVGJMdTtt/",
+    "image": "https://i.postimg.cc/placeholder-basketball.png",
+    "year": 2026,
+    "category": "bcmu"
+  },
+  {
+    "id": 12,
+    "title": "Football - Nayakenz Sports Meet",
+    "description": "Every kick, a spark of ambition. Every goal, a roar of unity. Where teamwork turned into triumph.",
+    "house": "Tissa",
+    "album": "https://web.facebook.com/share/p/1DYsWa9GGA/",
+    "image": "https://i.postimg.cc/placeholder-football.png",
+    "year": 2026,
+    "category": "bcmu"
+  },
+  {
+    "id": 13,
+    "title": "Sportsmeet '26 Preparations",
+    "description": "Every step and every drop of sweat builds the path to greatness. A story in the making.",
+    "house": "Tissa",
+    "album": "https://web.facebook.com/share/p/1BKkCKJqML/",
+    "image": "https://i.postimg.cc/placeholder-prep.png",
+    "year": 2026,
+    "category": "bcmu"
+  },
+  {
+    "id": 14,
+    "title": "Sportsmeet ’26 Highlights - Album 01",
+    "description": "A look back at fond memories—a time of challenge, victory, and glory at the Interhouse Sportsmeet.",
+    "house": "Tissa",
+    "album": "https://web.facebook.com/BandaranayakeCollegeMediaUnit/posts/pfbid02bkzk4wQXqc7XH9x2dfNJnCYhCAuP325MJwuzYD2uowKHKxptwWn1Reg3Ktn7PsNVl",
+    "image": "https://i.postimg.cc/placeholder-highlights1.png",
+    "year": 2026,
+    "category": "bcmu"
+  },
+  {
+    "id": 15,
+    "title": "Sportsmeet ’26 Highlights - Album 02",
+    "description": "Countless challenges untold, we stood strong. Capturing the spirit of Interhouse Sportsmeet 2026.",
+    "house": "Tissa",
+    "album": "https://web.facebook.com/share/p/1CPgt2eUpR/",
+    "image": "https://i.postimg.cc/placeholder-highlights2.png",
+    "year": 2026,
+    "category": "bcmu"
+  }
   ]
 }
