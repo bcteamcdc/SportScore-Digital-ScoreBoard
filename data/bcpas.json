@@ -309,6 +309,69 @@
       "image": "https://i.postimg.cc/65jf7W9B/image.png",
       "year": 2026,
       "category": "bcpas"
-    }
+    },
+    [
+  {
+    "id": 32,
+    "title": "Wrestling Championship",
+    "description": "A display of strength and technique on the wrestling mat.",
+    "house": "Gemunu",
+    "album": "https://web.facebook.com/share/p/14RngswjWk4/",
+    "image": "https://i.postimg.cc/placeholder-wrestling.png",
+    "year": 2026,
+    "category": "bcpas"
+  },
+  {
+    "id": 33,
+    "title": "Boxing Meet",
+    "description": "Precision and power showcased in the annual inter-house boxing tournament.",
+    "house": "Gemunu",
+    "album": "https://web.facebook.com/share/p/1GZyZaADuz/",
+    "image": "https://i.postimg.cc/placeholder-boxing.png",
+    "year": 2026,
+    "category": "bcpas"
+  },
+  {
+    "id": 34,
+    "title": "Athletics Meet",
+    "description": "Breaking records and pushing limits on the track and field.",
+    "house": "Gemunu",
+    "album": "https://web.facebook.com/share/p/1QaZ11sjbn/",
+    "image": "https://i.postimg.cc/placeholder-athletics.png",
+    "year": 2026,
+    "category": "bcpas"
+  },
+  {
+    "id": 35,
+    "title": "Karate Championship",
+    "description": "Discipline and martial arts excellence in the house karate competition.",
+    "house": "Gemunu",
+    "album": "https://web.facebook.com/share/p/1CDSoA2ycS/",
+    "image": "https://i.postimg.cc/placeholder-karate.png",
+    "year": 2026,
+    "category": "bcpas"
+  },
+  {
+    "id": 36,
+    "title": "Rugby Tournament",
+    "description": "Intense action and teamwork during the inter-house rugby matches.",
+    "house": "Gemunu",
+    "album": "https://web.facebook.com/share/p/1AsjBQGCub/",
+    "image": "https://i.postimg.cc/placeholder-rugby.png",
+    "year": 2026,
+    "category": "bcpas"
+  },
+  {
+    "id": 37,
+    "title": "Annual Road Race",
+    "description": "Endurance and spirit on display in the college annual road race.",
+    "house": "Gemunu",
+    "album": "https://web.facebook.com/share/p/1AuVryLwWZ/",
+    "image": "https://i.postimg.cc/placeholder-roadrace.png",
+    "year": 2026,
+    "category": "bcpas"
+  }
+]
+    
   ]
 }
